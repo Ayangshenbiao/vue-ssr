@@ -1,0 +1,10 @@
+{
+  "apps": [
+    {
+      "name": "wsfz-admin",
+      "cwd":'./dist',
+      "script": "npm run start-prod",
+      "watch":true
+    }
+  ]
+}
