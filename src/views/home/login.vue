@@ -8,10 +8,10 @@
 
   export default {
     created() {
-      // 服务端不支持这个钩子，不要在此处写逻辑代码
+      // 服务端没有window、document对象， 如果加了对这个对象的引用和操作，将在服务端引起报错中断。
     },
     beforeCreate(){
-      // 服务端不支持这个钩子，不要在此处写逻辑代码
+      // 服务端没有window、document对象， 如果加了对这个对象的引用和操作，将在服务端引起报错中断。
     },
     pageConfig() {//渲染配置，每个页面组件必须有
       return {
