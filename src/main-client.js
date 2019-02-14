@@ -1,4 +1,8 @@
 import Vue from 'vue'
+// import ElementUI from 'element-ui';
+// import 'element-ui/lib/theme-chalk/index.css';
+// import Avue from '@smallwei/avue';
+// import '@smallwei/avue/lib/theme-chalk/index.css';
 import App from './App.vue'
 import {createStore} from './store'
 import {createRouter} from './router/index-client'
@@ -6,22 +10,10 @@ import {sync} from 'vuex-router-sync'
 import titleMixin from './util/pageConfig'
 import * as filters from './util/filters'
 
-/*轮播图组件*/
-// import 'swiper/dist/css/swiper.css'
-// import {swiper, swiperSlide} from 'vue-awesome-swiper'
-// Vue.component("v-swiper", swiper);
-// Vue.component("v-swiper-slide", swiperSlide);
-// if (process.browser) {
-//     const VueAwesomeSwiper = require('vue-awesome-swiper/dist/ssr')
-//     Vue.use(VueAwesomeSwiper)
-// }
-/*日历组件*/
-// import JDatePicker from 'vue-jlunar-datepicker';
-// Vue.component("j-date-picker", JDatePicker);
-/*表格组件*/
-// import 'vue-easytable/libs/themes-base/index.css'
-// import {VPagination} from 'vue-easytable'
-// Vue.component('v-pagination', VPagination);
+
+// use for external plug-in
+// Vue.use(Avue);
+// Vue.use(ElementUI);
 
 // mixin for handling title
 Vue.mixin(titleMixin);

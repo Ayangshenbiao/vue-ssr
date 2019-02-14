@@ -1,4 +1,8 @@
 import Vue from 'vue'
+// import ElementUI from 'element-ui';
+// import 'element-ui/lib/theme-chalk/index.css';
+// import Avue from '@smallwei/avue';
+// import '@smallwei/avue/lib/theme-chalk/index.css';
 import App from './App.vue'
 import {createStore} from './store'
 import {createRouter} from './router/index-server'
@@ -7,9 +11,14 @@ import methodsMixin from '@/util/view-server'
 import titleMixin from './util/pageConfig'
 import * as filters from './util/filters'
 
+// use for external plug-in
+// Vue.use(Avue);
+// Vue.use(ElementUI);
+
 // mixin for handling title
 Vue.mixin(titleMixin);
 Vue.mixin(methodsMixin);
+
 // regist global utility filters.
 Object.keys(filters).forEach(key => {
     Vue.filter(key, filters[key]);

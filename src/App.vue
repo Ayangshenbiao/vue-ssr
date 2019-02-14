@@ -1,8 +1,6 @@
 <template>
-    <div>
-        <div id="APP">
-            <router-view></router-view>
-        </div>
+    <div id="APP">
+        <router-view></router-view>
     </div>
 </template>
 
@@ -10,11 +8,8 @@
 
   export default {
     name: 'APP',
-    components: {
-    },
-    computed: {
-
-    },
+    components: {},
+    computed: {},
     created() {
 
     },

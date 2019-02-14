@@ -79,6 +79,10 @@ module.exports = {
             : ['vue-style-loader', 'css-loader']
       },
       {
+        test: /\.scss$/,
+        loaders: ["style", "css", "sass"]
+      },
+      {
         test: /\.js$/,
         loader: 'babel-loader',
         include: [resolve('src'), resolve('test'), resolve('node_modules/vue-jlunar-datepicker')]
