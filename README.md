@@ -19,9 +19,14 @@ npm run build
 npm run build --report
 ```
 ## 运维项目部署
-https://www.cnblogs.com/zhoujie/p/nodejs4.html
 
+``` bash
+# 
+https://www.cnblogs.com/zhoujie/p/nodejs4.html
 简单运行：终端进入项目根目录， $ pm2 start app.json
+```
+
+
 
 本人擅长Ai、Fw、Fl、Br、Ae、Pr、 Id、Ps等软件的安装与卸载，精通CSS、JavaScript、PHP、ASP、C、C＋＋、C#、Java、Ruby、Perl、Lisp、python、Objective-C、ActionScript、Pascal等单词的拼写，熟悉Windows、Linux、Mac、Android、IOS、WP8等系统的开关机
 
