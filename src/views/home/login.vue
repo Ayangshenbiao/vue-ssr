@@ -1,8 +1,19 @@
 <template>
     <div>
+        <!--接口-->
         <h1 @click="fun()">xxx</h1>
+
+        <!--路由-->
         <h1 @click="goPush('/home')">go home</h1>
-        <!--<avue-data-display :option="option"></avue-data-display>-->
+
+        <!--element ui-->
+        <el-button type="primary">主要按钮</el-button>
+
+        <!--avue-->
+        <avue-data-display :option="option"></avue-data-display>
+
+        <!--vue-jlunar-datepicker  部分需特殊配置的组件 详见webpack.base.config.js-->
+        <j-date-picker v-model="picker" width="150" :editable="false" :showLunarControl="false"></j-date-picker>
     </div>
 </template>
 <script>
@@ -23,6 +34,7 @@
     components: {},
     data() {
       return {
+        picker: "",
         option:{
           data:[
             {

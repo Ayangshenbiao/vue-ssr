@@ -1,8 +1,4 @@
 import Vue from 'vue'
-// import ElementUI from 'element-ui';
-// import 'element-ui/lib/theme-chalk/index.css';
-// import Avue from '@smallwei/avue';
-// import '@smallwei/avue/lib/theme-chalk/index.css';
 import App from './App.vue'
 import {createStore} from './store'
 import {createRouter} from './router/index-client'
@@ -11,9 +7,16 @@ import titleMixin from './util/pageConfig'
 import * as filters from './util/filters'
 
 
-// use for external plug-in
-// Vue.use(Avue);
-// Vue.use(ElementUI);
+// use for external plugins
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
+Vue.use(ElementUI);
+import Avue from '@smallwei/avue';
+import '@smallwei/avue/lib/theme-chalk/index.css';
+Vue.use(Avue);
+/*日历组件*/
+import JDatePicker from 'vue-jlunar-datepicker';
+Vue.component("j-date-picker", JDatePicker);
 
 // mixin for handling title
 Vue.mixin(titleMixin);
