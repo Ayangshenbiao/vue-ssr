@@ -21,7 +21,6 @@ npm run build --report
 ## 运维项目部署
 
 ``` bash
-# 
 https://www.cnblogs.com/zhoujie/p/nodejs4.html
 简单运行：终端进入项目根目录， $ pm2 start app.json
 ```
