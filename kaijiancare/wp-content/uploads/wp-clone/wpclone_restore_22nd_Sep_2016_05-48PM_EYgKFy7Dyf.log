@@ -1,0 +1,12 @@
+Thursday, 22-Sep-2016 17:48:23 - restore started
+Thursday, 22-Sep-2016 17:48:23 - wp version     : 4.5.4
+Thursday, 22-Sep-2016 17:48:23 - php version    : 7.0.8
+Thursday, 22-Sep-2016 17:48:23 - mysql version  : 5.7.13
+Thursday, 22-Sep-2016 17:48:23 - memory limit   : 1024M
+Thursday, 22-Sep-2016 17:48:23 - execution time : 600
+Thursday, 22-Sep-2016 17:48:23 - mysql timeout  : 
+Thursday, 22-Sep-2016 17:48:23 - socket timeout : 600
+Thursday, 22-Sep-2016 17:48:23 - file download started
+Thursday, 22-Sep-2016 17:48:35 - download finished, filesize - 312.77 MB
+Thursday, 22-Sep-2016 17:48:35 - extracting database using ziparchive
+Thursday, 22-Sep-2016 17:48:35 - changing prefix from "wp_" to "wpnp_"

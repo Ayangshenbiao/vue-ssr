@@ -1,0 +1,4723 @@
+# Translation of Plugins - All In One WP Security &amp; Firewall - Development (trunk) in Chinese (China)
+# This file is distributed under the same license as the Plugins - All In One WP Security &amp; Firewall - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-06-24 08:06:31+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Plugins - All In One WP Security &amp; Firewall - Development (trunk)\n"
+
+#: admin/wp-security-settings-menu.php:35
+msgid "Advanced Settings"
+msgstr "高级设置"
+
+#: admin/wp-security-settings-menu.php:763
+msgid "Default"
+msgstr "默认"
+
+#: admin/wp-security-settings-menu.php:751
+msgid "By default this plugin uses the $_SERVER['REMOTE_ADDR'] variable to retrieve the visitor IP address. This should normally be the most accurate safest way to get the IP."
+msgstr "默认情况下，此插件使用$_SERVER['REMOTE_ADDR']变量来检索访客IP地址。这通常应该是获取IP的最准确最安全的方式。"
+
+#: admin/wp-security-settings-menu.php:752
+msgid "However in some setups such as those using proxies, load-balancers and CloudFlare, it may be necessary to use a different $_SERVER variable."
+msgstr "然而在一些设置，例如使用代理，负载均衡和CloudFlare的设置，可能需要使用不同的$_SERVER变量。"
+
+#: admin/wp-security-settings-menu.php:753
+msgid "You can use the settings below to configure which $_SERVER global you would like to use for retrieving the IP address."
+msgstr "您可以使用下面的设置来配置您希望使用哪个$_SERVER全局来获取IP地址。"
+
+#: admin/wp-security-settings-menu.php:769
+msgid "Choose a $_SERVER variable you would like to retrieve the visitor IP address from."
+msgstr "选择您希望从中检索访客IP地址的$_SERVER变量。"
+
+#: admin/wp-security-settings-menu.php:775
+msgid "If your chosen server variable fails the plugin will automatically fall back to retrieving the IP address from $_SERVER[\"REMOTE_ADDR\"]"
+msgstr "如果您选择的服务器变量失败，插件将自动退回到从 $_SERVER[\"REMOTE_ADDR\"]进行检索IP地址。"
+
+#: admin/wp-security-spam-menu.php:520
+msgid "BBPress SPAM Settings"
+msgstr "BBPress垃圾评论设置"
+
+#: admin/wp-security-spam-menu.php:525
+msgid "Add Captcha To BBPress New Topic Form"
+msgstr "将验证码添加到BBPress新主题表单"
+
+#: admin/wp-security-spam-menu.php:529
+msgid "This feature will add a simple math captcha field in the BBPress new topic form."
+msgstr "此功能将在BBPress新主题表单中添加一个简单的数学验证码字段。"
+
+#: admin/wp-security-spam-menu.php:530
+msgid "Adding a captcha field in the this form is a simple way of greatly reducing SPAM submitted from bots."
+msgstr "在这个表单中添加一个验证码字段是一种简单的方法，可以大大减少机器人所提交的垃圾评论。"
+
+#: admin/wp-security-spam-menu.php:540
+msgid "Enable Captcha On BBPress New Topic Form"
+msgstr "在BBPress新主题表单上启用验证码"
+
+#: admin/wp-security-spam-menu.php:543
+msgid "Check this if you want to insert a captcha field on the BBPress new topic forms"
+msgstr "如果您要在BBPress新主题表单上插入验证码字段，请勾选此项"
+
+#: admin/wp-security-settings-menu.php:746
+msgid "IP Retrieval Settings"
+msgstr "IP检索设置"
+
+#: admin/wp-security-firewall-menu.php:1096
+msgid "Place custom rules at the top"
+msgstr "将自定义规则置顶"
+
+#: admin/wp-security-firewall-menu.php:1099
+msgid "Check this if you want to place your custom rules at the beginning of all the rules applied by this plugin"
+msgstr "如果要将自定义规则放置在由此插件应用的所有规则的开始位置，请勾选此项"
+
+#. Author of the plugin
+msgid "Tips and Tricks HQ, Peter Petreski, Ruhul, Ivy"
+msgstr "Tips and Tricks HQ, Peter Petreski, Ruhul, Ivy"
+
+#: admin/wp-security-brute-force-menu.php:636
+msgid "Woocommerce Forms Captcha Settings"
+msgstr "Woocommerce表单验证码设置"
+
+#: admin/wp-security-brute-force-menu.php:645
+msgid "Enable Captcha On Woocommerce Login Form"
+msgstr "在Woocommerce登录表单上启用验证码"
+
+#: admin/wp-security-brute-force-menu.php:648
+msgid "Check this if you want to insert captcha on a Woocommerce login form"
+msgstr "如果您想在Woocommerce登录表单上插入验证码, 请勾选此项"
+
+#: admin/wp-security-brute-force-menu.php:658
+msgid "Enable Captcha On Woocommerce Registration Form"
+msgstr "在Woocommerce注册表单上启用验证码"
+
+#: admin/wp-security-brute-force-menu.php:661
+msgid "Check this if you want to insert captcha on a Woocommerce registration form"
+msgstr "如果您想在Woocommerce注册表上插入验证码, 请勾选此项"
+
+#: other-includes/wp-security-unlock-request.php:115
+msgid "Send Unlock Request"
+msgstr "发送解锁请求"
+
+#: other-includes/wp-security-unlock-request.php:100
+msgid "Please enter your email address and you will receive an email with instructions on how to unlock yourself."
+msgstr "请输入您的电子邮件地址，您将收到一封电子邮件，说明如何解锁自己。"
+
+#: classes/wp-security-user-login.php:300
+msgid "Username:"
+msgstr "用户名:"
+
+#: classes/grade-system/wp-security-feature-item-manager.php:101
+msgid "5G/6G Blacklist"
+msgstr "5G/6G 黑名单"
+
+#: classes/grade-system/wp-security-feature-item-manager.php:61
+msgid "Enable Registration Honeypot"
+msgstr "启用注册蜜罐"
+
+#: admin/wp-security-user-login-menu.php:334
+msgid "Login Lockdown IP Whitelist Settings"
+msgstr "登录锁定IP白名单设置"
+
+#: admin/wp-security-user-login-menu.php:187
+msgid "Nonce check failed for save lockdown whitelist settings!"
+msgstr "为保存锁定白名单设置随机检查失败！"
+
+#: admin/wp-security-user-login-menu.php:298
+msgid "Instantly Lockout Specific Usernames"
+msgstr "即时锁定指定的用户名"
+
+#: classes/wp-security-user-login.php:52
+msgid "Service Temporarily Unavailable"
+msgstr "服务暂时无法使用"
+
+#: admin/wp-security-user-registration-menu.php:29
+msgid "Registration Honeypot"
+msgstr "注册蜜罐"
+
+#: admin/wp-security-user-registration-menu.php:286
+msgid "Registration Form Honeypot Settings"
+msgstr "注册表单蜜罐设置"
+
+#: admin/wp-security-user-registration-menu.php:297
+msgid "Enable Honeypot On Registration Page"
+msgstr "在注册页面启用蜜罐"
+
+#: classes/wp-security-user-login.php:301
+msgid "IP Address:"
+msgstr "IP 地址："
+
+#: classes/wp-security-user-login.php:302
+msgid "IP Range:"
+msgstr "IP 范围："
+
+#: classes/wp-security-user-login.php:43
+msgid "<strong>ERROR</strong>: Access from your IP address has been blocked for security reasons. Please contact the administrator."
+msgstr "<strong>错误</strong>：出于安全考虑, 您的 IP 地址的访问权限已被阻止。请与管理员联系。"
+
+#: admin/wp-security-user-login-menu.php:307
+msgid "Insert one username per line. Existing usernames are not blocked even if present in the list."
+msgstr "每行插入一个用户名。现有用户名即使存在于列表中也不会被阻止。"
+
+#: admin/wp-security-user-login-menu.php:340
+msgid "Enable Login Lockdown IP Whitelist"
+msgstr "启用登录锁定IP白名单"
+
+#: admin/wp-security-user-login-menu.php:351
+msgid "Enter one or more IP addresses or IP ranges you wish to include in your whitelist. The addresses specified here will never be blocked by the login lockdown feature."
+msgstr "输入您要列入白名单的一个或多个IP地址或IP范围。这里指定的地址永远不会被登录锁定功能阻止。"
+
+#: admin/wp-security-user-login-menu.php:561
+msgid "This tab displays the activity for accounts registered with your site that have logged in using the WordPress login form."
+msgstr "此选项卡显示注册在您的网站上的账号的活动，这些账号已经登录使用了 WordPress 登录表单。"
+
+#: admin/wp-security-user-registration-menu.php:277
+msgid "This feature allows you to add a special hidden \"honeypot\" field on the WordPress registration page. This will only be visible to robots and not humans."
+msgstr "此功能可让您在WordPress注册页面上添加一个特殊隐藏的“蜜罐”字段. 这只对机器人而不是人类可见。"
+
+#: admin/wp-security-user-registration-menu.php:278
+msgid "Since robots usually fill in every input field from a registration form, they will also submit a value for the special hidden honeypot field."
+msgstr "由于机器人通常从注册表单填写每个输入字段，因此他们还会为特殊的隐藏蜜罐字段提交值。"
+
+#: admin/wp-security-user-registration-menu.php:280
+msgid "Therefore, if the plugin detects that this field has a value when the registration form is submitted, then the robot which is attempting to register on your site will be redirected to its localhost address - http://127.0.0.1."
+msgstr "因此，如果插件在提交注册表单时检测到该字段有值，那么尝试在您的网站上注册的机器人将被重定向到其本地主机地址 - http://127.0.0.1。"
+
+#: admin/wp-security-user-registration-menu.php:300
+msgid "Check this if you want to enable the honeypot feature for the registration page"
+msgstr "如果要为注册页面启用蜜罐功能，请勾选此项"
+
+#: classes/wp-security-general-init-tasks.php:573
+msgid "Would you like All In One WP Security & Firewall to re-insert the security rules in your .htaccess file which were cleared when you deactivated the plugin?"
+msgstr "您是否希望All In One WP Security & Firewall在您的.htaccess文件中重新插入安全规则，这些安全规则在停用插件时已被清除吗？"
+
+#: classes/wp-security-general-init-tasks.php:590
+msgid "Your registration is pending approval."
+msgstr "您的注册正在等待审核。"
+
+#: classes/wp-security-process-renamed-login-page.php:133
+msgid "Not available."
+msgstr "无法使用。"
+
+#: classes/wp-security-user-login.php:409
+msgid "You have requested for the account with email address %s to be unlocked. Please click the link below to unlock your account:"
+msgstr "您已请求通过邮件地址%s进行账号解锁。请点击以下链接进行账号解锁："
+
+#: classes/wp-security-user-login.php:410
+msgid "Unlock link: %s"
+msgstr "解锁链接：%s"
+
+#: other-includes/wp-security-unlock-request.php:81
+msgid "An email has been sent to you with the unlock instructions."
+msgstr "有关解锁说明已通过邮件发送给您。"
+
+#: other-includes/wp-security-unlock-request.php:99
+msgid "You are here because you have been locked out due to too many incorrect login attempts."
+msgstr "由于多次登陆失败，您已经被锁定。"
+
+#: admin/wp-security-spam-menu.php:352
+msgid "Example 2: Setting this value to \"5\" will block only those IP addresses which were used to submit 5 SPAM comments or more on your site."
+msgstr "示例2：将此值设置为“5”将仅阻止用于在您的站点上提交5个垃圾邮件评论或更多信息的IP地址。 "
+
+#: admin/wp-security-spam-menu.php:351
+msgid "Example 1: Setting this value to \"1\" will block ALL IP addresses which were used to submit at least one SPAM comment."
+msgstr "示例1：将此值设置为“1”将阻止用于至少提交一个垃圾邮件注释的所有IP地址。"
+
+#: admin/wp-security-spam-menu.php:338
+msgid "Enable Auto Block of SPAM Comment IPs"
+msgstr "启用自动阻止垃圾评论的IP"
+
+#: admin/wp-security-spam-menu.php:296
+msgid "Comments are usually labelled as SPAM either by the Akismet plugin or manually by the WP administrator when they mark a comment as \"spam\" from the WordPress Comments menu."
+msgstr "评论通常由Akismet插件标记为垃圾，或WP管理员手动将其标记为WordPress评论菜单中的“垃圾评论”。"
+
+#: admin/wp-security-settings-menu.php:230
+msgid "Save Debug Settings"
+msgstr "保存调试设置"
+
+#: admin/wp-security-settings-menu.php:226
+msgid "Please note that the log files are reset on every plugin update."
+msgstr "请注意，每个插件更新都会重置日志文件。 "
+
+#: admin/wp-security-settings-menu.php:225
+msgid "Check this if you want to enable debug. You should keep this option disabled after you have finished debugging the issue."
+msgstr "如果要启用调试，请检查此项。完成调试问题后，您应该禁用此选项。"
+
+#: admin/wp-security-settings-menu.php:222
+msgid "Enable Debug"
+msgstr "启用调试"
+
+#: admin/wp-security-settings-menu.php:216
+msgid "Note: the debug log files are located in the \"plugins/all-in-one-wp-security-and-firewall/logs\" directory."
+msgstr "注意：调试日志文件位于“plugins/all-in-one-wp-security-and-firewall/logs”目录中。"
+
+#: admin/wp-security-settings-menu.php:209
+msgid "Debug Settings"
+msgstr "调试设置"
+
+#: admin/wp-security-settings-menu.php:33
+msgid "WP Version Info"
+msgstr "WP 版本信息"
+
+#: admin/wp-security-misc-options-menu.php:218
+msgid "Check this if you want to stop users enumeration."
+msgstr "如果要阻止用户枚举，请选中此项。"
+
+#: admin/wp-security-firewall-menu.php:983
+#: admin/wp-security-firewall-menu.php:992
+#: admin/wp-security-user-login-menu.php:432
+#: admin/wp-security-user-login-menu.php:441
+#: admin/wp-security-user-login-menu.php:583
+#: admin/wp-security-user-login-menu.php:592
+msgid "Export to CSV"
+msgstr "导出为 CSV"
+
+#: admin/wp-security-firewall-menu.php:989
+#: admin/wp-security-user-login-menu.php:438
+#: admin/wp-security-user-login-menu.php:589
+msgid "Click this button if you wish to download this log in CSV format."
+msgstr "如果您希望以CSV格式下载此日志，请点击此按钮。"
+
+#: admin/wp-security-misc-options-menu.php:215
+msgid "Disable Users Enumeration"
+msgstr "禁用用户枚举"
+
+#: admin/wp-security-spam-menu.php:325
+#: admin/wp-security-list-registered-users.php:274
+#: admin/wp-security-list-registered-users.php:291
+msgid "View Blocked IPs"
+msgstr "查看已阻止的 IP"
+
+#: admin/wp-security-list-registered-users.php:51
+msgid "blocked"
+msgstr "已阻止"
+
+#: admin/wp-security-misc-options-menu.php:30
+msgid "Users Enumeration"
+msgstr "用户枚举"
+
+#: admin/wp-security-misc-options-menu.php:203
+msgid "Prevent Users Enumeration"
+msgstr "防止用户枚举"
+
+#: admin/wp-security-spam-menu.php:345
+msgid "Minimum number of SPAM comments"
+msgstr "垃圾评论的最少数量"
+
+#: admin/wp-security-firewall-menu.php:918
+msgid "When you enable this checkbox, all 404 events on your site will be logged in the table below. You can monitor these events and select some IP addresses listed in the table below and block them for a specified amount of time. All IP addresses you select to be blocked from the \"404 Event Logs\" table section will be unable to access your site during the time specified."
+msgstr "当您启用此复选框时, 您网站上的所有404事件都将记录在下表中。您可以监视这些事件并选择下表中列出的一些IP地址，并将它们阻止一段指定的时间。您选择从 “404事件日志”表部分被阻止的所有IP地址在指定的时间内将无法访问您的网站。"
+
+#: admin/wp-security-list-permanent-blocked-ip.php:126
+msgid "Nonce check failed for unblock IP operation!"
+msgstr "随机检查解锁IP操作失败！"
+
+#: admin/wp-security-list-registered-users.php:273
+msgid "The selected IP addresses were successfully added to the permanent block list!"
+msgstr "所选的IP地址已成功添加到永久阻止列表！"
+
+#: admin/wp-security-list-comment-spammer-ip.php:137
+msgid "The selected IP addresses are now permanently blocked!"
+msgstr "所选的IP地址现在已被永久阻止！"
+
+#: admin/wp-security-list-registered-users.php:283
+msgid "Nonce check failed for block IP operation of registered user!"
+msgstr "随机检查阻止注册用户的IP操作失败！"
+
+#: admin/wp-security-list-registered-users.php:290
+msgid "The selected IP was successfully added to the permanent block list!"
+msgstr "选定的IP已成功添加到永久阻止列表！"
+
+#: admin/wp-security-misc-options-menu.php:108
+msgid "When admin user is logged in, the feature is automatically disabled for his session."
+msgstr "当管理员用户登录后，该会话的功能会自动被禁用。"
+
+#: admin/wp-security-misc-options-menu.php:198
+msgid "Users Enumeration Prevention feature settings saved!"
+msgstr "用户枚举预防功能设置已保存！"
+
+#: admin/wp-security-misc-options-menu.php:209
+msgid "This feature allows you to prevent external users/bots from fetching the user info with urls like \"/?author=1\"."
+msgstr "此功能可让您防止外部用户/机器人使用如“/?author=1”这样的网址获取用户信息。"
+
+#: admin/wp-security-misc-options-menu.php:210
+msgid "When enabled, this feature will print a \"forbidden\" error rather than the user information."
+msgstr "当启用后，该功能将打印出“禁止”的错误, 而不是用户的信息。"
+
+#: admin/wp-security-settings-menu.php:215
+msgid "This setting allows you to enable/disable debug for this plugin."
+msgstr "该设置允许您启用/禁用此插件的调试。"
+
+#: admin/wp-security-settings-menu.php:515
+msgid "There are also other ways wordpress reveals version info such as during style and script loading. An example of this is:"
+msgstr "WordPress还可以通过其他方式显示版本信息，比如在样式和脚本加载过程中。这方面的示例如："
+
+#: admin/wp-security-settings-menu.php:517
+msgid "This feature will allow you to remove the WP generator meta info and other version info from your site's pages."
+msgstr "此功能将允许您从网站的页面中移除WP生成的元信息和其他版本信息。"
+
+#: admin/wp-security-settings-menu.php:509
+msgid "WP Generator Meta Tag & Version Info"
+msgstr "WP生成的元标签&版本信息"
+
+#: admin/wp-security-settings-menu.php:538
+msgid "Check this if you want to remove the version and meta info produced by WP from all pages"
+msgstr "如果您想要从所有页面中移除WP生成的版本和元信息，请勾选此项"
+
+#: admin/wp-security-spam-menu.php:219
+msgid "You must enter an integer greater than zero for minimum number of spam comments field. It has been set to the default value."
+msgstr "对于垃圾评论的最小数量字段，您必须输入一个大于零的整数. 其将被设置为默认值。"
+
+#: admin/wp-security-spam-menu.php:281
+msgid "Auto Block SPAMMER IPs"
+msgstr "自动阻止垃圾发送者的IP"
+
+#: admin/wp-security-spam-menu.php:286
+msgid "This feature has detected that %s is not active. It is highly recommended that you activate the Akismet plugin to make the most of this feature."
+msgstr "此功能检测到%s未处于活动状态。强烈建议您启用Akismet插件以充分利用此功能。"
+
+#: admin/wp-security-spam-menu.php:295
+msgid "This feature allows you to automatically and permanently block IP addresses which have exceeded a certain number of comments labelled as SPAM."
+msgstr "此功能允许您自动并永久阻止超过一定评论数量标记为垃圾评论的IP地址。"
+
+#: admin/wp-security-spam-menu.php:310
+msgid "You currently have no IP addresses permanently blocked due to SPAM."
+msgstr "您目前没有因垃圾评论而永久阻止的 IP 地址。"
+
+#: admin/wp-security-spam-menu.php:323
+msgid "Spammer IPs Added To Permanent Block List Today: "
+msgstr "当前已添加垃圾评论发送者IP到永久阻止列表的数量："
+
+#: admin/wp-security-spam-menu.php:324
+msgid "All Time Total: "
+msgstr "所有时间总计："
+
+#: admin/wp-security-spam-menu.php:341
+msgid "Check this box if you want this plugin to automatically block IP addresses which submit SPAM comments."
+msgstr "如果您希望此插件自动阻止提交垃圾评论的IP地址，请勾选此框。"
+
+#: admin/wp-security-spam-menu.php:347
+msgid "Specify the minimum number of SPAM comments for an IP address before it is permanently blocked."
+msgstr "在IP地址被永久阻止之前，为IP地址指定最少的垃圾评论数量。"
+
+#: admin/wp-security-spam-menu.php:216
+msgid "You entered a non numeric value for the minimum number of spam comments field. It has been set to the default value."
+msgstr "您为垃圾评论的最小数量字段输入了非数字值。其将被设置为默认值。"
+
+#: admin/wp-security-firewall-menu.php:910
+msgid "Enable 404 IP Detection and Lockout"
+msgstr "启用404 IP检测和锁定 "
+
+#: admin/wp-security-firewall-menu.php:592
+msgid "Check this if you want to apply the 6G Blacklist firewall protection from perishablepress.com to your site."
+msgstr "如果要将来自perishablepress.com的6G黑名单防火墙保护应用到您网站，请勾选此项。"
+
+#: admin/wp-security-firewall-menu.php:596
+msgid "This setting will implement the 6G security firewall protection mechanisms on your site which include the following things:"
+msgstr "此设置将在您的网站上实施6G安全防火墙保护机制，其中包括以下内容："
+
+#: admin/wp-security-firewall-menu.php:607
+msgid "Enable legacy 5G Firewall Protection"
+msgstr "启用传统5G防火墙保护 "
+
+#: admin/wp-security-firewall-menu.php:890
+msgid "This addon allows you to automatically and permanently block IP addresses based on how many 404 errors they produce."
+msgstr "该插件允许您根据其生成的404错误自动永久阻止IP地址。"
+
+#: admin/wp-security-firewall-menu.php:237
+msgid "Block Access to Debug Log File"
+msgstr "阻止访问调试日志文件"
+
+#: admin/wp-security-filescan-menu.php:350
+msgid "Enter one or more email addresses on a new line."
+msgstr "在新行上输入一个或多个电子邮件地址。"
+
+#: admin/wp-security-filescan-menu.php:384
+msgid "We provide advice for malware cleanup"
+msgstr "我们为恶意软件清理提供建议"
+
+#: admin/wp-security-firewall-menu.php:150
+msgid "By leaving this feature enabled you will prevent Jetpack or Wordpress iOS or other apps which need XMLRPC from working correctly on your site."
+msgstr "通过启用此功能，您将阻止Jetpack或WordPress iOS或其他需要XMLRPC的应用在您的网站上正常运行。"
+
+#: admin/wp-security-firewall-menu.php:151
+msgid "If you still need XMLRPC then uncheck the \"Completely Block Access To XMLRPC\" checkbox and enable only the \"Disable Pingback Functionality From XMLRPC\" checkbox."
+msgstr "如果您仍需要XMLRPC，请取消勾选“完全阻止访问XMLRPC”复选框，并且只启用 “禁止从XMLRPC返回Pingback功能”复选框。"
+
+#: admin/wp-security-firewall-menu.php:199
+msgid "Completely Block Access To XMLRPC"
+msgstr "完全阻止访问XMLRPC"
+
+#: admin/wp-security-firewall-menu.php:149
+msgid "Attention: You have enabled the \"Completely Block Access To XMLRPC\" checkbox which means all XMLRPC functionality will be blocked."
+msgstr "注意：您已启用“完全阻止访问XMLRPC”复选框，这意味着所有XMLRPC功能都将被阻止。"
+
+#: admin/wp-security-firewall-menu.php:202
+msgid "Check this if you are not using the WP XML-RPC functionality and you want to completely block external access to XMLRPC."
+msgstr "如果您没有使用WP XML-RPC功能并且想要完全阻止对XMLRPC的外部访问，请勾选此项。"
+
+#: admin/wp-security-firewall-menu.php:213
+msgid "Leave this feature disabled and use the feature below if you want pingback protection but you still need XMLRPC."
+msgstr "如果您想要pingback保护，但仍需要XMLRPC，请保留此功能的停用状态并使用以下功能。"
+
+#: admin/wp-security-firewall-menu.php:219
+msgid "Disable Pingback Functionality From XMLRPC"
+msgstr "从XMLRPC停用Pingback功能"
+
+#: admin/wp-security-firewall-menu.php:222
+msgid "If you use Jetpack or WP iOS or other apps which need WP XML-RPC functionality then check this. This will enable protection against WordPress pingback vulnerabilities."
+msgstr "如果您使用Jetpack或WP iOS或其他需要WP XML-RPC功能的应用，请勾选此项。这将可防止WordPress pingbacks漏洞。"
+
+#: admin/wp-security-firewall-menu.php:226
+msgid "NOTE: If you use Jetpack or the Wordpress iOS or other apps then you should enable this feature but leave the \"Completely Block Access To XMLRPC\" checkbox unchecked."
+msgstr "注意：如果您使用Jetpack或WordPress iOS或其他应用，则应启用此功能，但不要勾选“完全阻止访问XMLRPC”复选框。"
+
+#: admin/wp-security-firewall-menu.php:227
+msgid "The feature will still allow XMLRPC functionality on your site but will disable the pingback methods."
+msgstr "该功能仍然允许在您的网站上使用XMLRPC功能，但会停用pingback方法。"
+
+#: admin/wp-security-firewall-menu.php:228
+msgid "This feature will also remove the \"X-Pingback\" header if it is present."
+msgstr "如果存在，此功能还将移除“X-Pingback”header。"
+
+#: admin/wp-security-firewall-menu.php:568
+msgid "The 6G Blacklist is updated and improved version of 5G Blacklist. If you have 5G Blacklist active, you might consider activating 6G Blacklist instead."
+msgstr "6G黑名单是5G黑名单的更新和改进版本。如果您5G黑名单处于活动状态，您可以考虑启用6G黑名单。"
+
+#: admin/wp-security-dashboard-menu.php:318
+msgid "Permanently Blocked IP Addresses"
+msgstr "永久阻止的IP地址 "
+
+#: admin/wp-security-dashboard-menu.php:31
+msgid "Permanent Block List"
+msgstr "永久阻止列表"
+
+#: admin/wp-security-dashboard-menu.php:480
+msgid "Get To Know The Developers"
+msgstr "了解开发人员"
+
+#: admin/wp-security-brute-force-menu.php:379
+msgid "This feature can lock you out of admin if it doesn't work correctly on your site. You <a href=\"https://www.tipsandtricks-hq.com/wordpress-security-and-firewall-plugin#advanced_features_note\" target=\"_blank\">must read this message</a> before activating this feature."
+msgstr "如果您的网站无法正常工作，此功能可将您锁定在管理员之外。在启用此功能前，您必须先<a href=\"https://www.tipsandtricks-hq.com/wordpress-security-and-firewall-plugin#advanced_features_note\" target=\"_blank\">阅读此信息</a>。"
+
+#: admin/wp-security-brute-force-menu.php:810
+msgid "To specify an IPv4 range use a wildcard \"*\" character. Acceptable ways to use wildcards is shown in the examples below:"
+msgstr "要指定IPv4范围，请使用通配符“*”字符。 以下示例显示使用通配符可接受的方式："
+
+#: admin/wp-security-brute-force-menu.php:814
+msgid "Or you can enter an IPv6 address (NOTE: ranges/wildcards are currently not supported for ipv6)"
+msgstr "或您可以输入IPv6地址(注意：ipv6目前不支持范围/通配符）"
+
+#: admin/wp-security-brute-force-menu.php:815
+msgid "Example 4: 4102:0:3ea6:79fd:b:46f8:230f:bb05"
+msgstr "示例4：4102:0:3ea6:79fd:b:46f8:230f:bb05"
+
+#: admin/wp-security-brute-force-menu.php:816
+msgid "Example 5: 2205:0:1ca2:810d::"
+msgstr "示例5：2205:0:1ca2:810d::"
+
+#: admin/wp-security-dashboard-menu.php:604
+msgid "Wanna know more about the developers behind this plugin?"
+msgstr "想知道更多关于此插件背后的开发人员吗？"
+
+#: admin/wp-security-dashboard-menu.php:261
+msgid "This tab displays the list of all IP addresses which are currently temporarily locked out due to the Login Lockdown feature:"
+msgstr "此选项卡显示因登录锁定功能而暂时锁定的所有IP地址的列表："
+
+#: admin/wp-security-dashboard-menu.php:311
+msgid "This tab displays the list of all permanently blocked IP addresses."
+msgstr "此选项卡显示所有永久阻止的IP地址的列表。"
+
+#: admin/wp-security-dashboard-menu.php:312 admin/wp-security-spam-menu.php:297
+msgid "NOTE: This feature does NOT use the .htaccess file to permanently block the IP addresses so it should be compatible with all web servers running WordPress."
+msgstr "注意：此功能不会使用.htaccess文件永久阻止IP地址，因此它应该与运行WordPress的所有Web服务器兼容。"
+
+#: admin/wp-security-dashboard-menu.php:401
+msgid "Error! The file you selected is not a permitted file. You can only view log files created by this plugin."
+msgstr "错误！您选择的文件不是允许的文件。您只能查看由此插件创建的日志文件。"
+
+#: admin/wp-security-database-menu.php:578
+msgid "Checking for MySQL tables of type \"view\"....."
+msgstr "正在检查MySQL类型为“view”的数据表....."
+
+#: admin/wp-security-database-menu.php:595
+msgid "Update of the following MySQL view definition failed: %s"
+msgstr "更新以下MySQL视图定义失败：%s"
+
+#: admin/wp-security-database-menu.php:602
+msgid "%s view definitions were updated successfully!"
+msgstr "%s视图定义成功更新！"
+
+#: admin/wp-security-filescan-menu.php:170
+msgid "The following address was removed because it is not a valid email address: "
+msgstr "以下地址已被移除，因为其不是有效的邮箱地址："
+
+#: admin/wp-security-blacklist-menu.php:159
+#: admin/wp-security-firewall-menu.php:889
+msgid "You may also be interested in our %s."
+msgstr "您可能对我们的%s也感兴趣。"
+
+#: admin/wp-security-blacklist-menu.php:160
+msgid "This addon allows you to automatically block IP addresses based on their country of origin."
+msgstr "此插件允许您根据其原籍国自动阻止IP地址。"
+
+#: admin/wp-security-blacklist-menu.php:181
+#: admin/wp-security-brute-force-menu.php:209
+msgid "This feature can lock you out of admin if it doesn't work correctly on your site. You %s before activating this feature."
+msgstr "如果您的网站不能正常工作，此功能可以将您锁定在管理员之外。在启用此功能之前，您%s。"
+
+#: admin/wp-security-brute-force-menu.php:210
+msgid "NOTE: If you are hosting your site on WPEngine or a provider which performs server caching, you will need to ask the host support people to NOT cache your renamed login page."
+msgstr "注意：如果您在WPEngine或一个执行服务器缓存提供商上托管您的网站，则需要请求主机支持人员不缓存重命名的登录页面。"
+
+#: admin/wp-security-dashboard-menu.php:360
+msgid "Log File"
+msgstr "日志文件"
+
+#: other-includes/wp-security-rename-login-feature.php:808
+msgid "Username"
+msgstr "用户名"
+
+#: other-includes/wp-security-rename-login-feature.php:1051
+msgid "Remember Me"
+msgstr "记住我"
+
+#: other-includes/wp-security-rename-login-feature.php:1013
+#: other-includes/wp-security-rename-login-feature.php:1053
+msgid "Log In"
+msgstr "登录"
+
+#: other-includes/wp-security-rename-login-feature.php:994
+msgid "Registration complete. Please check your email."
+msgstr "注册已完成。请检查你的邮件。"
+
+#: other-includes/wp-security-rename-login-feature.php:990
+msgid "Check your email for the confirmation link."
+msgstr "查看邮件里的确认链接"
+
+#: other-includes/wp-security-rename-login-feature.php:832
+#: other-includes/wp-security-rename-login-feature.php:1078
+msgid "Lost your password?"
+msgstr "忘记密码？"
+
+#: other-includes/wp-security-rename-login-feature.php:713
+msgid "Confirm new password"
+msgstr "确认新密码"
+
+#: other-includes/wp-security-rename-login-feature.php:703
+msgid "Strength indicator"
+msgstr "密码强度"
+
+#: other-includes/wp-security-rename-login-feature.php:693
+msgid "New password"
+msgstr "新密码"
+
+#: other-includes/wp-security-rename-login-feature.php:803
+msgid "Register For This Site"
+msgstr "本站注册"
+
+#: other-includes/wp-security-rename-login-feature.php:685
+#: other-includes/wp-security-rename-login-feature.php:731
+msgid "Reset Password"
+msgstr "重置密码"
+
+#: other-includes/wp-security-rename-login-feature.php:677
+msgid "Password Reset"
+msgstr "密码重置"
+
+#: other-includes/wp-security-rename-login-feature.php:610
+#: other-includes/wp-security-rename-login-feature.php:738
+#: other-includes/wp-security-rename-login-feature.php:826
+#: other-includes/wp-security-rename-login-feature.php:1070
+msgid "Register"
+msgstr "注册"
+
+#: other-includes/wp-security-rename-login-feature.php:607
+#: other-includes/wp-security-rename-login-feature.php:677
+#: other-includes/wp-security-rename-login-feature.php:735
+#: other-includes/wp-security-rename-login-feature.php:830
+msgid "Log in"
+msgstr "登录"
+
+#: other-includes/wp-security-rename-login-feature.php:603
+msgid "Get New Password"
+msgstr "获取新密码"
+
+#: other-includes/wp-security-rename-login-feature.php:580
+msgid "Lost Password"
+msgstr "忘记密码"
+
+#: other-includes/wp-security-rename-login-feature.php:404
+msgid "The email could not be sent."
+msgstr "邮件未发送。"
+
+#. translators: Password reset email subject. %s: Site name
+#: other-includes/wp-security-rename-login-feature.php:374
+msgid "[%s] Password Reset"
+msgstr "[%s] 密码重置"
+
+#: admin/wp-security-user-login-menu.php:451
+msgid "Click this button if you wish to delete all failed login records in one go."
+msgstr "点此按钮以确认删除所有登陆失败记录。"
+
+#: admin/wp-security-user-login-menu.php:513
+msgid "Force User Logout Options"
+msgstr "强制用户注销选项"
+
+#: admin/wp-security-user-login-menu.php:525
+msgid "Enable Force WP User Logout"
+msgstr "启用强制WP用户注销"
+
+#: admin/wp-security-user-login-menu.php:528
+msgid "Check this if you want to force a wp user to be logged out after a configured amount of time"
+msgstr "选中此项以强制用户在设定时间段后注销"
+
+#: other-includes/wp-security-rename-login-feature.php:992
+msgid "Check your email for your new password."
+msgstr "新密码已发送到邮件"
+
+#. Plugin Name of the plugin
+msgid "All In One WP Security"
+msgstr "All In One WP Security"
+
+#: other-includes/wp-security-rename-login-feature.php:922
+msgid "https://wordpress.org/support/"
+msgstr "https://wordpress.org/support/"
+
+#: other-includes/wp-security-rename-login-feature.php:922
+#: other-includes/wp-security-rename-login-feature.php:927
+msgid "https://codex.wordpress.org/Cookies"
+msgstr "https://codex.wordpress.org/Cookies"
+
+#: other-includes/wp-security-rename-login-feature.php:803
+msgid "Registration Form"
+msgstr "注册表单"
+
+#: classes/wp-security-user-login.php:604
+msgid "Request Unlock"
+msgstr "请求解锁"
+
+#: classes/wp-security-general-init-tasks.php:477
+msgid "Enter something special:"
+msgstr "输入特殊内容："
+
+#: classes/wp-security-file-scan.php:323 classes/wp-security-file-scan.php:332
+#: classes/wp-security-file-scan.php:342
+msgid "modified on: "
+msgstr "修改于："
+
+#: classes/wp-security-file-scan.php:70
+msgid "Login to your site to view the scan details."
+msgstr "登入查看扫描详情"
+
+#: classes/wp-security-file-scan.php:67
+msgid "A summary of the scan results is shown below:"
+msgstr "简要扫描结果如下："
+
+#: classes/wp-security-file-scan.php:64
+msgid "All In One WP Security - File change detected!"
+msgstr "All In One WP Security - 检测到文件更改!"
+
+#: classes/wp-security-captcha.php:142
+msgid "twenty"
+msgstr "20"
+
+#: classes/wp-security-captcha.php:141
+msgid "nineteen"
+msgstr "19"
+
+#: classes/wp-security-captcha.php:140
+msgid "eighteen"
+msgstr "18"
+
+#: classes/wp-security-captcha.php:137
+msgid "fifteen"
+msgstr "15"
+
+#: classes/wp-security-user-login.php:407
+msgid "Unlock Request Notification"
+msgstr "解锁请求通知"
+
+#: admin/wp-security-user-login-menu.php:445
+#: admin/wp-security-user-login-menu.php:454
+msgid "Delete All Failed Login Records"
+msgstr "删除所有失败的登录记录"
+
+#: admin/wp-security-user-login-menu.php:532
+msgid "Logout the WP User After XX Minutes"
+msgstr "在XX分钟后注销WP用户"
+
+#: admin/wp-security-user-login-menu.php:626
+msgid "Refresh Logged In User Data"
+msgstr "刷新登录用户数据"
+
+#: admin/wp-security-user-login-menu.php:630
+msgid "Refresh Data"
+msgstr "刷新数据"
+
+#: admin/wp-security-user-login-menu.php:643
+msgid "Currently Logged In Users"
+msgstr "当前登录用户"
+
+#: admin/wp-security-user-registration-menu.php:27
+msgid "Manual Approval"
+msgstr "人工审核"
+
+#: admin/wp-security-user-registration-menu.php:28
+#: classes/grade-system/wp-security-feature-item-manager.php:59
+msgid "Registration Captcha"
+msgstr "注册验证码"
+
+#: admin/wp-security-user-registration-menu.php:122
+msgid "User Registration Settings"
+msgstr "用户注册设置"
+
+#: admin/wp-security-user-registration-menu.php:213
+msgid "Registration Page Captcha Settings"
+msgstr "注册页面验证码设置"
+
+#: admin/wp-security-user-registration-menu.php:236
+msgid "Enable Captcha On Registration Page"
+msgstr "在注册页面上启用验证码"
+
+#: classes/wp-security-user-registration.php:76
+#: classes/wp-security-user-registration.php:97
+#: classes/wp-security-user-login.php:81
+#: classes/wp-security-general-init-tasks.php:442
+#: classes/wp-security-general-init-tasks.php:522
+#: classes/wp-security-general-init-tasks.php:560
+msgid "<strong>ERROR</strong>: Your answer was incorrect - please try again."
+msgstr "<strong>错误</strong>：您的验证码答案不正确 - 请再试一次。"
+
+#: classes/wp-security-user-login.php:177
+msgid "<strong>ERROR</strong>: Invalid login credentials."
+msgstr "<strong>错误</strong>：无效的登录凭据。"
+
+#: classes/wp-security-user-login.php:298
+msgid "Site Lockout Notification"
+msgstr "网站锁定通知"
+
+#: classes/grade-system/wp-security-feature-item-manager.php:38
+msgid "Change Display Name"
+msgstr "更改显示名称"
+
+#: classes/grade-system/wp-security-feature-item-manager.php:45
+msgid "Custom Login Captcha"
+msgstr "自定义登录验证码"
+
+#: classes/grade-system/wp-security-feature-item-manager.php:49
+msgid "Lost Password Captcha"
+msgstr "忘记密码验证码"
+
+#: classes/grade-system/wp-security-feature-item-manager.php:83
+msgid "Enable Basic Firewall"
+msgstr "启用基本防火墙"
+
+#: classes/grade-system/wp-security-feature-item-manager.php:90
+msgid "Enable Rename Login Page"
+msgstr "启用重命名登录页面"
+
+#: classes/grade-system/wp-security-feature-item-manager.php:92
+msgid "Enable Login Honeypot"
+msgstr "启用登录蜜罐"
+
+#: classes/grade-system/wp-security-feature-item.php:28
+msgid "Basic"
+msgstr "基本"
+
+#: classes/grade-system/wp-security-feature-item.php:31
+msgid "Intermediate"
+msgstr "中级"
+
+#: classes/grade-system/wp-security-feature-item.php:34
+msgid "Advanced"
+msgstr "高级"
+
+#: other-includes/wp-security-rename-login-feature.php:341
+msgid "<strong>ERROR</strong>: Invalid username or email."
+msgstr "<strong>错误</strong>：无效用户名或邮箱。"
+
+#: other-includes/wp-security-rename-login-feature.php:364
+msgid "Someone has requested a password reset for the following account:"
+msgstr "有人为以下账号请求了密码重置："
+
+#. translators: %s: user login
+#: other-includes/wp-security-rename-login-feature.php:368
+msgid "Username: %s"
+msgstr "用户名：%s"
+
+#: other-includes/wp-security-rename-login-feature.php:370
+msgid "To reset your password, visit the following address:"
+msgstr "要重置您的密码，请打开下面的链接："
+
+#: classes/grade-system/wp-security-feature-item-manager.php:98
+msgid "Forbid Proxy Comments"
+msgstr "禁止代理评论"
+
+#: admin/wp-security-whois-menu.php:25
+msgid "WhoIS Lookup"
+msgstr "WhoIS 查询"
+
+#: classes/grade-system/wp-security-feature-item-manager.php:106
+msgid "Comment Captcha"
+msgstr "评论验证码"
+
+#: classes/grade-system/wp-security-feature-item-manager.php:108
+msgid "BuddyPress Registration Captcha"
+msgstr "BuddyPress 注册验证码"
+
+#: classes/wp-security-backup.php:239
+msgid "All In One WP Security - Site Database Backup"
+msgstr "All In One WP 安全- 站点数据库备份"
+
+#: admin/wp-security-whois-menu.php:93
+msgid "Enter IP Address or Domain Name"
+msgstr "输入 IP 地址或域名"
+
+#: admin/wp-security-whois-menu.php:87
+msgid "Perform a WHOIS Lookup for an IP or Domain Name"
+msgstr "执行 WHOIS 来查询IP或域名 "
+
+#: admin/wp-security-user-login-menu.php:637
+msgid "If you suspect there is a user or users who are logged in which should not be, you can block them by inspecting the IP addresses from the data below and adding them to your blacklist."
+msgstr "如果您怀疑有用户或登录用户不应该登录，您可以通过从下面的数据检查IP地址并将其添加到您的黑名单来阻止它们。"
+
+#. Plugin URI of the plugin
+msgid "https://www.tipsandtricks-hq.com/wordpress-security-and-firewall-plugin"
+msgstr "https://www.tipsandtricks-hq.com/wordpress-security-and-firewall-plugin"
+
+#. Author URI of the plugin
+msgid "https://www.tipsandtricks-hq.com/"
+msgstr "https://www.tipsandtricks-hq.com/"
+
+#: admin/wp-security-user-registration-menu.php:126
+msgid "Manually Approve New Registrations"
+msgstr "人工审核新注册"
+
+#: admin/wp-security-user-registration-menu.php:149
+msgid "Enable manual approval of new registrations"
+msgstr "启用人工审核新的注册"
+
+#: admin/wp-security-user-registration-menu.php:161
+msgid "Approve Registered Users"
+msgstr "批准注册用户"
+
+#: admin/wp-security-whois-menu.php:78
+msgid "WHOIS Lookup Information"
+msgstr "WHOIS 查询信息"
+
+#: admin/wp-security-whois-menu.php:99
+msgid "Perform IP or Domain Lookup"
+msgstr "执行 IP 或域名查询"
+
+#: classes/wp-security-backup.php:241
+msgid " generated on"
+msgstr " 已生成"
+
+#: classes/wp-security-captcha.php:123
+msgid "one"
+msgstr "1"
+
+#: classes/wp-security-captcha.php:124
+msgid "two"
+msgstr "2"
+
+#: classes/wp-security-captcha.php:125
+msgid "three"
+msgstr "3"
+
+#: classes/wp-security-captcha.php:126
+msgid "four"
+msgstr "4"
+
+#: classes/wp-security-captcha.php:127
+msgid "five"
+msgstr "5"
+
+#: classes/wp-security-captcha.php:128
+msgid "six"
+msgstr "6"
+
+#: classes/wp-security-captcha.php:129
+msgid "seven"
+msgstr "7"
+
+#: classes/wp-security-captcha.php:130
+msgid "eight"
+msgstr "8"
+
+#: classes/wp-security-captcha.php:131
+msgid "nine"
+msgstr "9"
+
+#: classes/wp-security-captcha.php:132
+msgid "ten"
+msgstr "10"
+
+#: classes/wp-security-captcha.php:133
+msgid "eleven"
+msgstr "11"
+
+#: classes/wp-security-captcha.php:134
+msgid "twelve"
+msgstr "12"
+
+#: classes/wp-security-captcha.php:135
+msgid "thirteen"
+msgstr "13"
+
+#: classes/wp-security-captcha.php:136
+msgid "fourteen"
+msgstr "14"
+
+#: classes/wp-security-captcha.php:138
+msgid "sixteen"
+msgstr "16"
+
+#: classes/wp-security-captcha.php:139
+msgid "seventeen"
+msgstr "17"
+
+#: classes/wp-security-file-scan.php:66
+msgid ". Scan was generated on"
+msgstr ". 扫描已生成"
+
+#: classes/wp-security-file-scan.php:321
+msgid "The following files were added to your host"
+msgstr "以下文件已添加到您的主机"
+
+#: classes/wp-security-file-scan.php:330
+msgid "The following files were removed from your host"
+msgstr "以下文件已从您的主机中移除"
+
+#: classes/wp-security-file-scan.php:340
+msgid "The following files were changed on your host"
+msgstr "您的主机上已更改以下文件"
+
+#: classes/wp-security-user-login.php:109
+msgid "<strong>ACCOUNT PENDING</strong>: Your account is currently not active. An administrator needs to activate your account before you can login."
+msgstr "<strong>账号待处理</strong>: 您的账号目前处于未激活状态. 需要管理员先帮您激活账号后才能登录."
+
+#: classes/wp-security-user-login.php:299
+msgid "A lockdown event has occurred due to too many failed login attempts or invalid username:"
+msgstr "由于登录尝试失败或用户名无效, 导致发生锁定事件:"
+
+#: classes/wp-security-user-login.php:303
+msgid "Log into your site's WordPress administration panel to see the duration of the lockout or to unlock the user."
+msgstr "登录到您网站的 WordPress 管理面板, 查看此用户被锁定的持续时间或解锁此用户."
+
+#: classes/wp-security-user-login.php:411
+msgid "After clicking the above link you will be able to login to the WordPress administration panel."
+msgstr "点击上面的链接后, 您将能够登录到 WordPress 管理面板."
+
+#: classes/wp-security-user-login.php:568
+msgid "Your session has expired because it has been over %d minutes since your last login."
+msgstr "您的会话已过期, 因为您上次登录后已超过 %d 分钟."
+
+#: classes/wp-security-user-login.php:569
+#: classes/wp-security-user-login.php:573
+msgid "Please log back in to continue."
+msgstr "请重新登录以继续."
+
+#: classes/wp-security-user-login.php:572
+msgid "You were logged out because you just changed the \"admin\" username."
+msgstr "你已被注销, 因为你刚刚更改了 \"管理员\" 的用户名."
+
+#: classes/wp-security-user-registration.php:69
+#: classes/wp-security-user-registration.php:90
+#: classes/wp-security-general-init-tasks.php:553
+msgid "<strong>ERROR</strong>: You are not allowed to register because your IP address is currently locked!"
+msgstr "<strong>错误</strong>: 您无法注册, 因为您的 IP 地址目前处于锁定状态!"
+
+#: classes/wp-security-utility-ip-address.php:104
+#: classes/wp-security-utility-ip-address.php:119
+#: classes/wp-security-utility-ip-address.php:138
+#: classes/wp-security-utility-ip-address.php:153
+#: classes/wp-security-utility-ip-address.php:168
+msgid " is not a valid ip address format."
+msgstr " 不是有效的 IP 地址格式."
+
+#: classes/wp-security-utility-ip-address.php:176
+msgid "You cannot ban your own IP address: "
+msgstr "你不能禁止你自己的 IP 地址: "
+
+#: classes/wp-security-utility.php:229
+msgid "This feature can only be configured by the \"superadmin\" on the main site."
+msgstr "此功能只能由主网站上的 \"超级管理员\" 进行配置."
+
+#: classes/grade-system/wp-security-feature-item-manager.php:51
+msgid "Login IP Whitelisting"
+msgstr "登录 IP 白名单"
+
+#: classes/grade-system/wp-security-feature-item-manager.php:57
+msgid "Registration Approval"
+msgstr "注册审核"
+
+#: classes/grade-system/wp-security-feature-item-manager.php:75
+msgid "WordPress Files Access"
+msgstr "WordPress 文件访问"
+
+#: classes/grade-system/wp-security-feature-item-manager.php:84
+msgid "Enable Pingback Vulnerability Protection"
+msgstr "启用 Pingback 漏洞保护"
+
+#: classes/grade-system/wp-security-feature-item-manager.php:86
+msgid "Enable IP blocking for 404 detection"
+msgstr "启用 IP 阻断 404 检测"
+
+#: classes/grade-system/wp-security-feature-item-manager.php:99
+msgid "Deny Bad Queries"
+msgstr "拒绝不良查询"
+
+#: classes/grade-system/wp-security-feature-item-manager.php:104
+msgid "Block Spambots"
+msgstr "阻止垃圾评论机器人"
+
+#: other-includes/wp-security-unlock-request.php:14
+#: other-includes/wp-security-rename-login-feature.php:115
+msgid "Powered by WordPress"
+msgstr "基于 WordPress"
+
+#: other-includes/wp-security-rename-login-feature.php:316
+msgid "<strong>ERROR</strong>: Enter a username or email address."
+msgstr "<strong>错误</strong>: 输入用户名或邮箱地址."
+
+#: other-includes/wp-security-rename-login-feature.php:320
+msgid "<strong>ERROR</strong>: There is no user registered with that email address."
+msgstr "<strong>错误</strong>: 没有用户注册该邮箱地址."
+
+#: other-includes/wp-security-rename-login-feature.php:369
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr "若这不是您本人要求的, 请忽略本邮件, 一切如常."
+
+#: other-includes/wp-security-rename-login-feature.php:404
+msgid "Possible reason: your host may have disabled the mail() function."
+msgstr "可能的原因: 您的主机可能停用了 mail( ) 函数."
+
+#: other-includes/wp-security-rename-login-feature.php:557
+msgid "Your password reset link appears to be invalid. Please request a new link below."
+msgstr "您的密码重置链接似乎无效. 请在下面申请一个新的链接."
+
+#: other-includes/wp-security-rename-login-feature.php:559
+msgid "Your password reset link has expired. Please request a new link below."
+msgstr "您的密码重置链接已过期. 请在下面申请一个新的链接."
+
+#: other-includes/wp-security-rename-login-feature.php:580
+msgid "Please enter your username or email address. You will receive a link to create a new password via email."
+msgstr "请输入您的用户名或邮箱地址. 您将收到一个通过邮件创建新密码的链接."
+
+#: other-includes/wp-security-rename-login-feature.php:685
+msgid "Enter your new password below."
+msgstr "在下面输入您的新密码."
+
+#. translators: 1: Browser cookie documentation URL, 2: Support forums URL
+#: other-includes/wp-security-rename-login-feature.php:921
+msgid "<strong>ERROR</strong>: Cookies are blocked due to unexpected output. For help, please see <a href=\"%1$s\">this documentation</a> or try the <a href=\"%2$s\">support forums</a>."
+msgstr "<strong>错误</strong>: Cookies 由于意外输出而被阻止. 如需帮助, 请参阅 <a href=\"%1$s\">此文档</a> 或尝试 <a href=\"%2$s\">支持论坛</a>."
+
+#. translators: 1: Browser cookie documentation URL
+#: other-includes/wp-security-rename-login-feature.php:926
+msgid "<strong>ERROR</strong>: Cookies are blocked or not supported by your browser. You must <a href=\"%s\">enable cookies</a> to use WordPress."
+msgstr "<strong>错误</strong>: Cookies 被浏览器阻止或不支持.  您必须 <a href=\"%s\">启用 cookies</a> 才能使用 WordPress."
+
+#: other-includes/wp-security-rename-login-feature.php:945
+msgid "You have logged in successfully."
+msgstr "您已成功登录."
+
+#: other-includes/wp-security-rename-login-feature.php:986
+msgid "You are now logged out."
+msgstr "现在, 您已注销."
+
+#: other-includes/wp-security-rename-login-feature.php:988
+msgid "User registration is currently not allowed."
+msgstr "目前不允许用户注册."
+
+#: other-includes/wp-security-rename-login-feature.php:996
+msgid "<strong>You have successfully updated WordPress!</strong> Please log back in to see what&#8217;s new."
+msgstr "<strong>您已成功更新 WordPress!</strong> 请重新登录以查看新功能."
+
+#: other-includes/wp-security-unlock-request.php:33
+msgid "ERROR: Unable to process your request!"
+msgstr "错误: 无法处理您的请求!"
+
+#: other-includes/wp-security-unlock-request.php:50
+msgid "Please enter a valid email address"
+msgstr "请输入有效的邮箱地址"
+
+#: other-includes/wp-security-unlock-request.php:76
+msgid "Error: No locked entry was found in the DB with your IP address range!"
+msgstr "错误: 在您的 IP 地址范围内没有在数据库中找到锁定条目!"
+
+#: other-includes/wp-security-unlock-request.php:111
+msgid "Email Address"
+msgstr "邮箱地址"
+
+#: other-includes/wp-security-rename-login-feature.php:812
+msgid "Email"
+msgstr "邮箱地址"
+
+#: admin/wp-security-user-login-menu.php:410
+msgid "This tab displays the failed login attempts for your site."
+msgstr "此选项卡显示您的网站失败的登录尝试。"
+
+#: admin/wp-security-user-login-menu.php:411
+msgid "The information below can be handy if you need to do security investigations because it will show you the IP range, username and ID (if applicable) and the time/date of the failed login attempt."
+msgstr "如果您需要进行安全性调查，以下信息可能非常方便，因为其会向您显示IP范围，用户名和ID（如果适用） 以及失败登录尝试的时间/日期。"
+
+#: admin/wp-security-user-login-menu.php:479
+msgid "You entered a non numeric value for the logout time period field. It has been set to the default value."
+msgstr "您为注销时间段字段输入了非数字值。其将被设置为默认值。"
+
+#: admin/wp-security-user-login-menu.php:507
+msgid "Setting an expiry period for your WP administration session is a simple way to protect against unauthorized access to your site from your computer."
+msgstr "为您的WP管理会话设置过期周期是一种简单的方法，可防止您的计算机未经授权访问您的网站。"
+
+#: admin/wp-security-user-login-menu.php:508
+msgid "This feature allows you to specify a time period in minutes after which the admin session will expire and the user will be forced to log back in."
+msgstr "此功能允许您指定以分钟为单位的时间段，之后管理会话将过期，并且用户将被强制重新登录。"
+
+#: admin/wp-security-user-login-menu.php:534
+msgid "(Minutes) The user will be forced to log back in after this time period has elapased."
+msgstr "（分钟）在此时间段过后，用户将被强制重新登录。"
+
+#: admin/wp-security-user-login-menu.php:562
+msgid "The information below can be handy if you need to do security investigations because it will show you the last 50 recent login events by username, IP address and time/date."
+msgstr "如果您需要进行安全性调查，以下信息可能非常方便，因为其会根据用户名，IP地址和时间/日期向您显示最新50次最近登录事件。"
+
+#: admin/wp-security-user-login-menu.php:618
+msgid "Nonce check failed for users logged in list!"
+msgstr "随机检查列出已登录用户失败！"
+
+#: admin/wp-security-user-login-menu.php:636
+msgid "This tab displays all users who are currently logged into your site."
+msgstr "此选项卡显示当前登录到您网站的所有用户。"
+
+#: admin/wp-security-user-login-menu.php:638
+msgid "You can also instantly log them out by clicking on the \"Force Logout\" link when you hover over the row in the User Id column."
+msgstr "当您将鼠标悬停在用户ID栏中的行上时，您也可以通过单击“强制注销”链接立即将其注销。"
+
+#: admin/wp-security-user-registration-menu.php:130
+msgid "If your site allows people to create their own accounts via the WordPress registration form, then you can minimize SPAM or bogus registrations by manually approving each registration."
+msgstr "如果您的网站允许用户通过WordPress注册表单创建自己的账号，那么您可以通过人工审核批准每个注册来最大限度地减少垃圾评论或伪造注册。"
+
+#: admin/wp-security-user-registration-menu.php:131
+msgid "This feature will automatically set a newly registered account to \"pending\" until the administrator activates it. Therefore undesirable registrants will be unable to log in without your express approval."
+msgstr "此功能会自动将新注册的账号设置为“待处理”，直到管理员将其激活为止。因此，如果没有您的明确批准，不受欢迎的注册人将无法登录。"
+
+#: admin/wp-security-user-registration-menu.php:132
+msgid "You can view all accounts which have been newly registered via the handy table below and you can also perform bulk activation/deactivation/deletion tasks on each account."
+msgstr "您可以通过下面的便捷列表查看所有新注册的账号，也可以在每个账号上执行批量激活/停用/删除任务。"
+
+#: admin/wp-security-user-registration-menu.php:152
+msgid "Check this if you want to automatically disable all newly registered accounts so that you can approve them manually."
+msgstr "如果要自动停用所有新注册的账号，请勾选此项，以便您可以人工审核他们。"
+
+#: admin/wp-security-user-registration-menu.php:206
+msgid "This feature allows you to add a captcha form on the WordPress registration page."
+msgstr "此功能可让您在WordPress注册页面上添加验证码表单。"
+
+#: admin/wp-security-user-registration-menu.php:207
+msgid "Users who attempt to register will also need to enter the answer to a simple mathematical question - if they enter the wrong answer, the plugin will not allow them to register."
+msgstr "尝试注册的用户也需要输入一个简单的数学问题的答案—如果他们输入了错误的答案，插件将不允许他们注册。"
+
+#: admin/wp-security-user-registration-menu.php:208
+msgid "Therefore, adding a captcha form on the registration page is another effective yet simple SPAM registration prevention technique."
+msgstr "因此，在注册页面添加验证码表单是另一种有效而简单的垃圾评论注册预防技术。"
+
+#: admin/wp-security-user-registration-menu.php:220
+msgid "The core default behaviour for WordPress Multi Site regarding user registration is that all users are registered via the main site."
+msgstr "WordPress多站点有关用户注册的核心默认行为是所有用户都通过主网站注册。"
+
+#: admin/wp-security-user-registration-menu.php:221
+msgid "Therefore, if you would like to add a captcha form to the registration page for a Multi Site, please go to \"Registration Captcha\" settings on the main site."
+msgstr "因此，如果您想为多站点的注册页面添加验证码表单，请转至主站点上的“注册验证码”设置。"
+
+#: admin/wp-security-user-registration-menu.php:239
+msgid "Check this if you want to insert a captcha form on the WordPress user registration page (if you allow user registration)."
+msgstr "如果您想在 WordPress 用户注册页面上插入验证码表单(如果允许用户注册)，请勾选此项。"
+
+#: admin/wp-security-whois-menu.php:81
+msgid "This feature allows you to look up more detailed information about an IP address or domain name by querying the WHOIS API."
+msgstr "此功能允许您可以通过查询 WHOIS API 来查找有关 IP 地址或域名的更多详细信息。"
+
+#: admin/wp-security-whois-menu.php:95
+msgid "Enter an IP address or domain name. Example: 111.11.12.13 OR some-domain-name.com"
+msgstr "输入一个 IP 地址或域名。比如：111.11.12.13 或者 some-domain-name.com"
+
+#: admin/wp-security-whois-menu.php:120
+msgid "WHOIS lookup successfully completed. Please see the results below:"
+msgstr "WHOIS 查询已成功完成。请看下面的结果："
+
+#: admin/wp-security-whois-menu.php:132
+msgid "You have entered an incorrectly formatted IP address or domain name. Please try again."
+msgstr "您输入不正确格式的 IP 地址或域名。请重试。"
+
+#: classes/grade-system/wp-security-feature-item-manager.php:29
+msgid "Remove WP Generator Meta Tag"
+msgstr "删除 WP Generator 元标记"
+
+#: classes/grade-system/wp-security-feature-item-manager.php:79
+msgid "IP and User Agent Blacklisting"
+msgstr "IP 和用户代理黑名单"
+
+#: classes/wp-security-backup.php:241
+msgid "Attached is your latest DB backup file for site URL"
+msgstr "为您的站点 URL 附加最新的数据库备份文件"
+
+#: classes/wp-security-general-init-tasks.php:420
+#: classes/wp-security-captcha.php:42
+msgid "Please enter an answer in digits:"
+msgstr "请输入数字的答案："
+
+#: classes/wp-security-file-scan.php:66
+msgid "A file change was detected on your system for site URL"
+msgstr "在您的系统上检测到站点 URL 的文件更改"
+
+#: classes/wp-security-general-init-tasks.php:503
+msgid "Error: You entered an incorrect CAPTCHA answer. Please go back and try again."
+msgstr "错误：您输入了错误的验证码答案。请返回重试。"
+
+#: classes/wp-security-general-init-tasks.php:541
+msgid "Your CAPTCHA answer was incorrect - please try again."
+msgstr "您的验证码答案不正确，请重试。"
+
+#: other-includes/wp-security-rename-login-feature.php:114
+msgid "https://wordpress.org/"
+msgstr "https://cn.wordpress.org/"
+
+#: other-includes/wp-security-rename-login-feature.php:662
+msgid "The passwords do not match."
+msgstr "密码不匹配。"
+
+#: other-includes/wp-security-rename-login-feature.php:677
+msgid "Your password has been reset."
+msgstr "您的密码已重置。"
+
+#: other-includes/wp-security-rename-login-feature.php:823
+msgid "Registration confirmation will be emailed to you."
+msgstr "注册确认信息将发送到您的邮箱。"
+
+#: other-includes/wp-security-unlock-request.php:13
+msgid "http://wordpress.org/"
+msgstr "https://cn.wordpress.org/"
+
+#. Description of the plugin
+msgid "All round best WordPress security plugin!"
+msgstr "全方位最好的 WordPress 安全插件！"
+
+#: other-includes/wp-security-unlock-request.php:62
+msgid "User account not found!"
+msgstr "用户账号不存在！"
+
+#: other-includes/wp-security-rename-login-feature.php:1040
+#: admin/wp-security-user-accounts-menu.php:34
+msgid "Password"
+msgstr "密码"
+
+#: admin/wp-security-spam-menu.php:119
+msgid "Comment SPAM Settings"
+msgstr "垃圾评论设置"
+
+#: admin/wp-security-misc-options-menu.php:28
+msgid "Copy Protection"
+msgstr "复制保护"
+
+#: admin/wp-security-misc-options-menu.php:123
+msgid "Save Copy Protection Settings"
+msgstr "保存复制保护设置"
+
+#: admin/wp-security-settings-menu.php:30
+msgid "General Settings"
+msgstr "常规设置"
+
+#: admin/wp-security-settings-menu.php:34
+msgid "Import/Export"
+msgstr "导入/导出"
+
+#: admin/wp-security-settings-menu.php:167
+msgid "Backup .htaccess file"
+msgstr "备份 .htaccess 文件"
+
+#: admin/wp-security-settings-menu.php:175
+msgid "Disable Security Features"
+msgstr "禁用安全功能"
+
+#: admin/wp-security-settings-menu.php:185
+msgid "Disable All Security Features"
+msgstr "禁用所有安全功能"
+
+#: admin/wp-security-settings-menu.php:192
+#: admin/wp-security-settings-menu.php:202
+msgid "Disable All Firewall Rules"
+msgstr "禁用所有防火墙规则"
+
+#: admin/wp-security-settings-menu.php:321
+msgid ".htaccess File Operations"
+msgstr ".htaccess 文件操作"
+
+#: admin/wp-security-settings-menu.php:341
+msgid "Save the current .htaccess file"
+msgstr "保存当前 .htaccess 文件"
+
+#: admin/wp-security-settings-menu.php:346
+msgid "Backup .htaccess File"
+msgstr "备份 .htaccess 文件"
+
+#: admin/wp-security-settings-menu.php:368
+msgid "Restore .htaccess File"
+msgstr "恢复 .htaccess 文件"
+
+#: admin/wp-security-settings-menu.php:422
+msgid "wp-config.php File Operations"
+msgstr "wp-config.php 文件操作"
+
+#: admin/wp-security-settings-menu.php:447
+msgid "Backup wp-config.php File"
+msgstr "备份 wp-config.php 文件"
+
+#: admin/wp-security-settings-menu.php:470
+msgid "Restore wp-config File"
+msgstr "恢复 wp-config 文件"
+
+#: admin/wp-security-settings-menu.php:693
+msgid "Import File"
+msgstr "导入文件"
+
+#: admin/wp-security-settings-menu.php:705
+msgid "Copy/Paste Import Data"
+msgstr "复制/粘贴导入数据"
+
+#: admin/wp-security-user-accounts-menu.php:32
+msgid "WP Username"
+msgstr "WP 用户名"
+
+#: admin/wp-security-user-accounts-menu.php:33
+msgid "Display Name"
+msgstr "昵称安全"
+
+#: admin/wp-security-user-accounts-menu.php:89
+msgid "Admin User Security"
+msgstr "管理员用户安全"
+
+#: admin/wp-security-user-accounts-menu.php:111
+#: classes/grade-system/wp-security-feature-item-manager.php:36
+msgid "Change Admin Username"
+msgstr "更改管理员用户名"
+
+#: admin/wp-security-user-accounts-menu.php:206
+msgid "Password Tool"
+msgstr "密码工具"
+
+#: admin/wp-security-user-accounts-menu.php:217
+msgid "Password Strength Tool"
+msgstr "密码强度工具"
+
+#: admin/wp-security-user-accounts-menu.php:231
+msgid "Password Strength"
+msgstr "密码强度"
+
+#: admin/wp-security-user-login-menu.php:29
+#: admin/wp-security-user-login-menu.php:416
+msgid "Failed Login Records"
+msgstr "登录失败记录"
+
+#: admin/wp-security-user-login-menu.php:30
+#: classes/grade-system/wp-security-feature-item-manager.php:53
+msgid "Force Logout"
+msgstr "强制注销"
+
+#: admin/wp-security-user-login-menu.php:230
+msgid "Login Lockdown Configuration"
+msgstr "登录锁定配置"
+
+#: admin/wp-security-user-login-menu.php:241
+msgid "Login Lockdown Options"
+msgstr "登录锁定选项"
+
+#: admin/wp-security-user-login-menu.php:252
+msgid "Enable Login Lockdown Feature"
+msgstr "启用登录锁定功能"
+
+#: admin/wp-security-user-login-menu.php:259
+msgid "Allow Unlock Requests"
+msgstr "允许解锁请求"
+
+#: admin/wp-security-user-login-menu.php:291
+msgid "Instantly Lockout Invalid Usernames"
+msgstr "即时锁定无效的用户名"
+
+#: admin/wp-security-user-login-menu.php:311
+msgid "Notify By Email"
+msgstr "通过邮件通知"
+
+#: admin/wp-security-user-accounts-menu.php:311
+msgid "Username Successfully Changed!"
+msgstr "用户名已成功更改!"
+
+#: admin/wp-security-user-accounts-menu.php:133
+msgid "Change Username"
+msgstr "更改用户名"
+
+#: admin/wp-security-spam-menu.php:401
+msgid "Find IP Addresses"
+msgstr "查找 IP 地址"
+
+#: admin/wp-security-firewall-menu.php:760
+msgid "Prevent Hotlinking"
+msgstr "防止热链接"
+
+#: admin/wp-security-maintenance-menu.php:25
+msgid "Visitor Lockout"
+msgstr "访客锁定"
+
+#: admin/wp-security-spam-menu.php:28
+msgid "Comment SPAM"
+msgstr "垃圾评论"
+
+#: admin/wp-security-firewall-menu.php:961
+msgid "404 Event Logs"
+msgstr "404 事件日志"
+
+#: admin/wp-security-maintenance-menu.php:97
+msgid "General Visitor Lockout"
+msgstr "一般访客锁定"
+
+#: admin/wp-security-firewall-menu.php:926
+msgid "Enable 404 Event Logging"
+msgstr "启用 404 事件记录"
+
+#: admin/wp-security-firewall-menu.php:1112
+msgid "Save Custom Rules"
+msgstr "保存自定义规则"
+
+#: admin/wp-security-firewall-menu.php:754
+msgid "Due to the fact that the image being displayed on the other person's site is coming from your server, this can cause leaking of bandwidth and resources for you because your server has to present this image for the people viewing it on someone elses's site."
+msgstr "由于在其他人的网站上显示的图片来自您的服务器, 这可能会导致您的带宽和资源泄漏, 因为您的服务器必须将此图片呈现给在其他人的网站上查看它的人."
+
+#: admin/wp-security-firewall-menu.php:755
+msgid "This feature will prevent people from directly hotlinking images from your site's pages by writing some directives in your .htaccess file."
+msgstr "通过在 .htaccess 文件中编写一些指令, 该功能将防止人们直接盗链您网站页面的图片."
+
+#: admin/wp-security-firewall-menu.php:775
+msgid "Check this if you want to prevent hotlinking to images on your site."
+msgstr "如果您想防止盗链到您网站上的图片,请勾选此项."
+
+#: admin/wp-security-firewall-menu.php:795
+msgid "Nonce check failed for delete all 404 event logs operation!"
+msgstr "随机检查删除所有 404 事件日志操作失败!"
+
+#: admin/wp-security-firewall-menu.php:806
+msgid "404 Detection Feature - Delete all 404 event logs operation failed!"
+msgstr "404 检测功能 - 删除所有 404 事件日志操作失败!"
+
+#: admin/wp-security-firewall-menu.php:810
+msgid "All 404 event logs were deleted from the DB successfully!"
+msgstr "所有 404 事件日志都已成功从数据库中删除!"
+
+#: admin/wp-security-firewall-menu.php:834
+#: admin/wp-security-user-login-menu.php:114
+msgid "You entered a non numeric value for the lockout time length field. It has been set to the default value."
+msgstr "您为锁定时间长度字段输入了非数字值. 其将被设置为默认值."
+
+#: admin/wp-security-firewall-menu.php:840
+msgid "You entered an incorrect format for the \"Redirect URL\" field. It has been set to the default value."
+msgstr "您为 \"重定向网址\" 字段输入了错误的格式. 其将被设置为默认值."
+
+#: admin/wp-security-firewall-menu.php:875
+msgid "404 Detection Configuration"
+msgstr "404 检测配置"
+
+#: admin/wp-security-firewall-menu.php:878
+msgid "A 404 or Not Found error occurs when somebody tries to access a non-existent page on your website."
+msgstr "当有人尝试访问您网站上不存在的页面时,会出现 404 或未发现的错误."
+
+#: admin/wp-security-firewall-menu.php:879
+msgid "Typically, most 404 errors happen quite innocently when people have mis-typed a URL or used an old link to page which doesn't exist anymore."
+msgstr "通常, 大多数 404 错误都是在人们错误输入网址或使用旧链接到不存在的页面时发生的."
+
+#: admin/wp-security-firewall-menu.php:880
+msgid "However, in some cases you may find many repeated 404 errors which occur in a relatively short space of time and from the same IP address which are all attempting to access a variety of non-existent page URLs."
+msgstr "然而, 在某些情况下, 您可能会发现许多重复的 404 错误, 这些错误发生在相对较短的时间间隔内, 并且来自相同的 IP 地址, 这些错误都尝试访问各种不存在的页面网址."
+
+#: admin/wp-security-firewall-menu.php:881
+msgid "Such behaviour can mean that a hacker might be trying to find a particular page or URL for sinister reasons."
+msgstr "这种行为可能意味着黑客可能因为恶意原因尝试找到特定页面或网址."
+
+#: admin/wp-security-firewall-menu.php:882
+msgid "This feature allows you to monitor all 404 events which occur on your site, and it also gives you the option of blocking IP addresses for a configured length of time."
+msgstr "该功能允许您监控网站上发生的所有 404 事件, 并且还可以选择阻止 IP 地址达到配置的时间长度."
+
+#: admin/wp-security-firewall-menu.php:898
+msgid "404 Detection Options"
+msgstr "404 检测选项"
+
+#: admin/wp-security-firewall-menu.php:913
+msgid "Check this if you want to enable the lockout of selected IP addresses."
+msgstr "如果要启用锁定所选 IP 地址, 请勾选此项."
+
+#: admin/wp-security-firewall-menu.php:929
+msgid "Check this if you want to enable the logging of 404 events"
+msgstr "如果要启用 404 事件的记录, 请勾选此项"
+
+#: admin/wp-security-firewall-menu.php:934
+msgid "Time Length of 404 Lockout (min)"
+msgstr "404 锁定的时间长度 (分钟)"
+
+#: admin/wp-security-firewall-menu.php:936
+msgid "Set the length of time for which a blocked IP address will be prevented from visiting your site"
+msgstr "设置阻止 IP 地址被阻止访问您的网站的时间长度"
+
+#: admin/wp-security-firewall-menu.php:941
+msgid "You can lock any IP address which is recorded in the \"404 Event Logs\" table section below."
+msgstr "您可以锁定记录在下面 \"404 事件日志\" 表中的任何 IP 地址."
+
+#: admin/wp-security-firewall-menu.php:943
+msgid "To temporarily lock an IP address, hover over the ID column and click the \"Temp Block\" link for the applicable IP entry."
+msgstr "要临时锁定 IP 地址, 请将鼠标悬停在 ID 栏上, 然后单击适用 IP 条目的 \"临时阻止\" 链接."
+
+#: admin/wp-security-firewall-menu.php:952
+msgid "A blocked visitor will be automatically redirected to this URL."
+msgstr "被阻止的访客将被自动重定向到此网址."
+
+#: admin/wp-security-firewall-menu.php:996
+#: admin/wp-security-firewall-menu.php:1005
+msgid "Delete All 404 Event Logs"
+msgstr "删除所有 404 事件日志"
+
+#: admin/wp-security-firewall-menu.php:1002
+msgid "Click this button if you wish to purge all 404 event logs from the DB."
+msgstr "如果您希望清除数据库中的所有 404 事件日志, 请单击此按钮."
+
+#: admin/wp-security-firewall-menu.php:1061
+msgid "Custom .htaccess Rules Settings"
+msgstr "自定义 .htaccess 规则设置"
+
+#: admin/wp-security-firewall-menu.php:1068
+msgid "This feature can be used to apply your own custom .htaccess rules and directives."
+msgstr "此功能可用于您自己的自定义 .htaccess 规则和指令."
+
+#: admin/wp-security-firewall-menu.php:1069
+msgid "It is useful for when you want to tweak our existing firewall rules or when you want to add your own."
+msgstr "当你想调整我们现有的防火墙规则或当你想添加你自己的防火墙规则时, 它非常有用."
+
+#: admin/wp-security-firewall-menu.php:1070
+msgid "NOTE: This feature can only used if your site is hosted in an apache or similar web server."
+msgstr "注意: 只有当您的网站托管在 apache 或类似的 Web服务器中时才能使用此功能."
+
+#: admin/wp-security-firewall-menu.php:1076
+msgid "<strong>Warning</strong>: Only use this feature if you know what you are doing."
+msgstr "<strong>警告</strong>: 只有在知道自己在做什么的情况下才能使用此功能."
+
+#: admin/wp-security-firewall-menu.php:1077
+msgid "Incorrect .htaccess rules or directives can break or prevent access to your site."
+msgstr "不正确的 .htaccess 规则或指令可能会破坏或阻止访问您的网站."
+
+#: admin/wp-security-firewall-menu.php:1078
+msgid "It is your responsibility to ensure that you are entering the correct code!"
+msgstr "您有责任确保您输入正确的代码!"
+
+#: admin/wp-security-firewall-menu.php:1079
+msgid "If you break your site you will need to access your server via FTP or something similar and then edit your .htaccess file and delete the changes you made."
+msgstr "如果你破坏你的网站, 你将需要通过 FTP 或类似的方式访问你的服务器, 然后编辑你的 .htaccess 文件并删除你所做的更改."
+
+#: admin/wp-security-firewall-menu.php:1085
+msgid "Custom .htaccess Rules"
+msgstr "自定义 .htaccess 规则"
+
+#: admin/wp-security-firewall-menu.php:1089
+msgid "Enable Custom .htaccess Rules"
+msgstr "启用自定义 .htaccess 规则"
+
+#: admin/wp-security-firewall-menu.php:1092
+msgid "Check this if you want to enable custom rules entered in the text box below"
+msgstr "如果要启用下面文本框中输入的自定义规则, 请勾选此项"
+
+#: admin/wp-security-firewall-menu.php:1103
+msgid "Enter Custom .htaccess Rules:"
+msgstr "输入自定义 .htaccess 规则:"
+
+#: admin/wp-security-firewall-menu.php:1107
+msgid "Enter your custom .htaccess rules/directives."
+msgstr "输入您的自定义 .htaccess 规则/指令."
+
+#: admin/wp-security-list-permanent-blocked-ip.php:96
+#: admin/wp-security-list-login-fails.php:86
+#: admin/wp-security-list-locked-ip.php:94
+#: admin/wp-security-list-locked-ip.php:105
+#: admin/wp-security-list-acct-activity.php:87
+#: admin/wp-security-list-comment-spammer-ip.php:95
+#: admin/wp-security-list-404.php:121 admin/wp-security-list-404.php:129
+#: admin/wp-security-list-404.php:136
+#: admin/wp-security-list-registered-users.php:104
+#: admin/wp-security-list-registered-users.php:115
+#: admin/wp-security-list-registered-users.php:126
+msgid "Please select some records using the checkboxes"
+msgstr "请使用复选框选择一些记录"
+
+#: admin/wp-security-list-404.php:158 admin/wp-security-list-404.php:196
+msgid "Could not process the request because the IP addresses for the selected entries could not be found!"
+msgstr "无法处理请求, 因为找不到所选条目的 IP 地址!"
+
+#: admin/wp-security-list-404.php:167
+msgid "The selected IP addresses are now temporarily blocked!"
+msgstr "所选的 IP 地址现在暂时被阻止!"
+
+#: admin/wp-security-list-404.php:172
+msgid "The selected IP address is now temporarily blocked!"
+msgstr "所选的 IP 地址现在暂时被阻止!"
+
+#: admin/wp-security-list-404.php:174
+msgid "The selected entry is not a valid IP address!"
+msgstr "所选条目不是有效的 IP 地址!"
+
+#: admin/wp-security-list-404.php:219
+msgid "The selected IP addresses have been added to the blacklist and will be permanently blocked!"
+msgstr "所选的 IP 地址已被添加到黑名单中, 并将被永久阻止!"
+
+#: admin/wp-security-list-404.php:259
+msgid "Nonce check failed for delete selected 404 event logs operation!"
+msgstr "随机检查删除选定的 404 事件日志操作失败!"
+
+#: admin/wp-security-list-login-fails.php:118
+#: admin/wp-security-list-acct-activity.php:118
+msgid "The selected entries were deleted successfully!"
+msgstr "所选条目已成功删除!"
+
+#: admin/wp-security-list-acct-activity.php:130
+msgid "Nonce check failed for delete selected account activity logs operation!"
+msgstr "随机检查删除选定的账号活动日志操作失败!"
+
+#: admin/wp-security-list-login-fails.php:138
+#: admin/wp-security-list-acct-activity.php:138
+msgid "The selected entry was deleted successfully!"
+msgstr "所选条目已成功删除!"
+
+#: admin/wp-security-list-comment-spammer-ip.php:130
+#: admin/wp-security-list-comment-spammer-ip.php:179
+msgid "Nonce check failed for delete selected blocked IP operation!"
+msgstr "随机检查删除选定的阻止 IP 操作失败!"
+
+#: admin/wp-security-list-comment-spammer-ip.php:193
+msgid "The selected IP addresses were saved in the blacklist configuration settings."
+msgstr "所选的 IP 地址已保存到黑名单配置设置."
+
+#: admin/wp-security-list-comment-spammer-ip.php:201
+msgid "The .htaccess file was successfully modified to include the selected IP addresses."
+msgstr ".htaccess 文件已成功修改为包含所选的 IP 地址."
+
+#: admin/wp-security-list-comment-spammer-ip.php:212
+msgid "NOTE: The .htaccess file was not modified because you have disabled the \"Enable IP or User Agent Blacklisting\" check box."
+msgstr "注意: .htaccess 文件未被修改, 因为您已停用 \"启用 IP 或用户代理黑名单\" 复选框."
+
+#: admin/wp-security-list-comment-spammer-ip.php:213
+msgid "To block these IP addresses you will need to enable the above flag in the %s menu"
+msgstr "要阻止这些 IP 地址, 您需要在 %s 菜单中启用上述标记"
+
+#: admin/wp-security-list-locked-ip.php:132
+msgid "The selected IP entries were unlocked successfully!"
+msgstr "所选的 IP 条目已成功解除锁定!"
+
+#: admin/wp-security-list-locked-ip.php:141
+msgid "Nonce check failed for unlock IP operation!"
+msgstr "随机检查解锁 IP 操作失败!"
+
+#: admin/wp-security-list-locked-ip.php:149
+msgid "The selected IP entry was unlocked successfully!"
+msgstr "所选的 IP 条目已成功解除锁定!"
+
+#: admin/wp-security-list-locked-ip.php:183
+msgid "Nonce check failed for delete lockdown record operation!"
+msgstr "随机检查删除锁定记录操作失败!"
+
+#: admin/wp-security-list-logged-in-users.php:87
+msgid "Nonce check failed for force user logout operation!"
+msgstr "随机检查强制用户注销操作失败!"
+
+#: admin/wp-security-list-logged-in-users.php:98
+msgid "The selected user was logged out successfully!"
+msgstr "选定的用户已成功注销!"
+
+#: admin/wp-security-list-login-fails.php:130
+msgid "Nonce check failed for delete failed login record operation!"
+msgstr "随机检查删除失败的登录记录操作失败!"
+
+#: admin/wp-security-list-registered-users.php:160
+#: admin/wp-security-list-registered-users.php:194
+msgid "Your account is now active"
+msgstr "您的账号现已启用"
+
+#: admin/wp-security-list-registered-users.php:161
+msgid "Your account with user ID:"
+msgstr "您的账号与用户 ID:"
+
+#: admin/wp-security-list-registered-users.php:161
+#: admin/wp-security-list-registered-users.php:195
+msgid " is now active"
+msgstr " 现已启用"
+
+#: admin/wp-security-list-registered-users.php:178
+msgid "The selected accounts were approved successfully!"
+msgstr "选定的账号已成功批准!"
+
+#: admin/wp-security-list-registered-users.php:182
+msgid "The following accounts failed to update successfully: "
+msgstr "以下账号未能成功更新: "
+
+#: admin/wp-security-list-registered-users.php:190
+msgid "The selected account was approved successfully!"
+msgstr "选定的账号已成功批准!"
+
+#: admin/wp-security-list-registered-users.php:195
+msgid "Your account with username: "
+msgstr "您账号使用的用户名: "
+
+#: admin/wp-security-list-registered-users.php:231
+msgid "The selected accounts were deleted successfully!"
+msgstr "选定的账号已成功删除!"
+
+#: admin/wp-security-list-registered-users.php:239
+msgid "Nonce check failed for delete registered user account operation!"
+msgstr "随机检查删除注册用户账号操作失败!"
+
+#: admin/wp-security-list-registered-users.php:247
+msgid "The selected account was deleted successfully!"
+msgstr "选定的账号已成功删除!"
+
+#: admin/wp-security-maintenance-menu.php:92
+msgid "Site lockout feature settings saved!"
+msgstr "网站锁定功能设置已保存!"
+
+#: admin/wp-security-maintenance-menu.php:103
+msgid "This feature allows you to put your site into \"maintenance mode\" by locking down the front-end to all visitors except logged in users with super admin privileges."
+msgstr "通过此功能, 您可以将所有访客锁定在网站的前端, 除了具有超级管理员权限的登录用户外, 您的网站将进入 \"维护模式\"."
+
+#: admin/wp-security-maintenance-menu.php:104
+msgid "Locking your site down to general visitors can be useful if you are investigating some issues on your site or perhaps you might be doing some maintenance and wish to keep out all traffic for security reasons."
+msgstr "如果你正在调查你的网站上的一些问题, 或者你可能正在做一些维护工作, 并且出于安全的原因想要避开所有的流量, 则将网站锁定为普通访客可能会很有用."
+
+#: admin/wp-security-maintenance-menu.php:109
+msgid "Enable Front-end Lockout"
+msgstr "启用前端锁定"
+
+#: admin/wp-security-maintenance-menu.php:112
+msgid "Check this if you want all visitors except those who are logged in as administrator to be locked out of the front-end of your site."
+msgstr "如果您希望所有访客除了以管理员身份登录的访客被锁定在您网站的前端之外, 请勾选此项."
+
+#: admin/wp-security-maintenance-menu.php:116
+msgid "Enter a Message:"
+msgstr "输入信息:"
+
+#: admin/wp-security-maintenance-menu.php:128
+msgid "Enter a message you wish to display to visitors when your site is in maintenance mode."
+msgstr "当您的网站处于维护模式时, 输入您希望向访客显示的信息."
+
+#: admin/wp-security-maintenance-menu.php:135
+msgid "Save Site Lockout Settings"
+msgstr "保存网站锁定设置"
+
+#: admin/wp-security-misc-options-menu.php:29
+msgid "Frames"
+msgstr "框架(Frames)"
+
+#: admin/wp-security-misc-options-menu.php:96
+msgid "Copy Protection feature settings saved!"
+msgstr "复制保护功能设置已保存!"
+
+#: admin/wp-security-misc-options-menu.php:101
+msgid "Disable The Ability To Copy Text"
+msgstr "禁用复制文本的功能"
+
+#: admin/wp-security-misc-options-menu.php:107
+msgid "This feature allows you to disable the ability to select and copy text from your front end."
+msgstr "此功能允许您禁用从前端选择和复制文本的功能."
+
+#: admin/wp-security-misc-options-menu.php:113
+msgid "Enable Copy Protection"
+msgstr "启用复制保护"
+
+#: admin/wp-security-misc-options-menu.php:116
+msgid "Check this if you want to disable the \"Right Click\", \"Text Selection\" and \"Copy\" option on the front end of your site."
+msgstr "如果要禁用网站前端的\"右键单击\", \"文本选择\" 和 \"复制\" 选项, 请勾选此项."
+
+#: admin/wp-security-misc-options-menu.php:147
+msgid "Frame Display Prevention feature settings saved!"
+msgstr "Frame 显示预防功能设置已保存!"
+
+#: admin/wp-security-misc-options-menu.php:152
+msgid "Prevent Your Site From Being Displayed In a Frame"
+msgstr "防止您的网站被显示在 Frame"
+
+#: admin/wp-security-misc-options-menu.php:158
+msgid "This feature allows you to prevent other sites from displaying any of your content via a frame or iframe."
+msgstr "此功能可让您阻止其他网站通过 Frame 或 iFrame 显示您的任何内容."
+
+#: admin/wp-security-misc-options-menu.php:159
+msgid "When enabled, this feature will set the \"X-Frame-Options\" paramater to \"sameorigin\" in the HTTP header."
+msgstr "当启用后, 此功能会将在 HTTP header 中的 \"X-Frame-Options\" 的参数设置为\"sameorigin\"."
+
+#: admin/wp-security-misc-options-menu.php:164
+msgid "Enable iFrame Protection"
+msgstr "启用 iFrame 保护"
+
+#: admin/wp-security-misc-options-menu.php:167
+msgid "Check this if you want to stop other sites from displaying your content in a frame or iframe."
+msgstr "如果您想阻止其他网站在 Frame 或 iFrame 中显示您的内容, 请勾选此项."
+
+#: admin/wp-security-settings-menu.php:103
+msgid "All the security features have been disabled successfully!"
+msgstr "所有安全功能已成功禁用!"
+
+#: admin/wp-security-settings-menu.php:107
+#: admin/wp-security-settings-menu.php:134
+msgid "Could not write to the .htaccess file. Please restore your .htaccess file manually using the restore functionality in the \".htaccess File\"."
+msgstr "无法写入 .htaccess 文件. 请使用 \".htaccess文件\" 中的恢复功能手动恢复您的 .htaccess 文件."
+
+#: admin/wp-security-settings-menu.php:112
+msgid "Could not write to the wp-config.php. Please restore your wp-config.php file manually using the restore functionality in the \"wp-config.php File\"."
+msgstr "无法写入 wp-config.php. 请使用 \"wp-config.php文件\" 中的恢复功能手动恢复您的 wp-config.php 文件."
+
+#: admin/wp-security-settings-menu.php:130
+msgid "All firewall rules have been disabled successfully!"
+msgstr "所有防火墙规则已成功禁用!"
+
+#: admin/wp-security-settings-menu.php:159
+msgid "WP Security Plugin"
+msgstr "WP 安全插件"
+
+#: admin/wp-security-settings-menu.php:161
+msgid "Thank you for using our WordPress security plugin. There are a lot of security features in this plugin."
+msgstr "感谢您使用我们的 WordPress 安全插件. 此插件有很多安全功能."
+
+#: admin/wp-security-settings-menu.php:162
+msgid "Go through each menu items and enable the security options to add more security to your site. Start by activating the basic features first."
+msgstr "浏览每个菜单项并启用安全选项, 为您的网站添加更多安全性. 首先启动基本功能."
+
+#: admin/wp-security-settings-menu.php:163
+msgid "It is a good practice to take a backup of your .htaccess file, database and wp-config.php file before activating the security features. This plugin has options that you can use to backup those resources easily."
+msgstr "在激活安全功能之前, 备份您的 .htaccess 文件, 数据库和 wp-config.php 文件是一种很好的做法. 此插件有一些选项可以轻松用来备份这些资源."
+
+#: admin/wp-security-settings-menu.php:166
+msgid "Backup your database"
+msgstr "备份您的数据库"
+
+#: admin/wp-security-settings-menu.php:168
+msgid "Backup wp-config.php file"
+msgstr "备份 wp-config.php 文件"
+
+#: admin/wp-security-settings-menu.php:181
+msgid "If you think that some plugin functionality on your site is broken due to a security feature you enabled in this plugin, then use the following option to turn off all the security features of this plugin."
+msgstr "如果您认为您的网站上的某些插件功能由于您在此插件中启用的安全功能而中断, 请使用以下选项关闭此插件的所有安全功能."
+
+#: admin/wp-security-settings-menu.php:198
+msgid "This feature will disable all firewall rules which are currently active in this plugin and it will also delete these rules from your .htacess file. Use it if you think one of the firewall rules is causing an issue on your site."
+msgstr "此功能将禁用当前在此插件中处于活动状态的所有防火墙规则, 并且还会从 .htacess 文件中删除这些规则. 如果您认为某个防火墙规则导致您的网站出现问题, 请使用它."
+
+#: admin/wp-security-settings-menu.php:263
+msgid "Your .htaccess file was successfully backed up! Using an FTP program go to the \"/wp-content/aiowps_backups\" directory to save a copy of the file to your computer."
+msgstr "您的 .htaccess 文件已成功备份! 使用 FTP 程序转至 \"/wp-content/aiowps_backups\" 目录以将文件副本保存到您的计算机."
+
+#: admin/wp-security-settings-menu.php:269
+msgid "htaccess file rename failed during backup. Please check your root directory for the backup file using FTP."
+msgstr "在备份过程中, .htaccess文件重命名失败. 请使用 FTP 检查您的根目录中的备份文件."
+
+#: admin/wp-security-settings-menu.php:290
+msgid "Please choose a .htaccess to restore from."
+msgstr "请选择一个 .htaccess 来恢复."
+
+#: admin/wp-security-settings-menu.php:305
+msgid "htaccess file restore failed. Please attempt to restore the .htaccess manually using FTP."
+msgstr "htaccess 文件恢复失败. 请尝试使用 FTP 手动恢复 .htaccess."
+
+#: admin/wp-security-settings-menu.php:309
+msgid "Your .htaccess file has successfully been restored!"
+msgstr "您的 .htaccess 文件已成功恢复!"
+
+#: admin/wp-security-settings-menu.php:315
+msgid "htaccess Restore operation failed! Please check the contents of the file you are trying to restore from."
+msgstr "htaccess 恢复操作失败! 请检查您尝试从中恢复的文件的内容."
+
+#: admin/wp-security-settings-menu.php:324
+msgid "Your \".htaccess\" file is a key component of your website's security and it can be modified to implement various levels of protection mechanisms."
+msgstr "您的 \".htaccess\" 文件是您网站安全性的关键组成部分, 可以对其进行修改以实现各种级别的保护机制."
+
+#: admin/wp-security-settings-menu.php:325
+msgid "This feature allows you to backup and save your currently active .htaccess file should you need to re-use the the backed up file in the future."
+msgstr "此功能允许您备份和保存当前活动的 .htaccess 文件, 因为您将来需要重新使用备份的文件."
+
+#: admin/wp-security-settings-menu.php:326
+msgid "You can also restore your site's .htaccess settings using a backed up .htaccess file."
+msgstr "您还可以使用备份的 .htaccess 文件恢复您网站的 .htaccess 设置."
+
+#: admin/wp-security-settings-menu.php:345
+msgid "Click the button below to backup and save the currently active .htaccess file."
+msgstr "点击下面的按钮来备份和保存当前活动的 .htaccess 文件."
+
+#: admin/wp-security-settings-menu.php:350
+msgid "Restore from a backed up .htaccess file"
+msgstr "从备份的 .htaccess 文件恢复"
+
+#: admin/wp-security-settings-menu.php:356
+msgid ".htaccess file to restore from"
+msgstr "从文件恢复 .htaccess 文件"
+
+#: admin/wp-security-settings-menu.php:362
+msgid "After selecting your file, click the button below to restore your site using the backed up htaccess file (htaccess_backup.txt)."
+msgstr "选择文件后, 点击下面的按钮, 使用备份的 htaccess 文件 (htaccess_backup.txt) 恢复到您的网站."
+
+#: admin/wp-security-settings-menu.php:390
+msgid "Please choose a wp-config.php file to restore from."
+msgstr "请选择一个 wp-config.php 文件以从中恢复."
+
+#: admin/wp-security-settings-menu.php:406
+msgid "wp-config.php file restore failed. Please attempt to restore this file manually using FTP."
+msgstr "wp-config.php 文件恢复失败. 请尝试使用 FTP 手动恢复此文件."
+
+#: admin/wp-security-settings-menu.php:410
+msgid "Your wp-config.php file has successfully been restored!"
+msgstr "您的 wp-config.php 文件已成功恢复!"
+
+#: admin/wp-security-settings-menu.php:416
+msgid "wp-config.php Restore operation failed! Please check the contents of the file you are trying to restore from."
+msgstr "wp-config.php 恢复操作失败! 请检查您尝试从中恢复的文件的内容."
+
+#: admin/wp-security-settings-menu.php:425
+msgid "Your \"wp-config.php\" file is one of the most important in your WordPress installation. It is a primary configuration file and contains crucial things such as details of your database and other critical components."
+msgstr "你的 \"wp-config.php\" 文件是你的 WordPress 安装中最重要的文件之一. 它是主要的配置文件, 包含重要的内容, 如数据库的详细信息和其他关键组件."
+
+#: admin/wp-security-settings-menu.php:426
+msgid "This feature allows you to backup and save your currently active wp-config.php file should you need to re-use the the backed up file in the future."
+msgstr "此功能允许您备份并保存当前活动的 wp-config.php 文件, 如果您将来需要重新使用备份的文件."
+
+#: admin/wp-security-settings-menu.php:427
+msgid "You can also restore your site's wp-config.php settings using a backed up wp-config.php file."
+msgstr "您还可以使用备份的 wp-config.php 文件恢复您网站的 wp-config.php 设置."
+
+#: admin/wp-security-settings-menu.php:442
+msgid "Save the current wp-config.php file"
+msgstr "保存当前 wp-config.php 文件"
+
+#: admin/wp-security-settings-menu.php:446
+msgid "Click the button below to backup and download the contents of the currently active wp-config.php file."
+msgstr "点击下面的按钮备份和下载当前活动的 wp-config.php 文件的内容."
+
+#: admin/wp-security-settings-menu.php:452
+msgid "Restore from a backed up wp-config file"
+msgstr "从备份的 wp-config 文件恢复"
+
+#: admin/wp-security-settings-menu.php:458
+msgid "wp-config file to restore from"
+msgstr "从文件恢复 wp-config 文件"
+
+#: admin/wp-security-settings-menu.php:464
+msgid "After selecting your file click the button below to restore your site using the backed up wp-config file (wp-config.php.backup.txt)."
+msgstr "选择文件后, 点击下面的按钮, 使用备份的 wp-config 文件 (wp-config.php.backup.txt) 恢复到您的网站."
+
+#: admin/wp-security-settings-menu.php:512
+msgid "Wordpress generator automatically adds some meta information inside the \"head\" tags of every page on your site's front end. Below is an example of this:"
+msgstr "Wordpress 会自动在站点前端的每个页面的 \"head\" 标签内生成并添加一些元信息. 以下是一个例子:"
+
+#: admin/wp-security-settings-menu.php:514
+msgid "The above meta information shows which version of WordPress your site is currently running and thus can help hackers or crawlers scan your site to see if you have an older version of WordPress or one with a known exploit."
+msgstr "上述元信息显示了您的网站目前正在运行哪个版本的 WordPress, 因此可以帮助黑客或爬虫扫描您的网站, 以查看您是否拥有旧版本的 WordPress 或具有已知漏洞的版本."
+
+#: admin/wp-security-settings-menu.php:523
+msgid "WP Generator Meta Info"
+msgstr "WP 生成的元信息"
+
+#: admin/wp-security-settings-menu.php:535
+msgid "Remove WP Generator Meta Info"
+msgstr "移除 WP 生成的元信息"
+
+#: admin/wp-security-settings-menu.php:568
+msgid "Please choose a file to import your settings from."
+msgstr "请选择一个文件来导入您的设置."
+
+#: admin/wp-security-settings-menu.php:606
+#: admin/wp-security-settings-menu.php:650
+msgid "The deletion of the import file failed. Please delete this file manually via the media menu for security purposes."
+msgstr "导入的文件无法删除. 为了安全起见, 请通过媒体菜单手动删除该文件."
+
+#: admin/wp-security-settings-menu.php:608
+#: admin/wp-security-settings-menu.php:652
+msgid "The file you uploaded was also deleted for security purposes because it contains security settings details."
+msgstr "为了安全起见, 您上传的文件也被删除, 因为它包含安全设置的详细信息."
+
+#: admin/wp-security-settings-menu.php:623
+msgid "Your AIOWPS settings were successfully imported via file input."
+msgstr "您的 AIOWPS 设置已通过文件输入成功导入."
+
+#: admin/wp-security-settings-menu.php:624
+msgid "The deletion of the import file failed. Please delete this file manually via the media menu for security purposes because it contains security settings details."
+msgstr "导入的文件无法删除. 为了安全起见, 请通过媒体菜单手动删除该文件, 因为它包含安全设置的详细信息."
+
+#: admin/wp-security-settings-menu.php:626
+msgid "Your AIOWPS settings were successfully imported. The file you uploaded was also deleted for security purposes because it contains security settings details."
+msgstr "您的 AIOWPS 设置已成功导入. 您上传的文件也出于安全目的而被删除, 因为它包含安全设置的详细信息."
+
+#: admin/wp-security-settings-menu.php:629
+msgid "Your AIOWPS settings were successfully imported via text entry."
+msgstr "您的 AIOWPS 设置已通过文本输入成功导入."
+
+#: admin/wp-security-settings-menu.php:644
+msgid "The contents of your settings file appear invalid. Please check the contents of the file you are trying to import settings from."
+msgstr "您的设置文件的内容似乎无效. 请检查您正在尝试导入设置的文件的内容."
+
+#: admin/wp-security-settings-menu.php:661
+msgid "Export or Import Your AIOWPS Settings"
+msgstr "导出或导入 AIOWPS 设置"
+
+#: admin/wp-security-settings-menu.php:664
+msgid "This section allows you to export or import your All In One WP Security & Firewall settings."
+msgstr "本部分允许您导出或导入您的一站式 WP 安全 & 防火墙设置."
+
+#: admin/wp-security-settings-menu.php:665
+msgid "This can be handy if you wanted to save time by applying the settings from one site to another site."
+msgstr "如果您想通过将设置从一个站点应用到另一个站点来节省时间, 这可能非常方便."
+
+#: admin/wp-security-settings-menu.php:666
+msgid "NOTE: Before importing, it is your responsibility to know what settings you are trying to import. Importing settings blindly can cause you to be locked out of your site."
+msgstr "注意: 在导入之前, 您有责任了解您尝试导入的设置. 盲目导入设置会导致您被锁定在您的网站之外."
+
+#: admin/wp-security-settings-menu.php:667
+msgid "For Example: If a settings item relies on the domain URL then it may not work correctly when imported into a site with a different domain."
+msgstr "例如: 如果设置项依赖于域名的网址, 那么当导入到具有不同域名的网站时, 它可能无法正常工作."
+
+#: admin/wp-security-settings-menu.php:673
+#: admin/wp-security-settings-menu.php:682
+msgid "Export AIOWPS Settings"
+msgstr "导出 AIOWPS 设置"
+
+#: admin/wp-security-settings-menu.php:679
+msgid "To export your All In One WP Security & Firewall settings click the button below."
+msgstr "要导出您的一站式 WP 安全 & 防火墙设置, 请单击下面的按钮."
+
+#: admin/wp-security-settings-menu.php:686
+#: admin/wp-security-settings-menu.php:711
+msgid "Import AIOWPS Settings"
+msgstr "导入 AIOWPS 设置"
+
+#: admin/wp-security-settings-menu.php:692
+msgid "Use this section to import your All In One WP Security & Firewall settings from a file. Alternatively, copy/paste the contents of your import file into the textarea below."
+msgstr "使用此部分从文件中导入您的一站式 WP 安全 & 防火墙设置. 或者, 将导入文件的内容复制/粘贴到下面的文本框区域内."
+
+#: admin/wp-security-settings-menu.php:699
+msgid "After selecting your file, click the button below to apply the settings to your site."
+msgstr "选择文件后, 点击下面的按钮将设置应用到您的网站."
+
+#: admin/wp-security-spam-menu.php:29
+msgid "Comment SPAM IP Monitoring"
+msgstr "垃圾评论的 IP 监控"
+
+#: admin/wp-security-spam-menu.php:30
+msgid "BuddyPress"
+msgstr "BuddyPress"
+
+#: admin/wp-security-spam-menu.php:124
+msgid "Add Captcha To Comments Form"
+msgstr "添加验证码到评论表单"
+
+#: admin/wp-security-spam-menu.php:128
+msgid "This feature will add a simple math captcha field in the WordPress comments form."
+msgstr "此功能将在 WordPress 评论表单中添加一个简单的数学验证码字段."
+
+#: admin/wp-security-spam-menu.php:129
+msgid "Adding a captcha field in the comment form is a simple way of greatly reducing SPAM comments from bots without using .htaccess rules."
+msgstr "在评论表单中添加验证码字段是一种非常简单的方法, 可以在不使用 .htaccess 规则的情况下大幅减少机器人发送的垃圾评论."
+
+#: admin/wp-security-spam-menu.php:138
+msgid "Enable Captcha On Comment Forms"
+msgstr "在评论表单上启用验证码"
+
+#: admin/wp-security-spam-menu.php:141
+msgid "Check this if you want to insert a captcha field on the comment forms"
+msgstr "如果您想在评论表单中插入验证码字段, 请勾选此项"
+
+#: admin/wp-security-spam-menu.php:148
+msgid "Block Spambot Comments"
+msgstr "阻止机器人发表垃圾评论"
+
+#: admin/wp-security-spam-menu.php:152
+msgid "A large portion of WordPress blog comment SPAM is mainly produced by automated bots and not necessarily by humans. "
+msgstr "WordPress 博客垃圾评论的大部分主要由自动化机器人产成, 而不是由人类产成. "
+
+#: admin/wp-security-spam-menu.php:153
+msgid "This feature will greatly minimize the useless and unecessary traffic and load on your server resulting from SPAM comments by blocking all comment requests which do not originate from your domain."
+msgstr "此功能将通过阻止所有不是源自您的域名的评论请求, 极大地减少垃圾评论对服务器造成的无用和不必要的流量和负载."
+
+#: admin/wp-security-spam-menu.php:154
+msgid "In other words, if the comment was not submitted by a human who physically submitted the comment on your site, the request will be blocked."
+msgstr "换句话说, 如果评论不是由实际上在您的网站上提交评论的人员提交的, 则该请求将被阻止."
+
+#: admin/wp-security-spam-menu.php:171
+msgid "Block Spambots From Posting Comments"
+msgstr "阻止垃圾评论机器人可以发布评论"
+
+#: admin/wp-security-spam-menu.php:174
+msgid "Check this if you want to apply a firewall rule which will block comments originating from spambots."
+msgstr "如果您想应用阻止来自垃圾评论机器人的评论的防火墙规则, 请勾选此项."
+
+#: admin/wp-security-spam-menu.php:178
+msgid "This feature will implement a firewall rule to block all comment attempts which do not originate from your domain."
+msgstr "此功能将实施防火墙规则, 以阻止所有不是来自您域名的评论尝试."
+
+#: admin/wp-security-spam-menu.php:179
+msgid "A legitimate comment is one which is submitted by a human who physically fills out the comment form and clicks the submit button. For such events, the HTTP_REFERRER is always set to your own domain."
+msgstr "合法评论是由实际填写评论表单并点击提交按钮的人提交的评论. 对于此类事件, HTTP_REFERRER 始终设置为您自己的域名."
+
+#: admin/wp-security-spam-menu.php:180
+msgid "A comment submitted by a spambot is done by directly calling the comments.php file, which usually means that the HTTP_REFERRER value is not your domain and often times empty."
+msgstr "由垃圾评论机器人提交的评论通过直接调用 comments.php 文件来完成, 这通常意味着 HTTP_REFERRER 值不是您的域名, 并且通常是空的."
+
+#: admin/wp-security-spam-menu.php:181
+msgid "This feature will check and block comment requests which are not referred by your domain thus greatly reducing your overall blog SPAM and PHP requests done by the server to process these comments."
+msgstr "此功能将检查和阻止未被您域名引用的评论请求, 从而大大减少服务器处理这些评论的整个博客的垃圾评论和 PHP 请求."
+
+#: admin/wp-security-spam-menu.php:248
+msgid "Nonce check failed for list SPAM comment IPs!"
+msgstr "随机检查列出垃圾评论的 IP 失败!"
+
+#: admin/wp-security-spam-menu.php:254
+msgid "You entered a non numeric value for the minimum SPAM comments per IP field. It has been set to the default value."
+msgstr "您为每个 IP 字段的最低垃圾评论输入了非数字值. 其将被设置为默认值."
+
+#: admin/wp-security-spam-menu.php:266
+msgid "Displaying results for IP addresses which have posted a minimum of %s SPAM comments"
+msgstr "显示已发布最少 %s 垃圾评论的 IP 地址的结果"
+
+#: admin/wp-security-spam-menu.php:370
+msgid "List SPAMMER IP Addresses"
+msgstr "垃圾评论发送者的 IP 地址列表"
+
+#: admin/wp-security-spam-menu.php:374
+msgid "This section displays a list of the IP addresses of the people or bots who have left SPAM comments on your site."
+msgstr "本部分显示在您的网站上留下垃圾评论的人员或机器人的 IP 地址列表."
+
+#: admin/wp-security-spam-menu.php:375
+msgid "This information can be handy for identifying the most persistent IP addresses or ranges used by spammers."
+msgstr "这些信息可以方便地识别垃圾评论发送者使用最持久的 IP 地址或范围."
+
+#: admin/wp-security-spam-menu.php:376
+msgid "By inspecting the IP address data coming from spammers you will be in a better position to determine which addresses or address ranges you should block by adding them to the permanent block list."
+msgstr "通过检查来自垃圾评论发送者的 IP 地址数据, 您将能够更好地确定您应该将哪些地址或地址范围添加到黑名单中以阻止这些地址或地址范围."
+
+#: admin/wp-security-spam-menu.php:377
+msgid ""
+"To add one or more of the IP addresses displayed in the table below to your blacklist, simply click the \"Block\" link for the individual row or select more than one address\n"
+"                            using the checkboxes and then choose the \"block\" option from the Bulk Actions dropdown list and click the \"Apply\" button."
+msgstr ""
+"要将下表中显示的一个或多个 IP 地址添加到您的黑名单, 只需点击单个行的 \"阻止\" 链接或 \n"
+"                            使用复选框选择多个地址, 然后从批量操作下拉列表中选择 \"阻止\" 选项并单击 \"应用\" 按钮."
+
+#: admin/wp-security-spam-menu.php:387
+msgid "Minimum number of SPAM comments per IP"
+msgstr "每个 IP 的垃圾评论最少数量"
+
+#: admin/wp-security-spam-menu.php:389
+msgid "This field allows you to list only those IP addresses which have been used to post X or more SPAM comments."
+msgstr "此字段允许您只列出已被用于发布 X 或更多的垃圾评论的 IP 地址."
+
+#: admin/wp-security-spam-menu.php:393
+msgid "Example 1: Setting this value to \"0\" or \"1\" will list ALL IP addresses which were used to submit SPAM comments."
+msgstr "示例 1: 将此值设置为 \"0\" 或 \"1\", 将列出用于提交垃圾评论的所有 IP 地址."
+
+#: admin/wp-security-spam-menu.php:394
+msgid "Example 2: Setting this value to \"5\" will list only those IP addresses which were used to submit 5 SPAM comments or more on your site."
+msgstr "示例 2: 将此值设置为 \"5\" 将会只列出用于在您的网站上提交 5次 或更多垃圾评论的 IP 地址."
+
+#: admin/wp-security-spam-menu.php:405
+msgid "SPAMMER IP Address Results"
+msgstr "垃圾评论发送者 IP 地址结果"
+
+#: admin/wp-security-spam-menu.php:411 classes/wp-security-utility.php:228
+msgid "The plugin has detected that you are using a Multi-Site WordPress installation."
+msgstr "该插件检测到您正在使用多站点 WordPress 安装."
+
+#: admin/wp-security-spam-menu.php:412
+msgid "Only the \"superadmin\" can block IP addresses from the main site."
+msgstr "只有 \"superadmin\" 可以阻止主站点的 IP 地址."
+
+#: admin/wp-security-spam-menu.php:413
+msgid "Take note of the IP addresses you want blocked and ask the superadmin to add these to the blacklist using the \"Blacklist Manager\" on the main site."
+msgstr "记下您想要阻止的 IP 地址, 并要求 superadmin 使用主站点上的 \"黑名单管理器\" 将这些 IP 地址添加到黑名单中."
+
+#: admin/wp-security-spam-menu.php:458
+msgid "BuddyPress SPAM Settings"
+msgstr "BuddyPress 垃圾评论设置"
+
+#: admin/wp-security-spam-menu.php:463
+msgid "Add Captcha To BuddyPress Registration Form"
+msgstr "添加验证码到 BuddyPress 注册表单"
+
+#: admin/wp-security-spam-menu.php:467
+msgid "This feature will add a simple math captcha field in the BuddyPress registration form."
+msgstr "此功能将在 BuddyPress 注册表单中添加一个简单的数学验证码字段."
+
+#: admin/wp-security-spam-menu.php:468
+msgid "Adding a captcha field in the registration form is a simple way of greatly reducing SPAM signups from bots without using .htaccess rules."
+msgstr "在注册表单中添加验证码字段是一种简单的方法, 可以在不使用 .htaccess 规则的情况下大大减少机器人进行注册并发布垃圾评论."
+
+#: admin/wp-security-spam-menu.php:478
+msgid "Enable Captcha On BuddyPress Registration Form"
+msgstr "在 BuddyPress 注册表单中启用验证码"
+
+#: admin/wp-security-spam-menu.php:481
+msgid "Check this if you want to insert a captcha field on the BuddyPress registration forms"
+msgstr "如果您想要在 BuddyPress 注册表单上插入验证码字段, 请勾选此项"
+
+#: admin/wp-security-spam-menu.php:490
+msgid "BuddyPress is not active! In order to use this feature you will need to have BuddyPress installed and activated."
+msgstr "BuddyPress 未启用! 为了使用此功能, 您需要安装并启用 BuddyPress."
+
+#: admin/wp-security-user-accounts-menu.php:92
+msgid "By default, WordPress sets the administrator username to \"admin\" at installation time."
+msgstr "默认情况下, WordPress 在安装时将管理员用户名设置为 \"admin\"."
+
+#: admin/wp-security-user-accounts-menu.php:93
+msgid "A lot of hackers try to take advantage of this information by attempting \"Brute Force Login Attacks\" where they repeatedly try to guess the password by using \"admin\" for username."
+msgstr "许多黑客尝试通过尝试 \"暴力登录攻击\" 来利用这些信息, 他们反复尝试使用 \"admin\" 作为用户名来猜测密码."
+
+#: admin/wp-security-user-accounts-menu.php:94
+msgid "From a security perspective, changing the default \"admin\" user name is one of the first and smartest things you should do on your site."
+msgstr "从安全角度看, 更改默认的 \"admin\" 用户名是您在网站上应该做的第一件也是最聪明的事情之一."
+
+#: admin/wp-security-user-accounts-menu.php:95
+msgid "This feature will allow you to change your default \"admin\" user name to a more secure name of your choosing."
+msgstr "此功能将允许您将默认的 \"admin\" 用户名更改为您选择的更安全的名称."
+
+#: admin/wp-security-user-accounts-menu.php:102
+msgid "List of Administrator Accounts"
+msgstr "管理员账号列表"
+
+#: admin/wp-security-user-accounts-menu.php:119
+msgid ""
+"Your site currently has an account which uses the default \"admin\" username. \n"
+"                It is highly recommended that you change this name to something else. \n"
+"                Use the following field to change the admin username."
+msgstr ""
+"您的网站目前有一个使用默认 \"admin\" 用户名的账号. \n"
+"                强烈建议您将此名称更改为其他名称. \n"
+"                使用以下字段更改管理员用户名."
+
+#: admin/wp-security-user-accounts-menu.php:127
+msgid "New Admin Username"
+msgstr "管理员新的用户名"
+
+#: admin/wp-security-user-accounts-menu.php:129
+msgid "Choose a new username for admin."
+msgstr "为管理员选择一个新的用户名."
+
+#: admin/wp-security-user-accounts-menu.php:135
+msgid "NOTE: If you are currently logged in as \"admin\" you will be automatically logged out after changing your username and will be required to log back in."
+msgstr "注意: 如果您当前以 \"admin\" 身份登录, 您将在更改用户名后自动注销, 并且需要重新登录."
+
+#: admin/wp-security-user-accounts-menu.php:142
+msgid "No action required! "
+msgstr "不需要任何操作! "
+
+#: admin/wp-security-user-accounts-menu.php:144
+msgid "Your site does not have any account which uses the default \"admin\" username. "
+msgstr "您的网站没有任何使用默认 \"admin\" 用户名的账号. "
+
+#: admin/wp-security-user-accounts-menu.php:145
+msgid "This is good security practice."
+msgstr "这是很好的安全措施."
+
+#: admin/wp-security-user-accounts-menu.php:157
+msgid "Display Name Security"
+msgstr "显示名称安全"
+
+#: admin/wp-security-user-accounts-menu.php:160
+msgid "When you submit a post or answer a comment, WordPress will usually display your \"nickname\"."
+msgstr "当您提交文章或回复评论时, WordPress 通常会显示您的 \"昵称\"."
+
+#: admin/wp-security-user-accounts-menu.php:161
+msgid "By default the nickname is set to the login (or user) name of your account."
+msgstr "默认情况下, 昵称设置为您账号的登录名 (或用户名)."
+
+#: admin/wp-security-user-accounts-menu.php:162
+msgid "From a security perspective, leaving your nickname the same as your user name is bad practice because it gives a hacker at least half of your account's login credentials."
+msgstr "从安全角度来看, 将您的昵称与您的用户名保持一致是不好的做法, 因为它至少让黑客有一半的登录凭证."
+
+#: admin/wp-security-user-accounts-menu.php:163
+msgid "Therefore to further tighten your site's security you are advised to change your <strong>nickname</strong> and <strong>Display name</strong> to be different from your <strong>Username</strong>."
+msgstr "因此, 为了进一步加强网站的安全性, 建议您将 <strong>昵称</strong> 和 <strong>显示名称</strong> 更改为与 <strong>用户名</strong> 不同."
+
+#: admin/wp-security-user-accounts-menu.php:169
+msgid "Modify Accounts With Identical Login Name & Display Name"
+msgstr "修改使用相同的登录名和显示名称账号"
+
+#: admin/wp-security-user-accounts-menu.php:178
+msgid "Your site currently has the following accounts which have an identical login name and display name."
+msgstr "您的网站目前拥有以下拥有相同登录名和显示名称的账号."
+
+#: admin/wp-security-user-accounts-menu.php:179
+msgid "Click on the link to edit the settings of that particular user account"
+msgstr "点击链接编辑该特定用户账号的设置"
+
+#: admin/wp-security-user-accounts-menu.php:194
+msgid "No action required."
+msgstr "不需要任何操作."
+
+#: admin/wp-security-user-accounts-menu.php:195
+msgid "Your site does not have a user account where the display name is identical to the username."
+msgstr "您的网站没有显示名称与用户名相同的用户账号."
+
+#: admin/wp-security-user-accounts-menu.php:209
+msgid "Poor password selection is one of the most common weak points of many sites and is usually the first thing a hacker will try to exploit when attempting to break into your site."
+msgstr "糟糕的密码选择是许多网站最常见的弱点之一, 通常是黑客尝试进入您的网站时尝试利用的第一件事."
+
+#: admin/wp-security-user-accounts-menu.php:210
+msgid "Many people fall into the trap of using a simple word or series of numbers as their password. Such a predictable and simple password would take a competent hacker merely minutes to guess your password by using a simple script which cycles through the easy and most common combinations."
+msgstr "许多人陷入使用一个简单的字或一系列数字作为密码的陷阱. 这种可预测的简单密码只需几分钟时间就可以通过使用简单的脚本来猜测到您的密码, 该脚本可以通过简单和最常见的组合循环使用."
+
+#: admin/wp-security-user-accounts-menu.php:211
+msgid "The longer and more complex your password is the harder it is for hackers to \"crack\" because more complex passwords require much greater computing power and time."
+msgstr "密码越长越复杂, 黑客就越难 \"破解\", 因为更复杂的密码需要更大的计算能力和时间."
+
+#: admin/wp-security-user-accounts-menu.php:212
+msgid "This section contains a useful password strength tool which you can use to check whether your password is sufficiently strong enough."
+msgstr "本节包含一个有用的密码强度工具, 您可以使用它来检查您的密码是否足够强大."
+
+#: admin/wp-security-user-accounts-menu.php:222
+msgid "Start typing a password."
+msgstr "开始输入密码."
+
+#: admin/wp-security-user-accounts-menu.php:225
+msgid "It would take a desktop PC approximately"
+msgstr "一台桌面 PC 大约需要"
+
+#: admin/wp-security-user-accounts-menu.php:226
+msgid "1 sec"
+msgstr "1 秒"
+
+#: admin/wp-security-user-accounts-menu.php:226
+msgid "to crack your password!"
+msgstr "破解您的密码!"
+
+#: admin/wp-security-user-accounts-menu.php:247
+msgid "Nonce check failed on admin username change operation!"
+msgstr "随机检查在管理员用户名更改操作失败!"
+
+#: admin/wp-security-user-accounts-menu.php:254
+msgid "Username "
+msgstr "用户名 "
+
+#: admin/wp-security-user-accounts-menu.php:254
+msgid " already exists. Please enter another value. "
+msgstr " 已经存在. 请输入另一个值. "
+
+#: admin/wp-security-user-accounts-menu.php:271
+msgid "The database update operation of the user account failed!"
+msgstr "用户账号的数据库更新操作失败!"
+
+#: admin/wp-security-user-accounts-menu.php:300
+msgid "You entered an invalid username. Please enter another value. "
+msgstr "您输入了一个无效的用户名. 请输入另一个值. "
+
+#: admin/wp-security-user-accounts-menu.php:304
+msgid "Please enter a value for your username. "
+msgstr "请为您的用户名输入一个值. "
+
+#: admin/wp-security-user-accounts-menu.php:331
+msgid "Account Login Name"
+msgstr "账号登录名"
+
+#: admin/wp-security-user-login-menu.php:31
+#: admin/wp-security-user-login-menu.php:567
+msgid "Account Activity Logs"
+msgstr "账号活动日志"
+
+#: admin/wp-security-user-login-menu.php:100
+msgid "You entered a non numeric value for the max login attempts field. It has been set to the default value."
+msgstr "您为最大登录尝试字段输入了非数字值. 其将被设置为默认值."
+
+#: admin/wp-security-user-login-menu.php:107
+msgid "You entered a non numeric value for the login retry time period field. It has been set to the default value."
+msgstr "您为登录重试时间段字段输入了非数字值. 其将被设置为默认值."
+
+#: admin/wp-security-user-login-menu.php:234
+msgid "One of the ways hackers try to compromise sites is via a "
+msgstr "黑客尝试破坏网站的方式之一是通过 "
+
+#: admin/wp-security-user-login-menu.php:234
+msgid "Brute Force Login Attack"
+msgstr "暴力登录攻击"
+
+#: admin/wp-security-user-login-menu.php:234
+msgid "This is where attackers use repeated login attempts until they guess the password."
+msgstr "这就是攻击者使用重复的登录尝试直到他们猜到密码的地方."
+
+#: admin/wp-security-user-login-menu.php:235
+msgid "Apart from choosing strong passwords, monitoring and blocking IP addresses which are involved in repeated login failures in a short period of time is a very effective way to stop these types of attacks."
+msgstr "除了选择强密码之外, 在短时间内监控和阻止重复登录失败所涉及的 IP 地址是阻止这些类型攻击的一种非常有效的方法."
+
+#: admin/wp-security-user-login-menu.php:236
+msgid "You may also want to checkout our %s feature for another secure way to protect against these types of attacks."
+msgstr "您可能还想要查看我们的 %s 功能, 以获取另一种安全的方式来防范这些类型的攻击."
+
+#: admin/wp-security-user-login-menu.php:255
+msgid "Check this if you want to enable the login lockdown feature and apply the settings below"
+msgstr "如果您想启用登录锁定功能并应用下面的设置, 请勾选此项"
+
+#: admin/wp-security-user-login-menu.php:262
+msgid "Check this if you want to allow users to generate an automated unlock request link which will unlock their account"
+msgstr "如果您希望允许用户生成解锁其账号的自动解锁请求链接, 请勾选此项"
+
+#: admin/wp-security-user-login-menu.php:266
+msgid "Max Login Attempts"
+msgstr "最大登录尝试次数"
+
+#: admin/wp-security-user-login-menu.php:268
+msgid "Set the value for the maximum login retries before IP address is locked out"
+msgstr "在 IP 地址被锁定之前设置最大登录重试次数的值"
+
+#: admin/wp-security-user-login-menu.php:272
+msgid "Login Retry Time Period (min)"
+msgstr "登录重试时间段 (分钟)"
+
+#: admin/wp-security-user-login-menu.php:274
+msgid "If the maximum number of failed login attempts for a particular IP address occur within this time period the plugin will lock out that address"
+msgstr "如果在此时间段内, 指定的 IP 地址达到最大失败登录尝试次数时, 插件将锁定该地址"
+
+#: admin/wp-security-user-login-menu.php:278
+msgid "Time Length of Lockout (min)"
+msgstr "锁定的时间长度 (分钟)"
+
+#: admin/wp-security-user-login-menu.php:280
+msgid "Set the length of time for which a particular IP address will be prevented from logging in"
+msgstr "设置阻止指定 IP 地址登录的时间长度"
+
+#: admin/wp-security-user-login-menu.php:284
+msgid "Display Generic Error Message"
+msgstr "显示通用错误信息"
+
+#: admin/wp-security-user-login-menu.php:287
+msgid "Check this if you want to show a generic error message when a login attempt fails"
+msgstr "如果您想在登录尝试失败时显示通用错误信息, 请勾选此项"
+
+#: admin/wp-security-user-login-menu.php:294
+msgid "Check this if you want to instantly lockout login attempts with usernames which do not exist on your system"
+msgstr "如果您想立即锁定系统中不存在的用户名登录尝试, 请勾选此项"
+
+#: admin/wp-security-user-login-menu.php:314
+msgid "Check this if you want to receive an email when someone has been locked out due to maximum failed login attempts"
+msgstr "如果您希望通过邮件收到因登录失败而导致锁定的信息, 请勾选此项"
+
+#: admin/wp-security-user-login-menu.php:324
+msgid "Currently Locked Out IP Address Ranges"
+msgstr "当前已锁定的 IP 地址范围"
+
+#: admin/wp-security-user-login-menu.php:329
+msgid "To see a list of all locked IP addresses and ranges go to the %s tab in the dashboard menu."
+msgstr "要查看所有已锁定的 IP 地址和范围的列表, 请转至仪表盘菜单中的 %s 选项卡."
+
+#: admin/wp-security-user-login-menu.php:382
+msgid "Nonce check failed for delete all failed login records operation!"
+msgstr "随机检查删除所有失败的登录记录操作失败!"
+
+#: admin/wp-security-user-login-menu.php:391
+msgid "User Login Feature - Delete all failed login records operation failed!"
+msgstr "用户登录功能 - 删除所有失败的登录记录操作失败!"
+
+#: admin/wp-security-user-login-menu.php:395
+msgid "All records from the Failed Logins table were deleted successfully!"
+msgstr "失败登录表中的所有记录都已成功删除!"
+
+#: admin/wp-security-firewall-menu.php:883
+msgid "If you want to temporarily block or blacklist an IP address, simply click the \"Temp Block\" or \"Blacklist IP\" link for the applicable IP entry in the \"404 Event Logs\" table below."
+msgstr "如果您想将 IP 地址临时阻止或添加黑名单, 只需在下面的\"404 事件日志\" 表中单击适用 IP 条目的 \"临时阻止\" 或 \"IP 黑名单\" 链接即可."
+
+#: admin/wp-security-firewall-menu.php:950
+msgid "404 Lockout Redirect URL"
+msgstr "404 锁定重定向 URL"
+
+#: admin/wp-security-settings-menu.php:275
+msgid "htaccess backup failed."
+msgstr "htaccess 备份失败。"
+
+#: admin/wp-security-dashboard-menu.php:169
+#: admin/wp-security-dashboard-menu.php:179
+#: admin/wp-security-dashboard-menu.php:188
+msgid "On"
+msgstr "开启"
+
+#: admin/wp-security-dashboard-menu.php:171
+#: admin/wp-security-dashboard-menu.php:181
+#: admin/wp-security-dashboard-menu.php:190
+msgid "Off"
+msgstr "关闭"
+
+#: admin/wp-security-dashboard-menu.php:138
+msgid " MB"
+msgstr " MB"
+
+#: admin/wp-security-dashboard-menu.php:144
+#: admin/wp-security-dashboard-menu.php:153
+#: admin/wp-security-dashboard-menu.php:162
+#: admin/wp-security-dashboard-menu.php:200
+msgid "N/A"
+msgstr "不可用/不适用"
+
+#: admin/wp-security-dashboard-menu.php:204
+msgid "Seconds"
+msgstr "秒"
+
+#: admin/wp-security-dashboard-menu.php:221
+#: admin/wp-security-filesystem-menu.php:140
+#: admin/wp-security-filesystem-menu.php:159
+msgid "Name"
+msgstr "名称"
+
+#: admin/wp-security-dashboard-menu.php:223
+msgid "Plugin URL"
+msgstr "插件网址"
+
+#: admin/wp-security-dashboard-menu.php:268
+msgid "Currently Locked Out IP Addresses and Ranges"
+msgstr "当前被锁定的 IP 地址和范围"
+
+#: admin/wp-security-dashboard-menu.php:364
+msgid "--Select a file--"
+msgstr "--选择一个文件--"
+
+#: admin/wp-security-dashboard-menu.php:380
+msgid "View Logs"
+msgstr "查看日志"
+
+#: admin/wp-security-dashboard-menu.php:422
+msgid "Log file is empty!"
+msgstr "日志文件为空!"
+
+#: admin/wp-security-database-menu.php:29
+#: admin/wp-security-database-menu.php:34
+#: classes/grade-system/wp-security-feature-item-manager.php:67
+msgid "DB Backup"
+msgstr "数据备份"
+
+#: admin/wp-security-database-menu.php:33
+#: classes/grade-system/wp-security-feature-item-manager.php:65
+msgid "DB Prefix"
+msgstr "数据库前缀"
+
+#: admin/wp-security-database-menu.php:136
+msgid "Change Database Prefix"
+msgstr "更改数据库前缀"
+
+#: admin/wp-security-database-menu.php:148
+msgid "DB Prefix Options"
+msgstr "数据库前缀选项"
+
+#: admin/wp-security-database-menu.php:191
+msgid "Change DB Prefix"
+msgstr "更改数据库前缀"
+
+#: admin/wp-security-database-menu.php:302
+msgid "Manual Backup"
+msgstr "手动备份"
+
+#: admin/wp-security-database-menu.php:309
+msgid "Create DB Backup Now"
+msgstr "立即创建数据库备份"
+
+#: admin/wp-security-database-menu.php:313
+msgid "Automated Scheduled Backups"
+msgstr "自动定时备份"
+
+#: admin/wp-security-database-menu.php:325
+msgid "Enable Automated Scheduled Backups"
+msgstr "启用自动定时备份"
+
+#: admin/wp-security-database-menu.php:332
+msgid "Backup Time Interval"
+msgstr "备份时间间隔"
+
+#: admin/wp-security-database-menu.php:335
+#: admin/wp-security-filescan-menu.php:302
+msgid "Hours"
+msgstr "小时"
+
+#: admin/wp-security-database-menu.php:336
+#: admin/wp-security-filescan-menu.php:303
+msgid "Days"
+msgstr "天"
+
+#: admin/wp-security-database-menu.php:349
+msgid "Send Backup File Via Email"
+msgstr "通过邮件发送备份文件"
+
+#: admin/wp-security-filescan-menu.php:26
+#: classes/grade-system/wp-security-feature-item-manager.php:114
+msgid "File Change Detection"
+msgstr "文件更改检测"
+
+#: admin/wp-security-filescan-menu.php:254
+msgid "Manual File Change Detection Scan"
+msgstr "手动文件更改检测扫描"
+
+#: admin/wp-security-filescan-menu.php:263
+msgid "Perform Scan Now"
+msgstr "立即执行扫描"
+
+#: admin/wp-security-filescan-menu.php:267
+msgid "View Last Saved File Change Results"
+msgstr "查看上次保存的文件更改结果"
+
+#: admin/wp-security-filescan-menu.php:280
+msgid "File Change Detection Settings"
+msgstr "文件更改检测设置"
+
+#: admin/wp-security-filescan-menu.php:292
+msgid "Enable Automated File Change Detection Scan"
+msgstr "启用自动文件更改检测扫描"
+
+#: admin/wp-security-filescan-menu.php:299
+msgid "Scan Time Interval"
+msgstr "扫描时间间隔"
+
+#: admin/wp-security-filescan-menu.php:306
+msgid "Set the value for how often you would like a scan to occur"
+msgstr "设置您希望扫描发生的频率的值"
+
+#: admin/wp-security-filescan-menu.php:310
+msgid "File Types To Ignore"
+msgstr "要忽略的文件类型"
+
+#: admin/wp-security-filescan-menu.php:327
+msgid "Files/Directories To Ignore"
+msgstr "要忽略的文件/目录"
+
+#: admin/wp-security-filescan-menu.php:343
+msgid "Send Email When Change Detected"
+msgstr "在检测到更改时发送邮件"
+
+#: admin/wp-security-filesystem-menu.php:325
+msgid "Save Setting"
+msgstr "保存设置"
+
+#: admin/wp-security-filesystem-menu.php:349
+msgid "System Logs"
+msgstr "系统日志"
+
+#: admin/wp-security-firewall-menu.php:28
+msgid "Basic Firewall Rules"
+msgstr "基本防火墙规则"
+
+#: admin/wp-security-firewall-menu.php:29
+msgid "Additional Firewall Rules"
+msgstr "其他防火墙规则"
+
+#: admin/wp-security-firewall-menu.php:31
+msgid "Internet Bots"
+msgstr "网络机器人"
+
+#: admin/wp-security-firewall-menu.php:32
+msgid "Prevent Hotlinks"
+msgstr "防止热链接"
+
+#: admin/wp-security-firewall-menu.php:33
+msgid "404 Detection"
+msgstr "404检测"
+
+#: admin/wp-security-firewall-menu.php:34
+msgid "Custom Rules"
+msgstr "自定义规则"
+
+#: admin/wp-security-user-registration-menu.php:102
+#: admin/wp-security-spam-menu.php:110 admin/wp-security-spam-menu.php:454
+#: admin/wp-security-spam-menu.php:516 admin/wp-security-firewall-menu.php:120
+#: admin/wp-security-firewall-menu.php:742
+msgid "Settings were successfully saved"
+msgstr "设置已成功保存"
+
+#: admin/wp-security-firewall-menu.php:129
+#: admin/wp-security-firewall-menu.php:563
+msgid "Firewall Settings"
+msgstr "防火墙设置"
+
+#: admin/wp-security-firewall-menu.php:161
+msgid "Basic Firewall Settings"
+msgstr "基本防火墙设置"
+
+#: admin/wp-security-firewall-menu.php:169
+msgid "Enable Basic Firewall Protection"
+msgstr "启用基本防火墙保护"
+
+#: admin/wp-security-firewall-menu.php:172
+msgid "Check this if you want to apply basic firewall protection to your site."
+msgstr "如果你想对网站采用基本防火墙保护，请选中此项。"
+
+#: admin/wp-security-firewall-menu.php:177
+msgid "1) Protect your htaccess file by denying access to it."
+msgstr "1）通过拒绝访问，保护你的 htaccess 文件。"
+
+#: admin/wp-security-firewall-menu.php:178
+msgid "2) Disable the server signature."
+msgstr "2) 禁用服务器签名."
+
+#: admin/wp-security-firewall-menu.php:179
+msgid "3) Limit file upload size (10MB)."
+msgstr "3) 限制文件上传大小 (10MB)."
+
+#: admin/wp-security-firewall-menu.php:180
+msgid "4) Protect your wp-config.php file by denying access to it."
+msgstr "4）通过拒绝访问，保护你的 wp-config.php 文件。"
+
+#: admin/wp-security-firewall-menu.php:347
+msgid "Additional Firewall Protection"
+msgstr "其他防火墙保护"
+
+#: admin/wp-security-firewall-menu.php:480
+#: classes/grade-system/wp-security-feature-item-manager.php:100
+msgid "Advanced Character String Filter"
+msgstr "高级字符文本过滤"
+
+#: admin/wp-security-firewall-menu.php:490
+msgid "Enable Advanced Character String Filter"
+msgstr "开启高级字符文本过滤"
+
+#: admin/wp-security-firewall-menu.php:660
+msgid "Internet Bot Settings"
+msgstr "因特网机器人设置"
+
+#: admin/wp-security-filesystem-menu.php:360
+msgid "View System Logs"
+msgstr "查看系统日志"
+
+#: admin/wp-security-filesystem-menu.php:298
+msgid "WordPress Files"
+msgstr "WordPress 文件"
+
+#: admin/wp-security-firewall-menu.php:451
+msgid "Bad Query Strings"
+msgstr "坏查询字符串"
+
+#: admin/wp-security-filesystem-menu.php:107
+msgid "File Permissions Scan"
+msgstr "文件权限扫描"
+
+#: admin/wp-security-filescan-menu.php:422
+#: admin/wp-security-filescan-menu.php:443
+#: admin/wp-security-filescan-menu.php:467
+msgid "File Modified"
+msgstr "文件已修改"
+
+#: admin/wp-security-filesystem-menu.php:141
+#: admin/wp-security-filesystem-menu.php:160
+msgid "File/Folder"
+msgstr "文件/文件夹"
+
+#: admin/wp-security-database-menu.php:185
+msgid "OR"
+msgstr "或"
+
+#: admin/wp-security-filescan-menu.php:27
+msgid "Malware Scan"
+msgstr "恶意软件扫描"
+
+#: admin/wp-security-firewall-menu.php:402
+#: classes/grade-system/wp-security-feature-item-manager.php:97
+msgid "Disable Trace and Track"
+msgstr "禁用跟踪和追踪 "
+
+#: admin/wp-security-firewall-menu.php:687
+#: admin/wp-security-firewall-menu.php:697
+#: classes/grade-system/wp-security-feature-item-manager.php:102
+msgid "Block Fake Googlebots"
+msgstr "阻止假冒 Googlebots"
+
+#: admin/wp-security-firewall-menu.php:30
+msgid "6G Blacklist Firewall Rules"
+msgstr "6g 黑名单防火墙规则"
+
+#: admin/wp-security-firewall-menu.php:363
+msgid "Listing of Directory Contents"
+msgstr "列出目录内容"
+
+#: admin/wp-security-filesystem-menu.php:143
+#: admin/wp-security-filesystem-menu.php:162
+msgid "Recommended Permissions"
+msgstr "推荐权限"
+
+#: admin/wp-security-firewall-menu.php:577
+msgid "6G Blacklist/Firewall Settings"
+msgstr "6G 黑名单/防火墙设置"
+
+#: admin/wp-security-firewall-menu.php:261
+msgid "Save Basic Firewall Settings"
+msgstr "保存基本防火墙设置"
+
+#: admin/wp-security-firewall-menu.php:461
+msgid "Deny Bad Query Strings"
+msgstr "拒绝坏查询字符串 "
+
+#: admin/wp-security-filesystem-menu.php:29
+msgid "Host System Logs"
+msgstr "主机系统日志"
+
+#: admin/wp-security-filesystem-menu.php:26
+#: classes/grade-system/wp-security-feature-item-manager.php:71
+msgid "File Permissions"
+msgstr "文件权限"
+
+#: admin/wp-security-firewall-menu.php:713
+msgid "Save Internet Bot Settings"
+msgstr "保存网络机器人设置"
+
+#: admin/wp-security-dashboard-menu.php:135
+msgid "PHP Version"
+msgstr "PHP 版本"
+
+#: admin/wp-security-dashboard-menu.php:137
+msgid "PHP Memory Usage"
+msgstr "PHP 内存使用情况"
+
+#: admin/wp-security-dashboard-menu.php:147
+msgid "PHP Memory Limit"
+msgstr "PHP 内存限制"
+
+#: admin/wp-security-dashboard-menu.php:156
+msgid "PHP Max Upload Size"
+msgstr "PHP 最大上传大小"
+
+#: admin/wp-security-dashboard-menu.php:165
+msgid "PHP Max Post Size"
+msgstr "PHP 最大文章大小"
+
+#: admin/wp-security-dashboard-menu.php:174
+msgid "PHP Allow URL fopen"
+msgstr "PHP 允许网址打开外部文件"
+
+#: admin/wp-security-dashboard-menu.php:184
+msgid "PHP Allow URL Include"
+msgstr "PHP 允许网址包含"
+
+#: admin/wp-security-dashboard-menu.php:193
+msgid "PHP Display Errors"
+msgstr "PHP 显示错误"
+
+#: admin/wp-security-dashboard-menu.php:203
+msgid "PHP Max Script Execution Time"
+msgstr "PHP 最大脚本执行时间"
+
+#: admin/wp-security-dashboard-menu.php:210
+msgid "Active Plugins"
+msgstr "已启用插件"
+
+#: admin/wp-security-dashboard-menu.php:352
+msgid "View Logs for All In WP Security & Firewall Plugin"
+msgstr "查看一站式 WP 安全 & 防火墙插件日志"
+
+#: admin/wp-security-dashboard-menu.php:375
+msgid "Select one of the log files to view the contents"
+msgstr "选择其中一个日志文件来查看内容"
+
+#: admin/wp-security-dashboard-menu.php:408
+msgid "Log File Contents For"
+msgstr "日志文件内容为"
+
+#: admin/wp-security-database-menu.php:97
+msgid "Nonce check failed for DB prefix change operation!"
+msgstr "随机检查数据库前缀更改操作失败!"
+
+#: admin/wp-security-database-menu.php:105
+msgid "The plugin has detected that it cannot write to the wp-config.php file. This feature can only be used if the plugin can successfully write to the wp-config.php file."
+msgstr "该插件检测到其无法写入 wp-config.php 文件. 只有插件可以成功写入 wp-config.php 文件时才能使用此功能."
+
+#: admin/wp-security-database-menu.php:118
+msgid "Please enter a value for the DB prefix."
+msgstr "请为数据库前缀输入一个值."
+
+#: admin/wp-security-database-menu.php:127
+msgid "<strong>ERROR</strong>: The table prefix can only contain numbers, letters, and underscores."
+msgstr "<strong>错误</strong>: 数据表前缀只能包含数字, 字母和下划线."
+
+#: admin/wp-security-database-menu.php:139
+msgid "Your WordPress DB is the most important asset of your website because it contains a lot of your site's precious information."
+msgstr "您的 WordPress 数据库是您网站最重要的资产, 因为其包含了大量网站的宝贵信息."
+
+#: admin/wp-security-database-menu.php:140
+msgid "The DB is also a target for hackers via methods such as SQL injections and malicious and automated code which targets certain tables."
+msgstr "数据库也是黑客的目标, 例如通过 SQL 注入和针对特定数据表的恶意和自动代码等方法."
+
+#: admin/wp-security-database-menu.php:141
+msgid "One way to add a layer of protection for your DB is to change the default WordPress table prefix from \"wp_\" to something else which will be difficult for hackers to guess."
+msgstr "为数据库添加一层保护的一种方法是将默认的 WordPress 数据表前缀从 \"wp_\" 更改为黑客难以猜测的其他内容."
+
+#: admin/wp-security-database-menu.php:142
+msgid "This feature allows you to easily change the prefix to a value of your choice or to a random value set by this plugin."
+msgstr "此功能可让您轻松地将前缀更改为您选择的值或由此插件设置的随机值."
+
+#: admin/wp-security-database-menu.php:159
+msgid "It is recommended that you perform a %s before using this feature"
+msgstr "建议您在使用此功能之前执行 %s"
+
+#: admin/wp-security-database-menu.php:168
+msgid "Current DB Table Prefix"
+msgstr "当前数据库数据表前缀"
+
+#: admin/wp-security-database-menu.php:174
+msgid ""
+"Your site is currently using the default WordPress DB prefix value of \"wp_\". \n"
+"                            To increase your site's security you should consider changing the DB prefix value to another value."
+msgstr ""
+"您网站目前正在使用默认的 WordPress 数据库前缀值 \"wp_\". \n"
+"                            为了提高网站的安全性, 您应该考虑将数据库前缀值更改为另一个值."
+
+#: admin/wp-security-database-menu.php:181
+msgid "Generate New DB Table Prefix"
+msgstr "生成新的数据库数据表前缀"
+
+#: admin/wp-security-database-menu.php:184
+msgid "Check this if you want the plugin to generate a random 6 character string for the table prefix"
+msgstr "如果您希望插件为数据表前缀生成随机的 6 个字符的字符串, 请勾选此项"
+
+#: admin/wp-security-database-menu.php:187
+msgid "Choose your own DB prefix by specifying a string which contains letters and/or numbers and/or underscores. Example: xyz_"
+msgstr "通过指定包含字母和/或数字和/或下划线的字符串来选择您自己的数据库前缀. 例如: xyz_"
+
+#: admin/wp-security-database-menu.php:212
+#: admin/wp-security-filesystem-menu.php:87
+msgid "Nonce check failed for manual DB backup operation!"
+msgstr "随机检查手动数据库备份操作失败!"
+
+#: admin/wp-security-database-menu.php:229
+msgid "DB Backup was successfully completed! You will receive the backup file via email if you have enabled \"Send Backup File Via Email\", otherwise you can retrieve it via FTP from the following directory:"
+msgstr "数据库备份已成功完成! 如果你已经启用了 \"通过邮件发送备份文件\", 您将通过邮件接收到的备份文件, 否则您可以通过 FTP 从以下目录可检索到剩余备份文件:"
+
+#: admin/wp-security-database-menu.php:231
+msgid "Your DB Backup File location: "
+msgstr "您数据库备份文件的位置: "
+
+#: admin/wp-security-database-menu.php:238
+msgid "DB Backup failed. Please check the permissions of the backup directory."
+msgstr "数据库备份失败. 请检查备份目录的权限."
+
+#: admin/wp-security-database-menu.php:255
+#: admin/wp-security-filescan-menu.php:136
+msgid "You entered a non numeric value for the \"backup time interval\" field. It has been set to the default value."
+msgstr "您为 \"备份时间间隔\" 字段输入了一个非数字值. 其将被设置为默认值."
+
+#: admin/wp-security-database-menu.php:262
+msgid "You entered a non numeric value for the \"number of backup files to keep\" field. It has been set to the default value."
+msgstr "您为 \"保留的备份文件份数\" 字段输入了非数字值. 其将被设置为默认值."
+
+#: admin/wp-security-database-menu.php:269
+#: admin/wp-security-user-login-menu.php:121
+msgid "You have entered an incorrect email address format. It has been set to your WordPress admin email as default."
+msgstr "您输入的邮箱地址格式不正确. 其将被设置为默认的 WordPress 管理员的邮箱地址."
+
+#: admin/wp-security-database-menu.php:307
+msgid "To create a new DB backup just click on the button below."
+msgstr "要创建一个新的数据库备份, 只需点击下面的按钮."
+
+#: admin/wp-security-database-menu.php:328
+msgid "Check this if you want the system to automatically generate backups periodically based on the settings below"
+msgstr "如果您希望系统根据以下设置定时自动生成备份, 请勾选此项"
+
+#: admin/wp-security-database-menu.php:337
+#: admin/wp-security-filescan-menu.php:304
+msgid "Weeks"
+msgstr "星期"
+
+#: admin/wp-security-database-menu.php:339
+msgid "Set the value for how often you would like an automated backup to occur"
+msgstr "设置您希望进行自动备份的频率值"
+
+#: admin/wp-security-database-menu.php:343
+msgid "Number of Backup Files To Keep"
+msgstr "要保留的备份文件份数"
+
+#: admin/wp-security-database-menu.php:345
+msgid "Thie field allows you to choose the number of backup files you would like to keep in the backup directory"
+msgstr "该字段允许您选择要保留在备份目录中的备份文件的份数"
+
+#: admin/wp-security-database-menu.php:352
+msgid "Check this if you want the system to email you the backup file after a DB backup has been performed"
+msgstr "如果希望系统在执行数据库备份后通过邮件将备份文件发送给您, 请勾选此项"
+
+#: admin/wp-security-database-menu.php:354
+#: admin/wp-security-user-login-menu.php:316
+msgid "Enter an email address"
+msgstr "输入邮箱地址"
+
+#: admin/wp-security-database-menu.php:385
+msgid "Error - Could not get tables or no tables found!"
+msgstr "错误 - 无法获取数据表或找不到数据表!"
+
+#: admin/wp-security-database-menu.php:389
+msgid "Starting DB prefix change operations....."
+msgstr "正在启动数据库前缀更改操作....."
+
+#: admin/wp-security-database-menu.php:391
+msgid "Your WordPress system has a total of %s tables and your new DB prefix will be: %s"
+msgstr "你的 WordPress 系统总共有 %s 个数据表, 你的新数据库前缀是: %s"
+
+#: admin/wp-security-database-menu.php:397 classes/wp-security-utility.php:282
+msgid "Failed to make a backup of the wp-config.php file. This operation will not go ahead."
+msgstr "无法对 wp-config.php 文件进行备份. 此操作不会继续."
+
+#: admin/wp-security-database-menu.php:401
+msgid "A backup copy of your wp-config.php file was created successfully!"
+msgstr "您的 wp-config.php 文件的备份副本已成功创建!"
+
+#: admin/wp-security-database-menu.php:428
+msgid "%s table name update failed"
+msgstr "%s 数据表名更新失败"
+
+#: admin/wp-security-database-menu.php:440
+msgid "Please change the prefix manually for the above tables to: %s"
+msgstr "请手动将上述数据表的前缀更改为: %s"
+
+#: admin/wp-security-database-menu.php:443
+msgid "%s tables had their prefix updated successfully!"
+msgstr "%s 数据表的前缀已成功更新!"
+
+#: admin/wp-security-database-menu.php:462
+msgid "wp-config.php file was updated successfully!"
+msgstr "wp-config.php 文件已成功更新!"
+
+#: admin/wp-security-database-menu.php:465
+msgid ""
+"The \"wp-config.php\" file was not able to be modified. Please modify this file manually using your favourite editor and search \n"
+"                    for variable \"$table_prefix\" and assign the following value to that variable: %s"
+msgstr ""
+"\"wp-config.php\" 文件无法修改. 请使用您最喜爱的编辑器手动修改此文件并进行搜索 \n"
+"                    变量 \"$table_prefix\", 并将以下值赋予该变量: %s"
+
+#: admin/wp-security-database-menu.php:477
+#: admin/wp-security-database-menu.php:496
+msgid "Update of table %s failed: unable to change %s to %s"
+msgstr "更新数据表 %s 失败: 无法将 %s 更改为 %s"
+
+#: admin/wp-security-database-menu.php:481
+msgid "The options table records which had references to the old DB prefix were updated successfully!"
+msgstr "选项数据表记录引用了旧数据库前缀已成功更新!"
+
+#: admin/wp-security-database-menu.php:500
+msgid "The %s table records which had references to the old DB prefix were updated successfully!"
+msgstr "引用了旧数据库前缀的 %s 数据表记录已成功更新!"
+
+#: admin/wp-security-database-menu.php:528
+msgid "Error updating user_meta table where new meta_key = %s, old meta_key = %s and user_id = %s."
+msgstr "更新 user_meta 数据表时出错, 其中新的 meta_key = %s, 旧的 meta_key = %s 和 user_id = %s."
+
+#: admin/wp-security-database-menu.php:533
+msgid "The usermeta table records which had references to the old DB prefix were updated successfully!"
+msgstr "包含旧数据库前缀引用的 usermeta 数据表记录已成功更新!"
+
+#: admin/wp-security-database-menu.php:535
+msgid "DB prefix change tasks have been completed."
+msgstr "数据库前缀更改任务已完成."
+
+#: admin/wp-security-filescan-menu.php:96
+msgid "There have been no file changes since the last scan."
+msgstr "自上次扫描以来没有任何文件更改."
+
+#: admin/wp-security-filescan-menu.php:106
+msgid "Nonce check failed for manual file change detection scan operation!"
+msgstr "随机检查手动文件更改检测扫描操作失败!"
+
+#: admin/wp-security-filescan-menu.php:113
+msgid "The plugin has detected that this is your first file change detection scan. The file details from this scan will be used to detect file changes for future scans!"
+msgstr "该插件检测到, 这是您第一次进行文件更改检测扫描. 此次扫描的详细信息将用于比对未来执行的检测扫描!"
+
+#: admin/wp-security-filescan-menu.php:115
+msgid "Scan Complete - There were no file changes detected!"
+msgstr "扫描完成 - 没有检测到文件被更改!"
+
+#: admin/wp-security-filescan-menu.php:210
+msgid ""
+"NEW SCAN COMPLETED: The plugin has detected that you have made changes to the \"File Types To Ignore\" or \"Files To Ignore\" fields.\n"
+"                    In order to ensure that future scan results are accurate, the old scan data has been refreshed."
+msgstr ""
+"新的扫描已完成: 插件检测到您对 \"要忽略的文件类型\" 或 \"要忽略的文件\" 字段进行了更改.\n"
+"                    为了确保将来的扫描结果准确无误, 旧的扫描数据已被刷新."
+
+#: admin/wp-security-filescan-menu.php:220
+msgid "All In One WP Security & Firewall has detected that there was a change in your host's files."
+msgstr "All In One WP Security & Firewall 检测到您的主机文件发生了变化."
+
+#: admin/wp-security-filescan-menu.php:222
+msgid "View Scan Details & Clear This Message"
+msgstr "查看扫描详细信息 & 清除此信息"
+
+#: admin/wp-security-filescan-menu.php:231
+msgid "If given an opportunity hackers can insert their code or files into your system which they can then use to carry out malicious acts on your site."
+msgstr "如果有机会, 黑客可以将他们的代码或文件传送到您的系统中, 然后他们可以使用它们在您的网站上执行恶意行为."
+
+#: admin/wp-security-filescan-menu.php:232
+msgid "Being informed of any changes in your files can be a good way to quickly prevent a hacker from causing damage to your website."
+msgstr "了解您文件中的任何更改可能是快速防止黑客对您的网站造成损害的好方法."
+
+#: admin/wp-security-filescan-menu.php:233
+msgid "In general, WordPress core and plugin files and file types such as \".php\" or \".js\" should not change often and when they do, it is important that you are made aware when a change occurs and which file was affected."
+msgstr "在一般情况下, WordPress 的核心和插件文件以及诸如 \".php\" 或 \".js\" 之类的文件类型不应该经常更改, 并且当它们执行时, 知道何时发生更改以及哪个文件受到影响非常重要."
+
+#: admin/wp-security-filescan-menu.php:234
+msgid "The \"File Change Detection Feature\" will notify you of any file change which occurs on your system, including the addition and deletion of files by performing a regular automated or manual scan of your system's files."
+msgstr "\"文件更改检测功能\" 会通知您系统中发生的任何文件更改, 包括通过定期自动或手动扫描系统文件来添加和删除文件."
+
+#: admin/wp-security-filescan-menu.php:235
+msgid "This feature also allows you to exclude certain files or folders from the scan in cases where you know that they change often as part of their normal operation. (For example log files and certain caching plugin files may change often and hence you may choose to exclude such files from the file change detection scan)"
+msgstr "此功能还允许您在扫描中知道某些文件或文件夹经常作为正常操作的一部分进行更改的情况下, 将其从扫描中排除. (例如,日志文件和某些缓存插件文件可能会经常更改, 因此您可以选择从文件更改检测扫描中排除此类文件)"
+
+#: admin/wp-security-filescan-menu.php:260
+msgid "To perform a manual file change detection scan click on the button below."
+msgstr "要执行手动文件更改检测扫描, 请单击下面的按钮."
+
+#: admin/wp-security-filescan-menu.php:273
+msgid "Click the button below to view the saved file change results from the last scan."
+msgstr "点击下面的按钮查看上次扫描保存的文件更改结果."
+
+#: admin/wp-security-filescan-menu.php:276
+msgid "View Last File Change"
+msgstr "查看上次文件更改"
+
+#: admin/wp-security-filescan-menu.php:295
+msgid "Check this if you want the system to automatically/periodically scan your files to check for file changes based on the settings below"
+msgstr "如果您希望系统根据以下设置自动/定时扫描文件以检查文件更改, 请勾选此项"
+
+#: admin/wp-security-filescan-menu.php:313
+msgid "Enter each file type or extension on a new line which you wish to exclude from the file change detection scan."
+msgstr "在您希望从文件更改检测扫描中排除的新行上输入每个文件类型或扩展名."
+
+#: admin/wp-security-filescan-menu.php:317
+msgid "You can exclude file types from the scan which would not normally pose any security threat if they were changed. These can include things such as image files."
+msgstr "您可以从扫描中排除通常不会造成任何安全威胁的文件类型(如果它们已更改). 这些可以包括诸如图片之类的文件."
+
+#: admin/wp-security-filescan-menu.php:318
+msgid "Example: If you want the scanner to ignore files of type jpg, png, and bmp, then you would enter the following:"
+msgstr "示例: 如果您希望扫描器忽略 jpg, png 和 bmp 类型的文件,则应输入以下内容:"
+
+#: admin/wp-security-filescan-menu.php:319
+msgid "jpg"
+msgstr "jpg"
+
+#: admin/wp-security-filescan-menu.php:320
+msgid "png"
+msgstr "png"
+
+#: admin/wp-security-filescan-menu.php:321
+msgid "bmp"
+msgstr "bmp"
+
+#: admin/wp-security-filescan-menu.php:330
+msgid "Enter each file or directory on a new line which you wish to exclude from the file change detection scan."
+msgstr "在您希望从文件更改检测扫描中排除的新行上输入每个文件或目录."
+
+#: admin/wp-security-filescan-menu.php:334
+msgid "You can exclude specific files/directories from the scan which would not normally pose any security threat if they were changed. These can include things such as log files."
+msgstr "您可以从扫描中排除指定的文件/目录, 如果这些文件/目录发生更改, 通常不会造成任何安全威胁. 这些可以包括诸如日志之类的文件."
+
+#: admin/wp-security-filescan-menu.php:335
+msgid "Example: If you want the scanner to ignore certain files in different directories or whole directories, then you would enter the following:"
+msgstr "示例: 如果您希望扫描器忽略不同目录或整个目录中的某些文件, 则应输入以下内容:"
+
+#: admin/wp-security-filescan-menu.php:336
+msgid "cache/config/master.php"
+msgstr "cache/config/master.php"
+
+#: admin/wp-security-filescan-menu.php:337
+msgid "somedirectory"
+msgstr "somedirectory"
+
+#: admin/wp-security-filescan-menu.php:346
+msgid "Check this if you want the system to email you if a file change was detected"
+msgstr "如果您希望系统在检测到文件更改时向您发送邮件,请勾选此项"
+
+#: admin/wp-security-filescan-menu.php:367
+msgid "What is Malware?"
+msgstr "Malware 是什么?"
+
+#: admin/wp-security-filescan-menu.php:368
+msgid "The word Malware stands for Malicious Software. It can consist of things like trojan horses, adware, worms, spyware and any other undesirable code which a hacker will try to inject into your website."
+msgstr "Malware 这个单词代表恶意软件. 其可以包含诸如特洛伊木马, 广告软件, 蠕虫, 间谍软件和黑客将尝试注入到您的网站的任何其他不受欢迎的代码."
+
+#: admin/wp-security-filescan-menu.php:369
+msgid "Often when malware code has been inserted into your site you will normally not notice anything out of the ordinary based on appearances, but it can have a dramatic effect on your site's search ranking."
+msgstr "通常, 当恶意代码注入到您的网站时, 您通常不会根据外观发现任何异常情况, 但它可能会对您网站的搜索排名产生巨大影响."
+
+#: admin/wp-security-filescan-menu.php:370
+msgid "This is because the bots and spiders from search engines such as Google have the capability to detect malware when they are indexing the pages on your site, and consequently they can blacklist your website which will in turn affect your search rankings."
+msgstr "这是因为来自 Google 等搜索引擎的机器人和蜘蛛有能力在您的网站上对网页进行索引时检测恶意软件, 因此他们可以将您的网站列入黑名单, 从而影响您的搜索排名."
+
+#: admin/wp-security-filescan-menu.php:374
+msgid "Scanning For Malware"
+msgstr "正在扫描恶意软件"
+
+#: admin/wp-security-filescan-menu.php:375
+msgid "Due to the constantly changing and complex nature of Malware, scanning for such things using a standalone plugin will not work reliably. This is something best done via an external scan of your site regularly."
+msgstr "由于恶意软件的不断变化和复杂的性质, 扫描这样的事情使用一个独立的插件将无法可靠地工作. 通过定期进行外部扫描您的网站是最好的做法."
+
+#: admin/wp-security-filescan-menu.php:376
+msgid "This is why we have created an easy-to-use scanning service which is hosted off our own server which will scan your site for malware once every day and notify you if it finds anything."
+msgstr "这就是为什么我们创建了一个易于使用的扫描服务, 该服务托管在我们自己的服务器上, 该服务器每天会对您的网站进行恶意软件扫描, 并在发现任何问题时通知您."
+
+#: admin/wp-security-filescan-menu.php:377
+msgid "When you sign up for this service you will get the following:"
+msgstr "当您注册这项服务时, 您将获取以下信息:"
+
+#: admin/wp-security-filescan-menu.php:379
+msgid "Automatic Daily Scan of 1 Website"
+msgstr "自动每天扫描 1 个网站"
+
+#: admin/wp-security-filescan-menu.php:380
+msgid "Automatic Malware & Blacklist Monitoring"
+msgstr "自动恶意软件 & 黑名单监控"
+
+#: admin/wp-security-filescan-menu.php:381
+msgid "Automatic Email Alerting"
+msgstr "自动邮件警报"
+
+#: admin/wp-security-filescan-menu.php:382
+msgid "Site uptime monitoring"
+msgstr "网站的正常运行时间监控"
+
+#: admin/wp-security-filescan-menu.php:383
+msgid "Site response time monitoring"
+msgstr "网站响应时间监控"
+
+#: admin/wp-security-filescan-menu.php:385
+msgid "Blacklist Removal"
+msgstr "黑名单移除"
+
+#: admin/wp-security-filescan-menu.php:386
+msgid "No Contract (Cancel Anytime)"
+msgstr "无合同 (随时可取消)"
+
+#: admin/wp-security-filescan-menu.php:388
+msgid "To learn more please %s."
+msgstr "要了解更多, 请 %s."
+
+#: admin/wp-security-filescan-menu.php:408
+msgid "Latest File Change Scan Results"
+msgstr "最新的文件更改扫描结果"
+
+#: admin/wp-security-filescan-menu.php:417
+msgid "The following files were added to your host."
+msgstr "以下文件已添加到您的主机."
+
+#: admin/wp-security-filescan-menu.php:420
+#: admin/wp-security-filescan-menu.php:441
+#: admin/wp-security-filescan-menu.php:465
+#: admin/wp-security-settings-menu.php:31
+#: admin/wp-security-settings-menu.php:32
+msgid "File"
+msgstr "文件"
+
+#: admin/wp-security-filescan-menu.php:421
+#: admin/wp-security-filescan-menu.php:442
+#: admin/wp-security-filescan-menu.php:466
+msgid "File Size"
+msgstr "文件大小"
+
+#: admin/wp-security-filescan-menu.php:438
+msgid "The following files were removed from your host."
+msgstr "以下文件已从您的主机中移除."
+
+#: admin/wp-security-filescan-menu.php:462
+msgid "The following files were changed on your host."
+msgstr "您的主机上已更改以下文件."
+
+#: admin/wp-security-filesystem-menu.php:27
+msgid "PHP File Editing"
+msgstr "PHP 文件编辑"
+
+#: admin/wp-security-filesystem-menu.php:28
+msgid "WP File Access"
+msgstr "WP 文件访问"
+
+#: admin/wp-security-filesystem-menu.php:97
+msgid "The permissions for %s were succesfully changed to %s"
+msgstr "%s 的权限已成功更改为 %s"
+
+#: admin/wp-security-filesystem-menu.php:101
+msgid "Unable to change permissions for %s!"
+msgstr "无法更改 %s 的权限!"
+
+#: admin/wp-security-filesystem-menu.php:110
+msgid "Your WordPress file and folder permission settings govern the accessability and read/write privileges of the files and folders which make up your WP installation."
+msgstr "您的 WordPress 文件和文件夹权限设置控制组成 WP 安装的文件和文件夹的可访问性和读/写权限."
+
+#: admin/wp-security-filesystem-menu.php:111
+msgid "Your WP installation already comes with reasonably secure file permission settings for the filesystem."
+msgstr "您的 WP 安装已经为文件系统提供了合理安全的文件权限设置."
+
+#: admin/wp-security-filesystem-menu.php:112
+msgid "However, sometimes people or other plugins modify the various permission settings of certain core WP folders or files such that they end up making their site less secure because they chose the wrong permission values."
+msgstr "但是, 有时人们或其他插件会修改某些核心 WP 文件夹或文件的各种权限设置, 从而导致其网站安全性降低, 因为他们选择了错误的权限值."
+
+#: admin/wp-security-filesystem-menu.php:113
+msgid "This feature will scan the critical WP core folders and files and will highlight any permission settings which are insecure."
+msgstr "此功能将扫描关键的 WP 核心文件夹和文件, 并将突出显示任何不安全的权限设置."
+
+#: admin/wp-security-filesystem-menu.php:128
+msgid "WP Directory and File Permissions Scan Results"
+msgstr "WP 目录和文件权限扫描结果"
+
+#: admin/wp-security-filesystem-menu.php:142
+#: admin/wp-security-filesystem-menu.php:161
+msgid "Current Permissions"
+msgstr "当前权限"
+
+#: admin/wp-security-filesystem-menu.php:144
+#: admin/wp-security-filesystem-menu.php:163
+msgid "Recommended Action"
+msgstr "建议操作"
+
+#: admin/wp-security-filesystem-menu.php:202
+msgid "Your PHP file editing settings were saved successfully."
+msgstr "您的 PHP 文件编辑设置已成功保存."
+
+#: admin/wp-security-filesystem-menu.php:206
+msgid "Operation failed! Unable to modify or make a backup of wp-config.php file!"
+msgstr "操作失败! 无法修改或备份 wp-config.php 文件!"
+
+#: admin/wp-security-filesystem-menu.php:219
+#: classes/grade-system/wp-security-feature-item-manager.php:73
+msgid "File Editing"
+msgstr "文件编辑"
+
+#: admin/wp-security-filesystem-menu.php:222
+msgid "The Wordpress Dashboard by default allows administrators to edit PHP files, such as plugin and theme files."
+msgstr "Wordpress 仪表盘默认允许管理员编辑 PHP 文件, 例如插件和主题文件."
+
+#: admin/wp-security-filesystem-menu.php:223
+msgid "This is often the first tool an attacker will use if able to login, since it allows code execution."
+msgstr "这通常是攻击者在能够登录时使用的第一个工具, 因为它允许执行代码."
+
+#: admin/wp-security-filesystem-menu.php:224
+msgid "This feature will disable the ability for people to edit PHP files via the dashboard."
+msgstr "该功能将禁用人们通过仪表盘编辑 PHP 文件的功能."
+
+#: admin/wp-security-filesystem-menu.php:230
+msgid "Disable PHP File Editing"
+msgstr "禁用 PHP 文件编辑"
+
+#: admin/wp-security-filesystem-menu.php:242
+msgid "Disable Ability To Edit PHP Files"
+msgstr "禁用编辑 PHP 文件的功能"
+
+#: admin/wp-security-filesystem-menu.php:245
+msgid "Check this if you want to remove the ability for people to edit PHP files via the WP dashboard"
+msgstr "如果您想移除人们通过 WP 仪表盘编辑 PHP 文件的能力, 请勾选此项"
+
+#: admin/wp-security-filesystem-menu.php:289
+msgid "You have successfully saved the Prevent Access to Default WP Files configuration."
+msgstr "您已成功保存防止访问默认 WP 文件配置."
+
+#: admin/wp-security-filesystem-menu.php:301
+msgid "This feature allows you to prevent access to files such as %s, %s and %s which are delivered with all WP installations."
+msgstr "通过此功能, 您可以阻止访问所有 WP 安装中提供的文件, 如 %s, %s 和 %s."
+
+#: admin/wp-security-filesystem-menu.php:302
+msgid "By preventing access to these files you are hiding some key pieces of information (such as WordPress version info) from potential hackers."
+msgstr "通过阻止访问这些文件, 您正在隐藏潜在黑客的一些关键信息(如 WordPress 版本信息)."
+
+#: admin/wp-security-filesystem-menu.php:307
+msgid "Prevent Access to Default WP Files"
+msgstr "阻止访问默认的 WP 文件"
+
+#: admin/wp-security-filesystem-menu.php:318
+msgid "Prevent Access to WP Default Install Files"
+msgstr "阻止访问 WP 默认安装文件"
+
+#: admin/wp-security-filesystem-menu.php:321
+msgid "Check this if you want to prevent access to readme.html, license.txt and wp-config-sample.php."
+msgstr "如果您想要阻止访问 readme.html, license.txt 和 wp-config-sample.php, 请勾选此项."
+
+#: admin/wp-security-filesystem-menu.php:352
+msgid "Sometimes your hosting platform will produce error or warning logs in a file called \"error_log\"."
+msgstr "有时您的主机平台会在名为 \"error_log\" 的文件中产生错误或警告日志."
+
+#: admin/wp-security-filesystem-menu.php:353
+msgid "Depending on the nature and cause of the error or warning, your hosting server can create multiple instances of this file in numerous directory locations of your WordPress installation."
+msgstr "根据错误或警告的性质和原因, 托管服务器可以在 WordPress 安装的许多目录位置中创建此文件的多个实例."
+
+#: admin/wp-security-filesystem-menu.php:354
+msgid "By occassionally viewing the contents of these logs files you can keep informed of any underlying problems on your system which you might need to address."
+msgstr "通过偶尔查看这些日志文件的内容, 您可以随时了解系统中可能需要解决的任何潜在问题."
+
+#: admin/wp-security-filesystem-menu.php:365
+msgid "Enter System Log File Name"
+msgstr "输入系统日志文件名称"
+
+#: admin/wp-security-filesystem-menu.php:367
+msgid "Enter your system log file name. (Defaults to error_log)"
+msgstr "输入您的系统日志文件名称. (默认为 error_log)"
+
+#: admin/wp-security-filesystem-menu.php:370
+msgid "View Latest System Logs"
+msgstr "查看最新的系统日志"
+
+#: admin/wp-security-filesystem-menu.php:372
+msgid "Loading..."
+msgstr "正在加载..."
+
+#: admin/wp-security-filesystem-menu.php:389
+msgid "No system logs were found!"
+msgstr "没有发现系统日志!"
+
+#: admin/wp-security-filesystem-menu.php:442
+msgid "Set Recommended Permissions"
+msgstr "设置推荐的权限"
+
+#: admin/wp-security-filesystem-menu.php:448
+msgid "No Action Required"
+msgstr "不需要任何操作"
+
+#: admin/wp-security-filesystem-menu.php:488
+msgid "Showing latest entries of error_log file: %s"
+msgstr "显示 error_log 文件的最新条目: %s"
+
+#: admin/wp-security-firewall-menu.php:136
+msgid "This should not have any impact on your site's general functionality but if you wish you can take a %s of your .htaccess file before proceeding."
+msgstr "这应该不会对您网站的一般功能产生任何影响, 但是如果您希望在继续操作之前获取 %s 的 .htaccess 文件."
+
+#: admin/wp-security-firewall-menu.php:137
+msgid "The features in this tab allow you to activate some basic firewall security protection rules for your site."
+msgstr "此选项卡中的功能允许您为您的网站启用一些基本的防火墙安全保护规则."
+
+#: admin/wp-security-firewall-menu.php:138
+msgid "The firewall functionality is achieved via the insertion of special code into your currently active .htaccess file."
+msgstr "防火墙功能是通过将指定代码插入到当前活动的 .htaccess 文件中来实现的."
+
+#: admin/wp-security-firewall-menu.php:176
+msgid "This setting will implement the following basic firewall protection mechanisms on your site:"
+msgstr "此设置将在您的网站上实施以下基本防火墙保护机制:"
+
+#: admin/wp-security-firewall-menu.php:181
+msgid "The above firewall features will be applied via your .htaccess file and should not affect your site's overall functionality."
+msgstr "上述的防火墙功能将通过 .htaccess 文件被应用, 应该不会影响网站的整体功能."
+
+#: admin/wp-security-firewall-menu.php:182
+msgid "You are still advised to take a backup of your active .htaccess file just in case."
+msgstr "仍然建议您备份您的活动 .htaccess 文件以防万一."
+
+#: admin/wp-security-firewall-menu.php:191
+msgid "WordPress XMLRPC & Pingback Vulnerability Protection"
+msgstr "WordPress XMLRPC＆Pingback 漏洞保护"
+
+#: admin/wp-security-firewall-menu.php:206
+msgid "This setting will add a directive in your .htaccess to disable access to the WordPress xmlrpc.php file which is responsible for the XML-RPC functionality in WordPress."
+msgstr "此设置将在您的 .htaccess 中添加一条指令, 以阻止访问 WordPress 的 xmlrpc.php 文件, 该文件负责 WordPress 中的 XML-RPC 功能."
+
+#: admin/wp-security-firewall-menu.php:207
+msgid "Hackers can exploit various vulnerabilities in the WordPress XML-RPC API in a number of ways such as:"
+msgstr "黑客可以通过多种方式利用 WordPress XML-RPC API 中的各种漏洞, 例如:"
+
+#: admin/wp-security-firewall-menu.php:208
+msgid "1) Denial of Service (DoS) attacks"
+msgstr "1) 拒绝服务 (DoS) 攻击"
+
+#: admin/wp-security-firewall-menu.php:209
+msgid "2) Hacking internal routers."
+msgstr "2) 黑客内部路由器."
+
+#: admin/wp-security-firewall-menu.php:210
+msgid "3) Scanning ports in internal networks to get info from various hosts."
+msgstr "3) 扫描内部网络中的端口以获取来自各种主机的信息."
+
+#: admin/wp-security-firewall-menu.php:211
+msgid "Apart from the security protection benefit, this feature may also help reduce load on your server, particularly if your site currently has a lot of unwanted traffic hitting the XML-RPC API on your installation."
+msgstr "除了安全保护优势之外, 此功能还可以帮助减少服务器上的负载, 尤其是当您的网站在安装时当中有大量不需要的流量击中 XML-RPC API 时候."
+
+#: admin/wp-security-firewall-menu.php:212
+msgid "NOTE: You should only enable this feature if you are not currently using the XML-RPC functionality on your WordPress installation."
+msgstr "注意: 如果您目前没有在您的 WordPress 安装中使用 XML-RPC 功能, 则只应启用此功能."
+
+#: classes/grade-system/wp-security-feature-item-manager.php:85
+msgid "Block Accesss to Debug Log File"
+msgstr "阻止访问调试日志文件"
+
+#: admin/wp-security-firewall-menu.php:245
+msgid "Block Access to debug.log File"
+msgstr "阻止访问 debug.log 文件"
+
+#: admin/wp-security-firewall-menu.php:248
+msgid "Check this if you want to block access to the debug.log file that WordPress creates when debug logging is enabled."
+msgstr "如果要阻止访问 WordPress 启用调试日志记录时所创建的 debug.log 文件, 请勾选此项."
+
+#: admin/wp-security-firewall-menu.php:252
+msgid "WordPress has an option to turn on the debug logging to a file located in wp-content/debug.log. This file may contain sensitive information."
+msgstr "WordPress 可以选择打开调试日志文件位于 wp-content/debug.log. 该文件可能包含敏感信息."
+
+#: admin/wp-security-firewall-menu.php:253
+msgid "Using this optoin will block external access to this file. You can still access this file by logging into your site via FTP"
+msgstr "使用此选项将阻止对该文件的外部访问. 您仍然可以通过 FTP 登录到您的网站来访问此文件"
+
+#: admin/wp-security-firewall-menu.php:333
+msgid "You have successfully saved the Additional Firewall Protection configuration"
+msgstr "您已经成功保存了其他防火墙保护配置"
+
+#: admin/wp-security-firewall-menu.php:351
+msgid "Due to the nature of the code being inserted to the .htaccess file, this feature may break some functionality for certain plugins and you are therefore advised to take a %s of .htaccess before applying this configuration."
+msgstr "由于插入到 .htaccess 文件中代码的性质, 此功能可能会破坏某些插件的某些功能, 因此建议您在应用此配置之前先获取 %s 的 .htaccess."
+
+#: admin/wp-security-firewall-menu.php:353
+msgid "This feature allows you to activate more advanced firewall settings to your site."
+msgstr "此功能允许您为您的网站启用更高级的防火墙设置."
+
+#: admin/wp-security-firewall-menu.php:354
+msgid "The advanced firewall rules are applied via the insertion of special code to your currently active .htaccess file."
+msgstr "高级防火墙规则通过将指定代码插入到当前活动的 .htaccess 文件中来应用."
+
+#: admin/wp-security-firewall-menu.php:372
+#: classes/grade-system/wp-security-feature-item-manager.php:96
+msgid "Disable Index Views"
+msgstr "禁用索引视图"
+
+#: admin/wp-security-firewall-menu.php:375
+msgid "Check this if you want to disable directory and file listing."
+msgstr "如果要禁用目录和文件列表, 请勾选此项."
+
+#: admin/wp-security-firewall-menu.php:380
+msgid "By default, an Apache server will allow the listing of the contents of a directory if it doesn't contain an index.php file."
+msgstr "默认情况下, 如果 Apache 服务器不包含 index.php 文件, 其将允许列出目录的内容."
+
+#: admin/wp-security-firewall-menu.php:382
+msgid "This feature will prevent the listing of contents for all directories."
+msgstr "该功能将阻止列出所有目录的内容."
+
+#: admin/wp-security-firewall-menu.php:384
+msgid "NOTE: In order for this feature to work \"AllowOverride\" of the Indexes directive must be enabled in your httpd.conf file. Ask your hosting provider to check this if you don't have access to httpd.conf"
+msgstr "注意: 为使此功能工作必须在 httpd.conf 文件中启用 Indexes 指令的 \"AllowOverride\". 如果您无法访问 httpd.conf, 请询问您主机服务提供商以检查此内容"
+
+#: admin/wp-security-firewall-menu.php:393
+msgid "Trace and Track"
+msgstr "追溯和跟踪"
+
+#: admin/wp-security-firewall-menu.php:405
+msgid "Check this if you want to disable trace and track."
+msgstr "如果要禁用追溯和跟踪, 请勾选此项."
+
+#: admin/wp-security-firewall-menu.php:410
+msgid "HTTP Trace attack (XST) can be used to return header requests and grab cookies and other information."
+msgstr "HTTP 追溯攻击(XST) 可以用来返回 header 请求和抓取 cookies 以及其他信息."
+
+#: admin/wp-security-firewall-menu.php:412
+msgid "This hacking technique is usually used together with cross site scripting attacks (XSS)."
+msgstr "这种黑客技术通常与跨站点脚本攻击 (XSS) 一起使用."
+
+#: admin/wp-security-firewall-menu.php:414
+msgid "Disabling trace and track on your site will help prevent HTTP Trace attacks."
+msgstr "禁用站点上的追溯和跟踪将有助于防止 HTTP 追溯攻击."
+
+#: admin/wp-security-firewall-menu.php:423
+msgid "Proxy Comment Posting"
+msgstr "代理评论发布"
+
+#: admin/wp-security-firewall-menu.php:433
+msgid "Forbid Proxy Comment Posting"
+msgstr "禁止代理评论发布"
+
+#: admin/wp-security-firewall-menu.php:436
+msgid "Check this if you want to forbid proxy comment posting."
+msgstr "如果您想禁止代理评论发布, 请勾选此项."
+
+#: admin/wp-security-firewall-menu.php:441
+msgid "This setting will deny any requests that use a proxy server when posting comments."
+msgstr "发布评论时, 此设置将拒绝任何使用代理服务器的请求."
+
+#: admin/wp-security-firewall-menu.php:442
+msgid "By forbidding proxy comments you are in effect eliminating some SPAM and other proxy requests."
+msgstr "通过禁止代理评论, 您实际上可以消除一些垃圾评论和其他代理请求."
+
+#: admin/wp-security-firewall-menu.php:464
+msgid "This will help protect you against malicious queries via XSS."
+msgstr "这将有助于保护您免受通过 XSS 的恶意查询."
+
+#: admin/wp-security-firewall-menu.php:469
+msgid "This feature will write rules in your .htaccess file to prevent malicious string attacks on your site using XSS."
+msgstr "此功能将在您的 .htaccess 文件中编写规则, 以防止您的网站被使用 XSS 进行恶意字符串攻击."
+
+#: admin/wp-security-firewall-menu.php:470
+msgid "NOTE: Some of these strings might be used for plugins or themes and hence this might break some functionality."
+msgstr "注意: 这些字符串可能被用于插件或主题, 因此这可能会破坏某些功能."
+
+#: admin/wp-security-firewall-menu.php:471
+#: admin/wp-security-firewall-menu.php:501
+msgid "You are therefore strongly advised to take a backup of your active .htaccess file before applying this feature."
+msgstr "因此, 强烈建议您在应用此功能之前备份您的活动 .htaccess 文件."
+
+#: admin/wp-security-firewall-menu.php:493
+msgid "This will block bad character matches from XSS."
+msgstr "这将阻止来自 XSS 的不良字符的匹配."
+
+#: admin/wp-security-firewall-menu.php:498
+msgid "This is an advanced character string filter to prevent malicious string attacks on your site coming from Cross Site Scripting (XSS)."
+msgstr "这是一个高级字符串过滤器, 用于防止来自跨站点脚本 (XSS) 的恶意字符串攻击您的网站."
+
+#: admin/wp-security-firewall-menu.php:499
+msgid "This setting matches for common malicious string patterns and exploits and will produce a 403 error for the hacker attempting the query."
+msgstr "此设置与常见的恶意字符串模式和漏洞利用相匹配, 并会为黑客尝试查询时产生 403 错误."
+
+#: admin/wp-security-firewall-menu.php:500
+msgid "NOTE: Some strings for this setting might break some functionality."
+msgstr "注意: 此设置的一些字符串可能会破坏某些功能."
+
+#: admin/wp-security-firewall-menu.php:509
+msgid "Save Additional Firewall Settings"
+msgstr "保存其他防火墙设置"
+
+#: admin/wp-security-firewall-menu.php:552
+msgid "You have successfully saved the 5G/6G Firewall Protection configuration"
+msgstr "您已经成功保存了 5G/6G 防火墙保护配置"
+
+#: admin/wp-security-firewall-menu.php:567
+msgid "This feature allows you to activate the %s (or legacy %s) firewall security protection rules designed and produced by %s."
+msgstr "此功能允许您启用 %s (或传统 %s) 防火墙安全保护规则, 由 %s 设计并提供."
+
+#: admin/wp-security-firewall-menu.php:569
+msgid "The 6G Blacklist is a simple, flexible blacklist that helps reduce the number of malicious URL requests that hit your website."
+msgstr "6G 黑名单是一个简单又灵活的黑名单, 有助于减少访问您网站的恶意网址请求的数量."
+
+#: admin/wp-security-firewall-menu.php:570
+msgid "The added advantage of applying the 6G firewall to your site is that it has been tested and confirmed by the people at PerishablePress.com to be an optimal and least disruptive set of .htaccess security rules for general WP sites running on an Apache server or similar."
+msgstr "将 6G 防火墙应用于您的网站的附加优势在于它已经过 PerishablePress.com 的人员的测试和确认, 是对运行在 Apache 服务器或类似服务器上的普通 WP 网站的最佳且最不具破坏性的 .htaccess 安全规则集."
+
+#: admin/wp-security-firewall-menu.php:571
+msgid "Therefore the 6G firewall rules should not have any impact on your site's general functionality but if you wish you can take a %s of your .htaccess file before proceeding."
+msgstr "因此, 6G 防火墙规则不应该对您网站的一般功能产生任何影响, 但是如果您希望在继续操作之前获取 %s 的 .htaccess 文件."
+
+#: admin/wp-security-firewall-menu.php:589
+msgid "Enable 6G Firewall Protection"
+msgstr "启用 6G 防火墙保护"
+
+#: admin/wp-security-firewall-menu.php:597
+#: admin/wp-security-firewall-menu.php:615
+msgid "1) Block forbidden characters commonly used in exploitative attacks."
+msgstr "1) 阻止压榨性攻击常用的禁止非法字符."
+
+#: admin/wp-security-firewall-menu.php:598
+#: admin/wp-security-firewall-menu.php:616
+msgid "2) Block malicious encoded URL characters such as the \".css(\" string."
+msgstr "2) 阻止恶意编码的网址字符, 如 \".css(\" 字符串."
+
+#: admin/wp-security-firewall-menu.php:599
+#: admin/wp-security-firewall-menu.php:617
+msgid "3) Guard against the common patterns and specific exploits in the root portion of targeted URLs."
+msgstr "3) 防范目标网址根部的常见模式和具体漏洞."
+
+#: admin/wp-security-firewall-menu.php:600
+#: admin/wp-security-firewall-menu.php:618
+msgid "4) Stop attackers from manipulating query strings by disallowing illicit characters."
+msgstr "4) 阻止攻击者通过禁止非法字符来操纵查询字符串."
+
+#: admin/wp-security-firewall-menu.php:601
+#: admin/wp-security-firewall-menu.php:619
+msgid "....and much more."
+msgstr "....以及更多."
+
+#: admin/wp-security-firewall-menu.php:610
+msgid "Check this if you want to apply the 5G Blacklist firewall protection from perishablepress.com to your site."
+msgstr "如果要将来自 perishablepress.com 的 5G 黑名单防火墙保护应用到您网站, 请勾选此项."
+
+#: admin/wp-security-firewall-menu.php:614
+msgid "This setting will implement the 5G security firewall protection mechanisms on your site which include the following things:"
+msgstr "此设置将在您的网站上实施 5G 安全防火墙保护机制, 其中包括以下内容:"
+
+#: admin/wp-security-firewall-menu.php:625
+msgid "Save 5G/6G Firewall Settings"
+msgstr "保存 5G/6G 防火墙设置"
+
+#: admin/wp-security-firewall-menu.php:656
+msgid "The Internet bot settings were successfully saved"
+msgstr "网络机器人设置已成功保存"
+
+#: admin/wp-security-firewall-menu.php:667
+msgid "%s?"
+msgstr "%s?"
+
+#: admin/wp-security-firewall-menu.php:669
+msgid "A bot is a piece of software which runs on the Internet and performs automatic tasks. For example when Google indexes your pages it uses automatic bots to achieve this task."
+msgstr "机器人是一款运行在互联网上并执行自动任务的软件. 例如, 当 Google 为您的网页编制索引时, 其会使用自动机器人来完成此任务."
+
+#: admin/wp-security-firewall-menu.php:670
+msgid "A lot of bots are legitimate and non-malicous but not all bots are good and often you will find some which try to impersonate legitimate bots such as \"Googlebot\" but in reality they have nohing to do with Google at all."
+msgstr "很多机器人都是合法的, 非恶意的, 但并不是所有的机器人都是良好的, 而且你会发现一些人尝试模仿一些合法的机器人, 比如 \"Googlebot\", 但实际上他们根本就没有与谷歌有合作."
+
+#: admin/wp-security-firewall-menu.php:671
+msgid "Although most of the bots out there are relatively harmless sometimes website owners want to have more control over which bots they allow into their site."
+msgstr "尽管大部分的机器人都是相对无害的, 有时网站所有者要加强对它们允许进入其网站的哪个机器人更多的控制."
+
+#: admin/wp-security-firewall-menu.php:672
+msgid "This feature allows you to block bots which are impersonating as a Googlebot but actually aren't. (In other words they are fake Google bots)"
+msgstr "此功能可让您阻止冒充 Googlebot 的机器人, 但实际并不是. (换句话说, 他们都是假的谷歌机器人)"
+
+#: admin/wp-security-firewall-menu.php:673
+msgid "Googlebots have a unique indentity which cannot easily be forged and this feature will indentify any fake Google bots and block them from reading your site's pages."
+msgstr "Googlebots 有一个不容易伪造的独特身份, 这个功能可以识别任何虚假的 Google bots, 并阻止他们阅读您网站的页面."
+
+#: admin/wp-security-firewall-menu.php:679
+msgid "<strong>Attention</strong>: Sometimes non-malicious Internet organizations might have bots which impersonate as a \"Googlebot\"."
+msgstr "<strong>注意</strong>: 有时候非恶意的互联网组织可能会有机器人模仿为 \"Googlebot\"."
+
+#: admin/wp-security-firewall-menu.php:680
+msgid "Just be aware that if you activate this feature the plugin will block all bots which use the \"Googlebot\" string in their User Agent information but are NOT officially from Google (irrespective whether they are malicious or not)."
+msgstr "请注意, 如果您启用此功能, 该插件将阻止在其用户代理信息中使用 \"Googlebot\" 字符串的所有机器人, 但并非来自 Google (不论其是否为恶意)."
+
+#: admin/wp-security-firewall-menu.php:681
+msgid "All other bots from other organizations such as \"Yahoo\", \"Bing\" etc will not be affected by this feature."
+msgstr "来自其他机构的其他机器人, 如 \"Yahoo\", \"Bing\" 等不会受此功能的影响."
+
+#: admin/wp-security-firewall-menu.php:700
+msgid "Check this if you want to block all fake Googlebots."
+msgstr "如果您想阻止所有虚假的 Googlebots, 请勾选此项."
+
+#: admin/wp-security-firewall-menu.php:704
+msgid "This feature will check if the User Agent information of a bot contains the string \"Googlebot\"."
+msgstr "此功能将检查机器人的用户代理信息是否包含字符串 \"Googlebot\"."
+
+#: admin/wp-security-firewall-menu.php:705
+msgid "It will then perform a few tests to verify if the bot is legitimately from Google and if so it will allow the bot to proceed."
+msgstr "然后它会执行一些测试来验证机器人是否合法来自 Google, 如果是, 它将允许机器人继续."
+
+#: admin/wp-security-firewall-menu.php:706
+msgid "If the bot fails the checks then the plugin will mark it as being a fake Googlebot and it will block it"
+msgstr "如果机器人未能通过检查, 那么该插件会将其标记为假冒的 Googlebot, 并会将其阻止"
+
+#: admin/wp-security-firewall-menu.php:750
+#: admin/wp-security-firewall-menu.php:772
+#: classes/grade-system/wp-security-feature-item-manager.php:32
+msgid "Prevent Image Hotlinking"
+msgstr "阻止图片盗链"
+
+#: admin/wp-security-firewall-menu.php:753
+msgid "A Hotlink is where someone displays an image on their site which is actually located on your site by using a direct link to the source of the image on your server."
+msgstr "盗链是指用户通过直接链接到服务器上的图片来源, 在其网站上显示实际位于您网站上的图片."
+
+#: admin/wp-security-admin-init.php:291
+msgid "WP Security"
+msgstr "WP 安全"
+
+#: admin/wp-security-admin-init.php:293 admin/wp-security-settings-menu.php:68
+msgid "Settings"
+msgstr "设置"
+
+#: admin/wp-security-admin-init.php:295
+#: admin/wp-security-user-login-menu.php:65
+msgid "User Login"
+msgstr "用户登录"
+
+#: admin/wp-security-admin-init.php:297 admin/wp-security-database-menu.php:69
+msgid "Database Security"
+msgstr "数据库安全"
+
+#: admin/wp-security-admin-init.php:301
+#: admin/wp-security-filesystem-menu.php:62
+msgid "Filesystem Security"
+msgstr "文件系统安全"
+
+#: admin/wp-security-admin-init.php:303 admin/wp-security-whois-menu.php:58
+msgid "WHOIS Lookup"
+msgstr "WHOIS 查询"
+
+#: admin/wp-security-admin-init.php:307 admin/wp-security-blacklist-menu.php:58
+msgid "Blacklist Manager"
+msgstr "黑名单管理器"
+
+#: admin/wp-security-admin-init.php:312 admin/wp-security-firewall-menu.php:67
+msgid "Firewall"
+msgstr "防火墙"
+
+#: admin/wp-security-admin-init.php:315 admin/wp-security-spam-menu.php:64
+msgid "SPAM Prevention"
+msgstr "垃圾防护"
+
+#: admin/wp-security-admin-init.php:319 admin/wp-security-filescan-menu.php:60
+msgid "Scanner"
+msgstr "扫描器"
+
+#: admin/wp-security-admin-init.php:321
+#: admin/wp-security-maintenance-menu.php:58
+msgid "Maintenance"
+msgstr "网站维护"
+
+#: admin/wp-security-dashboard-menu.php:29
+msgid "System Info"
+msgstr "系统信息"
+
+#: admin/general/wp-security-list-table.php:521
+msgctxt "paging"
+msgid "%1$s of %2$s"
+msgstr "%1$s of %2$s"
+
+#: admin/general/wp-security-list-table.php:369
+msgid "Show all dates"
+msgstr "显示所有日期"
+
+#: admin/general/wp-security-list-table.php:295
+msgid "Apply"
+msgstr "应用"
+
+#: admin/general/wp-security-list-table.php:285
+msgid "Bulk Actions"
+msgstr "批量操作"
+
+#: admin/general/wp-security-list-table.php:399
+msgid "Excerpt View"
+msgstr "摘要视图"
+
+#: admin/general/wp-security-list-table.php:398
+msgid "List View"
+msgstr "列表视图"
+
+#. translators: 1: month name, 2: 4-digit year
+#: admin/general/wp-security-list-table.php:382
+msgid "%1$s %2$d"
+msgstr "%1$s %2$d"
+
+#: admin/general/wp-security-list-table.php:525
+msgid "Go to the next page"
+msgstr "下一页"
+
+#: admin/general/wp-security-list-table.php:532
+msgid "Go to the last page"
+msgstr "末页"
+
+#: admin/general/wp-security-list-table.php:515
+msgid "Current page"
+msgstr "当前页"
+
+#: admin/general/wp-security-list-table.php:499
+msgid "Go to the first page"
+msgstr "首页"
+
+#: admin/general/wp-security-list-table.php:506
+msgid "Go to the previous page"
+msgstr "前一页"
+
+#: admin/wp-security-admin-init.php:314
+#: admin/wp-security-brute-force-menu.php:72
+msgid "Brute Force"
+msgstr "暴力破解"
+
+#: admin/wp-security-user-registration-menu.php:62
+#: admin/wp-security-admin-init.php:296
+msgid "User Registration"
+msgstr "用户注册"
+
+#: admin/wp-security-blacklist-menu.php:25
+msgid "Ban Users"
+msgstr "禁止用户"
+
+#: admin/wp-security-admin-init.php:322
+#: admin/wp-security-misc-options-menu.php:64
+msgid "Miscellaneous"
+msgstr "其他"
+
+#: admin/wp-security-admin-menu.php:55
+msgid "The selected record(s) deleted successfully!"
+msgstr "所选记录已成功删除!"
+
+#: admin/wp-security-blacklist-menu.php:146
+msgid "Ban IPs or User Agents"
+msgstr "禁止IP地址或用户代理"
+
+#: admin/wp-security-blacklist-menu.php:168
+msgid "IP Hosts and User Agent Blacklist Settings"
+msgstr "IP 主机和用户代理黑名单设置"
+
+#: admin/wp-security-blacklist-menu.php:187
+msgid "Enable IP or User Agent Blacklisting"
+msgstr "启用IP和用户代理黑名单"
+
+#: admin/wp-security-blacklist-menu.php:190
+msgid "Check this if you want to enable the banning (or blacklisting) of selected IP addresses and/or user agents specified in the settings below"
+msgstr "如果你想禁止（或黑名单）指定IP地址或用户代理，请在下面设定。"
+
+#: admin/wp-security-blacklist-menu.php:194
+msgid "Enter IP Addresses:"
+msgstr "输入IP地址："
+
+#: admin/wp-security-blacklist-menu.php:198
+msgid "Enter one or more IP addresses or IP ranges."
+msgstr "输入一个或多个IP地址或IP范围."
+
+#: admin/wp-security-spam-menu.php:175 admin/wp-security-spam-menu.php:348
+#: admin/wp-security-spam-menu.php:390 admin/wp-security-blacklist-menu.php:199
+#: admin/wp-security-blacklist-menu.php:219
+#: admin/wp-security-filescan-menu.php:314
+#: admin/wp-security-filescan-menu.php:331
+#: admin/wp-security-brute-force-menu.php:388
+#: admin/wp-security-brute-force-menu.php:422
+#: admin/wp-security-brute-force-menu.php:445
+#: admin/wp-security-brute-force-menu.php:466
+#: admin/wp-security-brute-force-menu.php:806
+#: admin/wp-security-settings-menu.php:771
+#: admin/wp-security-firewall-menu.php:173
+#: admin/wp-security-firewall-menu.php:203
+#: admin/wp-security-firewall-menu.php:223
+#: admin/wp-security-firewall-menu.php:249
+#: admin/wp-security-firewall-menu.php:376
+#: admin/wp-security-firewall-menu.php:406
+#: admin/wp-security-firewall-menu.php:437
+#: admin/wp-security-firewall-menu.php:465
+#: admin/wp-security-firewall-menu.php:494
+#: admin/wp-security-firewall-menu.php:593
+#: admin/wp-security-firewall-menu.php:611
+#: admin/wp-security-firewall-menu.php:701
+#: admin/wp-security-firewall-menu.php:914
+#: admin/wp-security-firewall-menu.php:937
+#: admin/wp-security-user-login-menu.php:352
+msgid "More Info"
+msgstr "更多信息"
+
+#: admin/wp-security-blacklist-menu.php:202
+#: admin/wp-security-brute-force-menu.php:809
+#: admin/wp-security-user-login-menu.php:355
+msgid "Each IP address must be on a new line."
+msgstr "每一个 IP 地址必须新起一行。"
+
+#: admin/wp-security-blacklist-menu.php:204
+#: admin/wp-security-brute-force-menu.php:811
+#: admin/wp-security-user-login-menu.php:357
+msgid "Example 1: 195.47.89.*"
+msgstr "示例 1：195.47.89.*"
+
+#: admin/wp-security-blacklist-menu.php:205
+#: admin/wp-security-brute-force-menu.php:812
+#: admin/wp-security-user-login-menu.php:358
+msgid "Example 2: 195.47.*.*"
+msgstr "示例 2：195.47.*.*"
+
+#: admin/wp-security-blacklist-menu.php:206
+#: admin/wp-security-brute-force-menu.php:813
+#: admin/wp-security-user-login-menu.php:359
+msgid "Example 3: 195.*.*.*"
+msgstr "示例 3：195.*.*.*"
+
+#: admin/wp-security-blacklist-menu.php:213
+msgid "Enter User Agents:"
+msgstr "输入用户代理："
+
+#: admin/wp-security-dashboard-menu.php:768
+#: admin/wp-security-brute-force-menu.php:29
+msgid "Rename Login Page"
+msgstr "重命名登录页面"
+
+#: admin/wp-security-brute-force-menu.php:30
+msgid "Cookie Based Brute Force Prevention"
+msgstr "基于 Cookie 的强力预防"
+
+#: admin/wp-security-brute-force-menu.php:31
+#: classes/grade-system/wp-security-feature-item-manager.php:44
+msgid "Login Captcha"
+msgstr "登录验证码"
+
+#: admin/wp-security-brute-force-menu.php:32
+#: admin/wp-security-brute-force-menu.php:756
+msgid "Login Whitelist"
+msgstr "登录白名单"
+
+#: admin/wp-security-brute-force-menu.php:33
+msgid "Honeypot"
+msgstr "蜜罐"
+
+#: admin/wp-security-spam-menu.php:226 admin/wp-security-spam-menu.php:260
+#: admin/wp-security-database-menu.php:275
+#: admin/wp-security-filescan-menu.php:178
+#: admin/wp-security-brute-force-menu.php:121
+#: admin/wp-security-firewall-menu.php:846
+#: admin/wp-security-user-login-menu.php:142
+#: admin/wp-security-user-login-menu.php:491
+msgid "Attention!"
+msgstr "注意！"
+
+#: admin/wp-security-brute-force-menu.php:196
+msgid "Rename Login Page Settings"
+msgstr "重命名登录页面设置"
+
+#: admin/wp-security-user-registration-menu.php:157
+#: admin/wp-security-user-registration-menu.php:243
+#: admin/wp-security-user-registration-menu.php:306
+#: admin/wp-security-spam-menu.php:190 admin/wp-security-spam-menu.php:365
+#: admin/wp-security-spam-menu.php:486 admin/wp-security-spam-menu.php:548
+#: admin/wp-security-blacklist-menu.php:233
+#: admin/wp-security-database-menu.php:358
+#: admin/wp-security-filescan-menu.php:354
+#: admin/wp-security-misc-options-menu.php:174
+#: admin/wp-security-misc-options-menu.php:225
+#: admin/wp-security-misc-options-menu.php:285
+#: admin/wp-security-brute-force-menu.php:228
+#: admin/wp-security-brute-force-menu.php:685
+#: admin/wp-security-brute-force-menu.php:823
+#: admin/wp-security-brute-force-menu.php:885
+#: admin/wp-security-settings-menu.php:542
+#: admin/wp-security-settings-menu.php:782
+#: admin/wp-security-filesystem-menu.php:249
+#: admin/wp-security-firewall-menu.php:779
+#: admin/wp-security-firewall-menu.php:956
+#: admin/wp-security-user-login-menu.php:320
+#: admin/wp-security-user-login-menu.php:366
+#: admin/wp-security-user-login-menu.php:538
+msgid "Save Settings"
+msgstr "保存设置"
+
+#: admin/wp-security-brute-force-menu.php:215
+msgid "Enable Rename Login Page Feature"
+msgstr "启用重命名登录页面功能"
+
+#: admin/wp-security-brute-force-menu.php:218
+msgid "Check this if you want to enable the rename login page feature"
+msgstr "如果要启用重命名登录页功能，请选中此项"
+
+#: admin/wp-security-brute-force-menu.php:222
+msgid "Login Page URL"
+msgstr "登陆页链接"
+
+#: admin/wp-security-brute-force-menu.php:224
+msgid "Enter a string which will represent your secure login page slug. You are enouraged to choose something which is hard to guess and only you will remember."
+msgstr "输入一个字符串，它将代表您的安全登录页固定链接格式。只有你记得，建议使用复杂、难以猜测的内容。"
+
+#: admin/wp-security-brute-force-menu.php:331
+msgid "Brute Force Prevention Firewall Settings"
+msgstr "强力预防防火墙设置"
+
+#: admin/wp-security-brute-force-menu.php:600
+msgid "Login Form Captcha Settings"
+msgstr "登录表单验证码设置"
+
+#: admin/wp-security-brute-force-menu.php:609
+msgid "Enable Captcha On Login Page"
+msgstr "在登录页面上启用验证码"
+
+#: admin/wp-security-brute-force-menu.php:612
+msgid "Check this if you want to insert a captcha form on the login page"
+msgstr "如果您要在登录页面上插入验证码表格，请选中此项"
+
+#: admin/wp-security-brute-force-menu.php:618
+msgid "Custom Login Form Captcha Settings"
+msgstr "自定义登录表单验证码设置"
+
+#: admin/wp-security-brute-force-menu.php:627
+msgid "Enable Captcha On Custom Login Form"
+msgstr "启用自定义登录表单的验证码"
+
+#: admin/wp-security-brute-force-menu.php:630
+msgid "Check this if you want to insert captcha on a custom login form generated by the following WP function: wp_login_form()"
+msgstr "如果要在由WP函数wp_login_form（）生成的自定义登录表单上插入验证码，请选中此项："
+
+#: admin/wp-security-brute-force-menu.php:667
+msgid "Lost Password Form Captcha Settings"
+msgstr "忘记密码表单验证码设置"
+
+#: admin/wp-security-brute-force-menu.php:677
+msgid "Enable Captcha On Lost Password Page"
+msgstr "启用忘记密码表单验证码"
+
+#: admin/wp-security-brute-force-menu.php:680
+msgid "Check this if you want to insert a captcha form on the lost password page"
+msgstr "如果要在忘记密码页面上插入验证码表格，请选中此项"
+
+#: admin/wp-security-dashboard-menu.php:30
+#: admin/wp-security-dashboard-menu.php:489
+msgid "Locked IP Addresses"
+msgstr "已锁定的IP地址"
+
+#: admin/wp-security-dashboard-menu.php:32
+msgid "AIOWPS Logs"
+msgstr "AIOWPS 日志"
+
+#: admin/wp-security-dashboard-menu.php:534
+msgid "Current Score of Your Site: "
+msgstr "网站当前分数："
+
+#: admin/wp-security-dashboard-menu.php:478
+msgid "Security Points Breakdown"
+msgstr "安全点分析"
+
+#: admin/wp-security-dashboard-menu.php:479
+msgid "Spread the Word"
+msgstr "宣传我们"
+
+#: admin/wp-security-dashboard-menu.php:481
+msgid "Critical Feature Status"
+msgstr "关键功能状态"
+
+#: admin/wp-security-dashboard-menu.php:616
+msgid "Below is the current status of the critical features that you should activate on your site to achieve a minimum level of recommended security"
+msgstr "为保证您的网站达到最低安全水平，建议激活以下关键功能。"
+
+#: admin/wp-security-dashboard-menu.php:620
+msgid "Admin Username"
+msgstr "管理员用户名"
+
+#: admin/wp-security-dashboard-menu.php:635
+#: admin/wp-security-user-login-menu.php:28
+#: classes/grade-system/wp-security-feature-item-manager.php:42
+msgid "Login Lockdown"
+msgstr "登录锁定"
+
+#: admin/wp-security-dashboard-menu.php:650
+msgid "File Permission"
+msgstr "文件权限"
+
+#: admin/wp-security-dashboard-menu.php:665
+msgid "Basic Firewall"
+msgstr "基本防火墙"
+
+#: admin/wp-security-dashboard-menu.php:482
+msgid "Last 5 Logins"
+msgstr "最近5次登录"
+
+#: admin/wp-security-dashboard-menu.php:694
+msgid "No data found!"
+msgstr "未找到数据！"
+
+#: admin/wp-security-dashboard-menu.php:698
+msgid "Last 5 logins summary:"
+msgstr "最后5次登录摘要："
+
+#: admin/wp-security-dashboard-menu.php:702
+msgid "User"
+msgstr "用户"
+
+#: admin/wp-security-dashboard-menu.php:703
+msgid "Date"
+msgstr "日期"
+
+#: admin/wp-security-dashboard-menu.php:704
+msgid "IP"
+msgstr "IP地址"
+
+#: admin/wp-security-dashboard-menu.php:483
+msgid "Maintenance Mode Status"
+msgstr "维护模式状态"
+
+#: admin/wp-security-dashboard-menu.php:725
+msgid "Maintenance mode is currently enabled. Remember to turn it off when you are done"
+msgstr "维护模式目前已启用。当您完成维护后，请关闭它。"
+
+#: admin/wp-security-dashboard-menu.php:727
+msgid "Maintenance mode is currently off."
+msgstr "维护模式目前已关闭。"
+
+#: admin/wp-security-dashboard-menu.php:731
+msgid "Maintenance Mode"
+msgstr "维护模式"
+
+#: admin/wp-security-dashboard-menu.php:488
+#: admin/wp-security-user-login-menu.php:32
+msgid "Logged In Users"
+msgstr "已登录用户"
+
+#: admin/wp-security-dashboard-menu.php:786
+msgid "Number of users currently logged in site-wide is:"
+msgstr "当前登录您的网站的用户数量为:"
+
+#: admin/wp-security-dashboard-menu.php:787
+#: admin/wp-security-dashboard-menu.php:801
+#: admin/wp-security-dashboard-menu.php:818
+msgid "Go to the %s menu to see more details"
+msgstr "单击 %s 菜单，查看更多详细信息"
+
+#: admin/wp-security-dashboard-menu.php:800
+msgid "Number of users currently logged into your site (including you) is:"
+msgstr "当前登录您的网站 (包括您) 的用户数量为："
+
+#: admin/wp-security-dashboard-menu.php:817
+msgid "Number of temporarily locked out IP addresses: "
+msgstr "暂时锁定的 IP 地址数："
+
+#: admin/wp-security-dashboard-menu.php:100
+msgid "Site Info"
+msgstr "网站信息"
+
+#: admin/wp-security-dashboard-menu.php:104
+msgid "Plugin Version"
+msgstr "插件版本"
+
+#: admin/wp-security-dashboard-menu.php:109
+#: admin/wp-security-dashboard-menu.php:113
+#: admin/wp-security-dashboard-menu.php:222
+msgid "Version"
+msgstr "版本"
+
+#: admin/wp-security-dashboard-menu.php:115
+msgid "Session Save Path"
+msgstr "会话保存路径"
+
+#: admin/wp-security-dashboard-menu.php:118
+msgid "Server Name"
+msgstr "服务器名称"
+
+#: admin/wp-security-dashboard-menu.php:120
+msgid "Cookie Domain"
+msgstr "Cookie 作用域"
+
+#: admin/wp-security-dashboard-menu.php:123
+msgid "Library Present"
+msgstr "函数库"
+
+#: admin/wp-security-dashboard-menu.php:125
+msgid "Debug File Write Permissions"
+msgstr "调试文件写入权限"
+
+#: admin/wp-security-brute-force-menu.php:504
+msgid "Perform Cookie Test"
+msgstr "执行Cookie测试"
+
+#: admin/general/wp-security-list-table.php:425
+msgid "%s pending"
+msgstr "%s 待定"
+
+#: admin/general/wp-security-list-table.php:481
+#: admin/general/wp-security-list-table.php:885
+msgid "1 item"
+msgid_plural "%s items"
+msgstr[0] "%s 条目"
+
+#: admin/wp-security-blacklist-menu.php:222
+msgid "Each user agent string must be on a new line."
+msgstr "每个用户代理字符串必须在新的一行。"
+
+#: admin/wp-security-blacklist-menu.php:218
+msgid "Enter one or more user agent strings."
+msgstr "输入一个或多个用户代理字符串。 "
+
+#: admin/wp-security-brute-force-menu.php:876
+msgid "Enable Honeypot On Login Page"
+msgstr "启用登录页面上的蜜罐 "
+
+#: admin/wp-security-brute-force-menu.php:865
+msgid "Login Form Honeypot Settings"
+msgstr "登录表单蜜罐设置 "
+
+#: admin/wp-security-brute-force-menu.php:801
+#: admin/wp-security-user-login-menu.php:347
+msgid "Enter Whitelisted IP Addresses:"
+msgstr "输入白名单IP地址:"
+
+#: admin/wp-security-brute-force-menu.php:787
+msgid "Enable IP Whitelisting"
+msgstr "启用IP白名单 "
+
+#: admin/wp-security-brute-force-menu.php:776
+msgid "Login IP Whitelist Settings"
+msgstr "登录IP白名单设置 "
+
+#: admin/wp-security-dashboard-menu.php:749
+msgid "Cookie-Based Brute Force"
+msgstr "基于Cookie的暴力破解预防 "
+
+#: admin/wp-security-brute-force-menu.php:384
+#: classes/grade-system/wp-security-feature-item-manager.php:95
+msgid "Enable Brute Force Attack Prevention"
+msgstr "启用暴力攻击预防"
+
+#: admin/wp-security-brute-force-menu.php:490
+msgid "Save Feature Settings"
+msgstr "保存功能设置"
+
+#: admin/wp-security-dashboard-menu.php:28
+#: admin/wp-security-dashboard-menu.php:64 admin/wp-security-admin-init.php:292
+msgid "Dashboard"
+msgstr "仪表盘"
+
+#: admin/wp-security-admin-init.php:294
+#: admin/wp-security-user-accounts-menu.php:67
+msgid "User Accounts"
+msgstr "用户账号"
+
+#: admin/wp-security-admin-menu.php:48
+msgid "Settings successfully updated."
+msgstr "设置已成功更新."
+
+#: admin/wp-security-blacklist-menu.php:84
+msgid "Nonce check failed for save blacklist settings!"
+msgstr "随机检查无法保存黑名单设置!"
+
+#: admin/wp-security-blacklist-menu.php:139
+#: admin/wp-security-list-comment-spammer-ip.php:205
+#: admin/wp-security-list-404.php:221
+#: admin/wp-security-brute-force-menu.php:749
+#: admin/wp-security-firewall-menu.php:1053
+#: classes/wp-security-general-init-tasks.php:278
+msgid "The plugin was unable to write to the .htaccess file. Please edit file manually."
+msgstr "此插件无法写入 .htaccess 文件. 请手动编辑文件."
+
+#: admin/wp-security-blacklist-menu.php:149
+msgid "The All In One WP Security Blacklist feature gives you the option of banning certain host IP addresses or ranges and also user agents."
+msgstr "一站式 WP 安全黑名单功能为您提供禁止某些主机 IP 地址或范围以及用户代理的选项."
+
+#: admin/wp-security-blacklist-menu.php:150
+msgid "This feature will deny total site access for users which have IP addresses or user agents matching those which you have configured in the settings below."
+msgstr "此功能将拒绝具有与您在下面的设置中配置的 IP 地址或用户代理相匹配的用户的全部站点访问权限."
+
+#: admin/wp-security-blacklist-menu.php:151
+msgid "The plugin achieves this by making appropriate modifications to your .htaccess file."
+msgstr "此插件通过对 .htaccess 文件进行适当修改来实现此目的."
+
+#: admin/wp-security-blacklist-menu.php:152
+msgid "By blocking people via the .htaccess file your are using the most secure first line of defence which denies all access to blacklisted visitors as soon as they hit your hosting server."
+msgstr "通过在 .htaccess 文件中拦截用户, 您使用的是最安全的第一道防线, 当他们攻击您的主机服务器时, 其会拒绝所有访问黑名单的访问者."
+
+#: admin/wp-security-blacklist-menu.php:203
+#: admin/wp-security-user-login-menu.php:356
+msgid "To specify an IP range use a wildcard \"*\" character. Acceptable ways to use wildcards is shown in the examples below:"
+msgstr "要指定 IP 范围, 请使用通配符 \"*\" 字符. 以下示例显示使用通配符为可接受的方式:"
+
+#: admin/wp-security-blacklist-menu.php:223
+msgid "Example 1 - A single user agent string to block:"
+msgstr "示例 1 - 要阻止单个用户代理的字符串:"
+
+#: admin/wp-security-blacklist-menu.php:225
+msgid "Example 2 - A list of more than 1 user agent strings to block"
+msgstr "示例 2 - 要阻止多个用户代理字符串的列表"
+
+#: admin/wp-security-brute-force-menu.php:110
+msgid "Please enter a value for your login page slug."
+msgstr "请为您的登录页面 slug 输入一个值."
+
+#: admin/wp-security-brute-force-menu.php:114
+msgid "You cannot use the value \"wp-admin\" for your login page slug."
+msgstr "您无法使用 \"wp-admin\" 值作为您的登录页面 slug."
+
+#: admin/wp-security-brute-force-menu.php:116
+msgid "You must use alpha numeric characters for your login page slug."
+msgstr "您必须使用字母数字字符作为登录页面 slug."
+
+#: admin/wp-security-brute-force-menu.php:147
+msgid "Could not delete the Cookie-based directives from the .htaccess file. Please check the file permissions."
+msgstr "无法从 .htaccess 文件中删除基于 Cookie 的指令. 请检查该文件的权限."
+
+#: admin/wp-security-brute-force-menu.php:170
+msgid "An effective Brute Force prevention technique is to change the default WordPress login page URL."
+msgstr "有效的暴力预防技术是更改默认的 WordPress 登录页面网址."
+
+#: admin/wp-security-brute-force-menu.php:171
+msgid "Normally if you wanted to login to WordPress you would type your site's home URL followed by wp-login.php."
+msgstr "通常情况下, 如果你想登录 WordPress, 你可以输入你网站的首页网址, 然后输入 wp-login.php."
+
+#: admin/wp-security-brute-force-menu.php:172
+msgid "This feature allows you to change the login URL by setting your own slug and renaming the last portion of the login URL which contains the <strong>wp-login.php</strong> to any string that you like."
+msgstr "此功能允许您通过设置您自己的 slug 并将包含 <strong>wp-login.php</strong> 的登录网址的最后部分重命名为您喜欢的任何字符串来更改登录网址."
+
+#: admin/wp-security-brute-force-menu.php:173
+msgid "By doing this, malicious bots and hackers will not be able to access your login page because they will not know the correct login page URL."
+msgstr "通过这样做, 恶意机器人和黑客将无法访问您的登录页面, 因为他们不知道正确的登录页面网址."
+
+#: admin/wp-security-brute-force-menu.php:175
+msgid "You may also be interested in the following alternative brute force prevention features:"
+msgstr "您也可能对以下替代暴力预防功能感兴趣:"
+
+#: admin/wp-security-brute-force-menu.php:186
+msgid "Your WordPress login page URL has been renamed."
+msgstr "您的 WordPress 登录页面网址已重命名."
+
+#: admin/wp-security-brute-force-menu.php:187
+msgid "Your current login URL is:"
+msgstr "您当前的登录网址是:"
+
+#: admin/wp-security-brute-force-menu.php:189
+msgid "NOTE: If you already had the Cookie-Based Brute Force Prevention feature active, the plugin has automatically deactivated it because only one of these features can be active at any one time."
+msgstr "注意: 如果您已经启用了基于 Cookie 的暴力防护功能, 则该插件将自动停用该功能, 因为这些功能中的任何一项在任何时候都可以处于活动状态."
+
+#: admin/wp-security-brute-force-menu.php:257
+msgid "Settings have not been saved - your secret word must consist only of alphanumeric characters, ie, letters and/or numbers only!"
+msgstr "设置尚未保存 - 您的保密字必须只包含字母数字字符, 即是只能使用字母和/或数字!"
+
+#: admin/wp-security-brute-force-menu.php:276
+msgid "You have successfully enabled the cookie based brute force prevention feature"
+msgstr "您已成功启用基于 Cookie 的暴力防御功能"
+
+#: admin/wp-security-brute-force-menu.php:277
+msgid "From now on you will need to log into your WP Admin using the following URL:"
+msgstr "从现在开始, 您将需要使用以下网址登录到 WP 管理面板:"
+
+#: admin/wp-security-brute-force-menu.php:279
+msgid "It is important that you save this URL value somewhere in case you forget it, OR,"
+msgstr "如果您忘记了这个网址值, 那么保存这个网址值很重要, 或者,"
+
+#: admin/wp-security-brute-force-menu.php:280
+msgid "simply remember to add a \"?%s=1\" to your current site URL address."
+msgstr "只需记住在当前的网站网址地址中添加 \"?%s=1\" 即可."
+
+#: admin/wp-security-brute-force-menu.php:286
+msgid "You have successfully saved cookie based brute force prevention feature settings."
+msgstr "您已成功保存基于 Cookie 的暴力破解预防功能设置."
+
+#: admin/wp-security-spam-menu.php:114
+#: admin/wp-security-brute-force-menu.php:321
+#: admin/wp-security-settings-menu.php:636
+#: admin/wp-security-filesystem-menu.php:293
+#: admin/wp-security-firewall-menu.php:124
+#: admin/wp-security-firewall-menu.php:337
+#: admin/wp-security-firewall-menu.php:558
+#: admin/wp-security-firewall-menu.php:746
+msgid "Could not write to the .htaccess file. Please check the file permissions."
+msgstr "无法写入 .htaccess 文件. 请检查该文件的权限."
+
+#: admin/wp-security-brute-force-menu.php:336
+msgid "A Brute Force Attack is when a hacker tries many combinations of usernames and passwords until they succeed in guessing the right combination."
+msgstr "暴力攻击是黑客在尝试许多用户名和密码组合之后才能成功猜测到正确的组合."
+
+#: admin/wp-security-brute-force-menu.php:337
+msgid "Due to the fact that at any one time there may be many concurrent login attempts occurring on your site via malicious automated robots, this also has a negative impact on your server's memory and performance."
+msgstr "由于任何时候您的网站可能会通过恶意自动机器人发生许多并发登录尝试, 这也会对服务器的内存和性能产生负面影响."
+
+#: admin/wp-security-brute-force-menu.php:338
+msgid "The features in this tab will stop the majority of Brute Force Login Attacks at the .htaccess level thus providing even better protection for your WP login page and also reducing the load on your server because the system does not have to run PHP code to process the login attempts."
+msgstr "此选项卡中的功能可以在 .htaccess 级别阻止大多数暴力登录攻击, 从而为您的 WP 登录页面提供更好的保护, 同时减少服务器负载, 因为系统不必运行 PHP 代码来处理登录尝试."
+
+#: admin/wp-security-brute-force-menu.php:345
+msgid "Even though this feature should not have any impact on your site's general functionality <strong>you are strongly encouraged to take a %s of your .htaccess file before proceeding</strong>."
+msgstr "即使此功能不会对您的网站的一般功能产生任何影响, <strong>强烈建议您在继续操作前获取 %s 的 .htaccess 文件</strong>."
+
+#: admin/wp-security-brute-force-menu.php:346
+msgid "If this feature is not used correctly, you can get locked out of your site. A backed up .htaccess file will come in handy if that happens."
+msgstr "如果此功能使用不当, 您可能会被锁定在您的网站之外. 如果发生这种情况, 备份的 .htaccess 文件将派上用场."
+
+#: admin/wp-security-brute-force-menu.php:347
+msgid "To learn more about how to use this feature please watch the following %s."
+msgstr "要详细了解如何使用此功能, 请观看以下 %s."
+
+#: admin/wp-security-brute-force-menu.php:360
+msgid "NOTE: If you already had the Rename Login Page feature active, the plugin has automatically deactivated it because only one of these features can be active at any one time."
+msgstr "注意: 如果您已经启用了 \"重命名登录页面\" 功能, 则该插件会自动停用此功能, 因为这些功能中的任何一项都可以在任何时间启用."
+
+#: admin/wp-security-brute-force-menu.php:368
+msgid "Cookie Based Brute Force Login Prevention"
+msgstr "基于 Cookie 的暴力登录预防"
+
+#: admin/wp-security-brute-force-menu.php:387
+msgid "Check this if you want to protect your login page from Brute Force Attack."
+msgstr "如果你想保护你的登录页面免受暴力攻击, 请勾选此项."
+
+#: admin/wp-security-brute-force-menu.php:392
+msgid "This feature will deny access to your WordPress login page for all people except those who have a special cookie in their browser."
+msgstr "此功能将拒绝所有人访问您的 WordPress 登录页面, 除了那些在浏览器中拥有特殊 Cookie 的用户."
+
+#: admin/wp-security-brute-force-menu.php:394
+msgid "To use this feature do the following:"
+msgstr "要使用此功能, 请执行以下操作:"
+
+#: admin/wp-security-brute-force-menu.php:396
+msgid "1) Enable the checkbox."
+msgstr "1) 启用此复选框."
+
+#: admin/wp-security-brute-force-menu.php:398
+msgid "2) Enter a secret word consisting of alphanumeric characters which will be difficult to guess. This secret word will be useful whenever you need to know the special URL which you will use to access the login page (see point below)."
+msgstr "2) 输入一个由字母数字字符组成的保密字, 这将是难以猜测. 当您需要知道访问登录页面的特殊网址时, 这个保密字将非常有用(请参阅下面的内容)."
+
+#: admin/wp-security-brute-force-menu.php:400
+msgid "3) You will then be provided with a special login URL. You will need to use this URL to login to your WordPress site instead of the usual login URL. NOTE: The system will deposit a special cookie in your browser which will allow you access to the WordPress administration login page."
+msgstr "3) 您将获取一个特殊的登录网址. 您将需要使用此网址登录到您的 WordPress 网站, 而不是通常的登录网址. 注意: 系统将在您的浏览器中存储一个特殊的 cookie, 这将允许您访问 WordPress 管理登录页面."
+
+#: admin/wp-security-brute-force-menu.php:402
+msgid "Any person trying to access your login page who does not have the special cookie in their browser will be automatically blocked."
+msgstr "任何尝试访问您的登录页面的人在浏览器中没有特殊的 cookie 将被自动屏蔽."
+
+#: admin/wp-security-brute-force-menu.php:409
+msgid "Secret Word"
+msgstr "保密字"
+
+#: admin/wp-security-brute-force-menu.php:411
+msgid "Choose a secret word consisting of alphanumeric characters which you can use to access your special URL. Your are highly encouraged to choose a word which will be difficult to guess."
+msgstr "选择一个由字母数字字符组成的保密字, 您可以使用其来访问您的特殊网址. 强烈建议您选择一个难以猜测的保密字."
+
+#: admin/wp-security-brute-force-menu.php:415
+msgid "Re-direct URL"
+msgstr "重定向网址"
+
+#: admin/wp-security-brute-force-menu.php:419
+msgid "Specify a URL to redirect a hacker to when they try to access your WordPress login page."
+msgstr "指定一个网址来重定向黑客尝试访问您的 WordPress 登录页面."
+
+#: admin/wp-security-brute-force-menu.php:426
+msgid "The URL specified here can be any site's URL and does not have to be your own. For example you can be as creative as you like and send hackers to the CIA or NSA home page."
+msgstr "此处指定的网址可以是任何网站的网址, 不必是您自己的网址. 例如, 您可以尽可能创造性地将黑客发送到 CIA 或 NSA 首页."
+
+#: admin/wp-security-brute-force-menu.php:430
+msgid "Useful Tip:"
+msgstr "实用建议:"
+
+#: admin/wp-security-brute-force-menu.php:432
+msgid "It's a good idea to not redirect attempted brute force login attempts to your site because it increases the load on your server."
+msgstr "不要将尝试的暴力登录尝试重定向到您的网站是个好方法, 因为他会增加服务器的负载."
+
+#: admin/wp-security-brute-force-menu.php:434
+msgid "Redirecting a hacker or malicious bot back to \"http://127.0.0.1\" is ideal because it deflects them back to their own local host and puts the load on their server instead of yours."
+msgstr "将黑客或恶意机器人重定向回 \"http://127.0.0.1\" 是很理想的, 因为它会将他们转移回自己的本地主机, 并将其加载到他们的服务器上而不是您的服务器上."
+
+#: admin/wp-security-brute-force-menu.php:441
+msgid "My Site Has Posts Or Pages Which Are Password Protected"
+msgstr "我的网站有哪些是受密码保护的文章或页面"
+
+#: admin/wp-security-brute-force-menu.php:444
+msgid "Check this if you are using the native WordPress password protection feature for some or all of your blog posts or pages."
+msgstr "如果您对部分或全部博客文章或页面使用本机 WordPress 密码保护功能,请勾选此项."
+
+#: admin/wp-security-brute-force-menu.php:449
+msgid "In the cases where you are protecting some of your posts or pages using the in-built WordPress password protection feature, a few extra lines of directives and exceptions need to be added to your .htacces file so that people trying to access pages are not automatically blocked."
+msgstr "在使用内置 WordPress 密码保护功能保护您的某些文章或页面的情况下, 需要将一些额外的指令和例外行添加到 .htacces 文件中, 以便尝试访问页面的用户不会自动被阻止."
+
+#: admin/wp-security-brute-force-menu.php:451
+msgid "By enabling this checkbox the plugin will add the necessary rules and exceptions to your .htacces file so that people trying to access these pages are not automatically blocked."
+msgstr "通过启用此复选框, 插件将为 .htacces 文件添加必要的规则和例外, 以便尝试访问这些页面的用户不会自动被阻止."
+
+#: admin/wp-security-brute-force-menu.php:453
+msgid "Helpful Tip:"
+msgstr "实用建议:"
+
+#: admin/wp-security-brute-force-menu.php:455
+msgid "If you do not use the WordPress password protection feature for your posts or pages then it is highly recommended that you leave this checkbox disabled."
+msgstr "如果您的文章或页面没有使用 WordPress 密码保护功能, 那么强烈建议您停用此复选框."
+
+#: admin/wp-security-brute-force-menu.php:462
+msgid "My Site Has a Theme or Plugins Which Use AJAX"
+msgstr "我的网站有一个主题或插件在使用 AJAX"
+
+#: admin/wp-security-brute-force-menu.php:465
+msgid "Check this if your site uses AJAX functionality."
+msgstr "请检查您的网站是否使用 AJAX 功能."
+
+#: admin/wp-security-brute-force-menu.php:470
+msgid "In the cases where your WordPress installation has a theme or plugins which use AJAX, a few extra lines of directives and exceptions need to be added to your .htacces file to prevent AJAX requests from being automatically blocked by the brute force prevention feature."
+msgstr "在您的 WordPress 安装包含使用 AJAX 的主题或插件的情况下, 需要将一些额外的指令和例外行添加到您的 .htacces 文件中, 以防止 AJAX 请求被暴力阻止功能自动阻止."
+
+#: admin/wp-security-brute-force-menu.php:472
+msgid "By enabling this checkbox the plugin will add the necessary rules and exceptions to your .htacces file so that AJAX operations will work as expected."
+msgstr "通过启用此复选框, 插件将为您的 .htacces 文件添加必要的规则和例外, 以便 AJAX 操作按预期工作."
+
+#: admin/wp-security-brute-force-menu.php:487
+msgid "The cookie test was successful. You can now enable this feature."
+msgstr "Cookie 测试成功. 您现在可以启用此功能."
+
+#: admin/wp-security-brute-force-menu.php:497
+msgid "The cookie test failed on this server. So this feature cannot be used on this site."
+msgstr "此服务器上的 Cookie 测试失败. 所以这个功能不能在本网站上使用."
+
+#: admin/wp-security-brute-force-menu.php:502
+msgid "Before using this feature you are required to perform a cookie test first. This is to make sure that your browser cookie is working correctly and that you won't lock yourself out."
+msgstr "在使用此功能之前, 您需要先执行 cookie 测试. 这是为了确保您的浏览器 cookie 工作正常, 并且您不会将自己锁定."
+
+#: admin/wp-security-brute-force-menu.php:702
+msgid "Nonce check failed for save whitelist settings!"
+msgstr "随机检查无法保存白名单设置!"
+
+#: admin/wp-security-brute-force-menu.php:759
+msgid "The All In One WP Security Whitelist feature gives you the option of only allowing certain IP addresses or ranges to have access to your WordPress login page."
+msgstr "一站式 WP 安全白名单功能可让您选择只允许某些 IP 地址或范围访问您的 WordPress 登录页面."
+
+#: admin/wp-security-brute-force-menu.php:760
+msgid "This feature will deny login access for all IP addresses which are not in your whitelist as configured in the settings below."
+msgstr "此功能将拒绝所有未列入白名单的 IP 地址的登录访问权限, 如下面的设置中所配置的."
+
+#: admin/wp-security-brute-force-menu.php:761
+msgid "The plugin achieves this by writing the appropriate directives to your .htaccess file."
+msgstr "此插件通过将相应的指令写入您的 .htaccess 文件来实现此目的."
+
+#: admin/wp-security-brute-force-menu.php:762
+msgid "By allowing/blocking IP addresses via the .htaccess file your are using the most secure first line of defence because login access will only be granted to whitelisted IP addresses and other addresses will be blocked as soon as they try to access your login page."
+msgstr "通过使用 .htaccess 文件来允许/阻止 IP 地址访问, 您正在使用最安全的第一道防线, 因为登录访问只会授予列入白名单的 IP 地址, 并且只要他们尝试访问您的登录页面, 其他地址将会被阻止."
+
+#: admin/wp-security-brute-force-menu.php:770
+msgid "Attention: If in addition to enabling the white list feature, you also have one of the %s or %s features enabled, <strong>you will still need to use your secret word or special slug in the URL when trying to access your WordPress login page</strong>."
+msgstr "注意: 如果除了启用白名单功能外, 还可以启用 %s 或 %s 功能之一, <strong>当您尝试访问您的 WordPress 登录页面时, 您仍然需要在网址中使用您的保密字或指定 slug</strong>."
+
+#: admin/wp-security-brute-force-menu.php:771
+msgid "These features are NOT functionally related. Having both of them enabled on your site means you are creating 2 layers of security."
+msgstr "这些功能在功能上并不相关. 在您的网站上启用它们将意味着您正在创建 2 层的安全性."
+
+#: admin/wp-security-brute-force-menu.php:790
+#: admin/wp-security-user-login-menu.php:343
+msgid "Check this if you want to enable the whitelisting of selected IP addresses specified in the settings below"
+msgstr "如果要启用下列设置中指定已选定的 IP 地址的白名单, 请勾选此项"
+
+#: admin/wp-security-brute-force-menu.php:794
+msgid "Your Current IP Address"
+msgstr "您当前的 IP 地址"
+
+#: admin/wp-security-brute-force-menu.php:797
+msgid "You can copy and paste this address in the text box below if you want to include it in your login whitelist."
+msgstr "如果您想将其包含在登录白名单中, 可以在下面的文本框中复制并粘贴此地址."
+
+#: admin/wp-security-brute-force-menu.php:805
+msgid "Enter one or more IP addresses or IP ranges you wish to include in your whitelist. Only the addresses specified here will have access to the WordPress login page."
+msgstr "输入您希望包含在白名单中的一个或多个 IP 地址或 IP 范围. 只有在此处指定的地址才能访问 WordPress 登录页面."
+
+#: admin/wp-security-brute-force-menu.php:856
+msgid "This feature allows you to add a special hidden \"honeypot\" field on the WordPress login page. This will only be visible to robots and not humans."
+msgstr "该功能允许您在 WordPress 登录页面添加一个特殊隐藏的 \"蜜罐\" 字段. 这只对机器人而不是人类可见."
+
+#: admin/wp-security-brute-force-menu.php:857
+msgid "Since robots usually fill in every input field from a login form, they will also submit a value for the special hidden honeypot field."
+msgstr "由于机器人通常从登录表单填写每个输入字段, 因此他们也会为特殊的隐藏蜜罐字段提交值."
+
+#: admin/wp-security-user-registration-menu.php:279
+#: admin/wp-security-brute-force-menu.php:858
+msgid "The way honeypots work is that a hidden field is placed somewhere inside a form which only robots will submit. If that field contains a value when the form is submitted then a robot has most likely submitted the form and it is consequently dealt with."
+msgstr "蜜罐工作的方式是将隐藏的区域放置在只有机器人将要提交的表单内的某处. 如果该字段在提交表单时包含一个值, 那么机器人很可能已经提交了该表单并且因此被处理."
+
+#: admin/wp-security-brute-force-menu.php:859
+msgid "Therefore, if the plugin detects that this field has a value when the login form is submitted, then the robot which is attempting to login to your site will be redirected to its localhost address - http://127.0.0.1."
+msgstr "因此, 如果插件在提交登录表单时检测到该字段有值, 则尝试登录到您网站的机器人将被重定向到其本地主机地址 - http://127.0.0.1."
+
+#: admin/wp-security-brute-force-menu.php:879
+msgid "Check this if you want to enable the honeypot feature for the login page"
+msgstr "如果要为登录页面启用蜜罐功能, 请勾选此项"
+
+#: admin/wp-security-dashboard-menu.php:477
+msgid "Security Strength Meter"
+msgstr "安全强度表"
+
+#: admin/wp-security-dashboard-menu.php:532
+msgid "Total Achievable Points: "
+msgstr "可达到的总分数: "
+
+#: admin/wp-security-dashboard-menu.php:587
+msgid "We are working hard to make your WordPress site more secure. Please support us, here is how:"
+msgstr "我们正在努力使你的 WordPress 网站更安全. 请用下列方式支持我们:"
+
+#: admin/wp-security-dashboard-menu.php:753
+#: admin/wp-security-dashboard-menu.php:771
+msgid "The %s feature is currently active."
+msgstr "此 %s 功能当前处于活动状态."
+
+#: admin/wp-security-dashboard-menu.php:754
+#: admin/wp-security-dashboard-menu.php:772
+msgid "Your new WordPress login URL is now:"
+msgstr "您新的 WordPress 登录网址现在是:"
+
+#: admin/wp-security-dashboard-menu.php:790
+msgid "There are no other site-wide users currently logged in."
+msgstr "当前没有其他网站范围的用户登录."
+
+#: admin/wp-security-dashboard-menu.php:804
+msgid "There are no other users currently logged in."
+msgstr "目前没有其他用户登录."
+
+#: admin/wp-security-dashboard-menu.php:814
+msgid "There are no IP addresses currently locked out."
+msgstr "目前没有被锁定的 IP 地址."
+
+#: admin/wp-security-dashboard-menu.php:106
+msgid "WP Version"
+msgstr "WP 版本"
+
+#: admin/wp-security-dashboard-menu.php:111
+msgid "Table Prefix"
+msgstr "数据表名称前缀"
+
+#: admin/wp-security-dashboard-menu.php:131
+msgid "PHP Info"
+msgstr "PHP 信息"
+
+#: admin/general/wp-security-list-table.php:182
+msgid "No items found."
+msgstr "未找到任何项目."
+
+#: admin/general/wp-security-list-table.php:657
+msgid "Select All"
+msgstr "选择所有"
+
+#: admin/wp-security-brute-force-menu.php:428
+msgid "This field will default to: http://127.0.0.1 if you do not enter a value."
+msgstr "如果您未输入值，则此字段默认为：http://127.0.0.1。"

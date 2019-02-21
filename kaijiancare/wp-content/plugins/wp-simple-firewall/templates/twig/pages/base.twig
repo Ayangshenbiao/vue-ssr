@@ -1,0 +1,60 @@
+<html>
+<head>
+    <link rel="icon" type="image/png" href="{{ hrefs.favicon }}" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{{ strings.page_title }}</title>
+
+	{% block head_stylesheets %}
+		<link rel="stylesheet" href="{{ hrefs.css_bootstrap }}" />
+		<link rel="stylesheet" href="{{ hrefs.css_globalplugin }}" />
+		<link rel="stylesheet" href="{{ hrefs.css_pages }}" />
+	{% endblock %}
+	{% block head_inline_styles %}
+		<style type="text/css">
+			body {
+				font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+			}
+		</style>
+	{% endblock %}
+	{% block head_scripts %}
+		<script type="text/javascript" src="{{ hrefs.js_jquery }}"></script>
+		<script type="text/javascript" src="{{ hrefs.js_bootstrap }}"></script>
+		<script type="text/javascript" src="{{ hrefs.js_globalplugin }}"></script>
+	{% endblock %}
+</head>
+{% block body %}
+	<body>
+		{% block body_header %}
+		{% endblock %}
+
+		{% block body_content %}
+		<div class="container-fluid">
+			{% block body_content_header %}
+				<div class="row">
+					<div class="col-4 offset-4 col-xl-3 text-center">
+						<img id="ShieldLogo" class="img-fluid" src="{{ hrefs.plugin_banner }}" />
+					</div>
+				</div>
+			{% endblock %}
+			{% block body_content_main %}
+				<div class="row">
+					<div class="col-4 offset-4"></div>
+				</div>
+			{% endblock %}
+			{% block body_content_footer %}
+				<div class="row">
+					<div class="col-4 offset-4"></div>
+				</div>
+			{% endblock %}
+		</div>
+		{% endblock %}
+
+		{% block body_footer %}
+		{% endblock %}
+
+		{% block body_footer_scripts %}
+		{% endblock %}
+	</body>
+{% endblock %}
+</html>

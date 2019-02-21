@@ -1,0 +1,85 @@
+/* Have fun adding your style here :) - PS: At all times this file should contain a comment or a rule, otherwise opera might act buggy :( */
+
+/* General Custom CSS */
+
+
+/*hearder search*/
+#header-search-form {
+    width: 200px;
+    float: right;
+    margin-top: 8px;
+    margin-left: 30px;
+    border: 1px solid #807556;
+    border-radius: 3px;
+}
+#header-search-form form{
+    position: relative;
+    margin: 0 !important;
+}
+#header-search-form form input {
+    width: 100%;
+    height: 20px;
+    outline: none;
+    background: transparent!important;
+    border: none!important;
+    margin: 0!important;
+    padding: 0 0 0 10px!important;
+    font-size: 10px;
+}
+#header-search-form form button{
+    border: none;
+    outline: none;
+    height: 20px!important;
+    width: 42px;
+    line-height: 100%;
+    cursor: pointer;
+    position: absolute;
+    background: transparent;
+    top: 0;
+    right: 0;
+}
+#header .main_menu .av-main-nav{
+    width: 100%;
+}
+#header .main_menu .av-main-nav > li {
+    width: 16.666%;
+}
+
+/*main*/
+#main{
+    /*padding-top: 0px!important;*/
+}
+
+/*footer*/
+.footer_color{
+    background: #807556;
+    opacity: .8;
+}
+#footer .container .flex_column > section{
+    min-height: 300px;
+    border-right: 1px solid rgba(255,255,255,.8);
+}
+
+
+/*
+Desktop Styles
+================================================== */
+/* Note: Add new css to the media query below that you want to only effect the desktop view of your site */
+
+@media only screen and (min-width: 768px) {
+  /* Add your Desktop Styles here */
+
+}
+
+
+
+/*
+Mobile Styles
+================================================== */
+/* Note: Add new css to the media query below that you want to only effect the Mobile and Tablet Portrait view */
+
+@media only screen and (max-width: 767px) {
+  /* Add your Mobile Styles here */
+
+}
+

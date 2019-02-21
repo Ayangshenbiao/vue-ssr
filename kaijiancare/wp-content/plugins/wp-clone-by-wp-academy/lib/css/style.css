@@ -1,0 +1,189 @@
+#wrapper {
+
+}
+
+#MainView {
+    margin: 13px;
+    padding: 10px;
+    max-width: 60%;
+    float: left;
+    border-radius: 5px;
+    -moz-box-shadow: 5px 5px 15px #aaa;
+    -webkit-box-shadow: 5px 5px 15px #aaa;
+    box-shadow: 5px 5px 15px #aaa;
+}
+
+#sidebar {
+	float: left;
+}
+
+#MainView h2 {
+	padding-bottom: 10px;
+}
+
+#sidebar ul {
+	max-width: 300px;
+	padding: 10px 10px 10px 30px;
+	margin-left: 5px;
+	border: 1px solid #bbb;
+	border-radius: 5px;
+	list-style: disc;
+	-moz-box-shadow: 5px 5px 15px #aaa;
+	-webkit-box-shadow: 5px 5px 15px #aaa;
+	box-shadow: 5px 5px 15px #aaa;
+}
+
+#sidebar ul h2 {
+	border-bottom: 5px solid #ccc;
+	padding-bottom: 10px;
+	text-shadow: 5px 5px 10px #888;
+}
+
+#sidebar ul h3 {
+	border-bottom: 2px solid #ccc;
+	padding: 10px 0 5px 0;
+}
+
+#backupForm #create-backup-option {
+    margin-bottom: 5px;
+}
+
+#RestoreOptions, #file_directory {
+    display: none;
+}
+
+.width-60 {
+    max-width: 60%;
+}
+div.info {
+    padding: 15px;
+    margin: 30px 0;
+    background: #e1e1ea;
+    border-radius: 5px;
+    -moz-box-shadow: 5px 5px 15px #aaa;
+    -webkit-box-shadow: 5px 5px 15px #aaa;
+    box-shadow: 5px 5px 15px #aaa;
+}
+
+div.try {
+    display: block;
+}
+
+table.restore-backup-options {
+    padding: 0 5px;
+    border-collapse: collapse;
+}
+
+table.restore-backup-options td, table.restore-backup-options th {
+    border: 1px solid #ccc;
+    padding: 3px;
+}
+
+.error {
+    border: solid 1px #c00;
+    padding: 5px;
+    background-color: #FFEBE8;
+    text-align: center;
+    border-radius: 5px;
+    -moz-box-shadow: 5px 5px 15px #aaa;
+    -webkit-box-shadow: 5px 5px 15px #aaa;
+    box-shadow: 5px 5px 15px #aaa;
+}
+
+.deleted {
+    background: #00cc99;
+    text-align: center;
+}
+
+.delete-error {
+    text-align: center;
+    background: #fff0b3;
+}
+
+a#close-thickbox {    
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: bold;
+}
+
+div#search-n-replace {
+    display: none;
+    position: relative;
+}
+
+div#search-n-replace-info{
+    min-height: 20px;
+}
+
+a.copy-button {
+}
+
+.btn-primary.active, .btn-warning.active, .btn-danger.active, .btn-success.active, .btn-info.active, .btn-inverse.active {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.btn {
+    border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25);
+	margin: 20px 0;
+	padding: 15px 30px;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+input[type="submit"].btn-primary {
+    background-color: #006DCC;
+    background-image: -moz-linear-gradient(top, #0088CC, #0044CC);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088CC), to(#0044CC));
+    background-image: -webkit-linear-gradient(top, #0088CC, #0044CC);
+    background-image: -o-linear-gradient(top, #0088CC, #0044CC);
+    background-image: linear-gradient(to bottom, #0088CC, #0044CC);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+input[type="submit"].btn-primary:hover, input[type="submit"].btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
+    background-color: #0044CC;
+    color: #EEEEEE;
+}
+.btn-primary:active, .btn-primary.active {
+}
+
+input[type="submit"].btn-warning {
+    background-color: #FAA732;
+    background-image: linear-gradient(to bottom, #FBB450, #F89406);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#FBB450), to(#F89406));
+    background-image: -webkit-linear-gradient(top, #FBB450, #F89406);
+    background-image: -o-linear-gradient(top, #FBB450, #F89406);
+    background-image: linear-gradient(to bottom, #FBB450, #F89406);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+input[type="submit"].btn-warning:hover, input[type="submit"].btn-warning:active, .btn-warning.active, .btn-warning.disabled, .btn-warning[disabled] {
+    background-color: #F89406;
+    color: #EEEEEE;
+}
+
+textarea {
+    width: 100%;
+    padding: 0px
+}
+
+input.Url {
+    width: 80%;
+    padding: 0px
+}
+
+.btn-warning:active, .btn-warning.active {
+}
+
+.wpclone_notice {
+    max-width: 500px;
+    padding: 5px;
+    margin: 25px 0 0 0;
+    border-radius: 5px;
+}
