@@ -1,7 +1,6 @@
 # vue-ssr
 
-有ssr相较于spa的优点以外，还有存储前端日志功能、数据接口传递隐藏参数功能（接口安全性）
-
+有ssr相较于spa的优点以外，增加了前端日志功能
 
 ## Build Setup
 
@@ -22,7 +21,7 @@ npm run build --report
 
 ``` bash
 https://www.cnblogs.com/zhoujie/p/nodejs4.html
-简单运行：终端进入项目根目录， $ pm2 start app.json
+简单部署：在项目根目录执行  pm2 start app.json
 ```
 
 
